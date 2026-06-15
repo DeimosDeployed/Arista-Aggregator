@@ -1,3 +1,4 @@
+```python
 import os
 import hashlib
 from datetime import datetime
@@ -200,13 +201,15 @@ class ConfigCombiner:
         print("\n📁 Files created in configs/combined/:")
         
         for category in self.categories:
-            if os.path.exists(f'configs/combined/{category}.txt'):
-                with open(f'configs/combined/{category}.txt', 'r', encoding='utf-8') as f:
+            filepath = f'configs/combined/{category}.txt'
+            if os.path.exists(filepath):
+                with open(filepath, 'r', encoding='utf-8') as f:
                     lines = [line for line in f if line.strip() and not line.startswith('#')]
                 print(f"  {category}.txt: {len(lines)} configs")
         
-        if os.path.exists('configs/combined/all.txt'):
-            with open('configs/combined/all.txt', 'r', encoding='utf-8') as f:
+        all_filepath = 'configs/combined/all.txt'
+        if os.path.exists(all_filepath):
+            with open(all_filepath, 'r', encoding='utf-8') as f:
                 lines = [line for line in f if line.strip() and not line.startswith('#')]
             print(f"  all.txt: {len(lines)} configs")
         
@@ -215,6 +218,16 @@ class ConfigCombiner:
         self.generate_tiered_outputs(all_combined_dict, "combined", "configs/combined", timestamp)
         self.generate_tiered_outputs({}, "telegram", "configs/telegram", timestamp)
         self.generate_tiered_outputs({}, "github", "configs/github", timestamp)
+        
+        for source in ["combined", "telegram", "github"]:
+            base_dir = f"configs/{source}"
+            for category in self.categories:
+                category_root = os.path.join(base_dir, f"{category}.txt")
+                if os.path.exists(category_root) and os.path.isfile(category_root):
+                    os.remove(category_root)
+            all_root = os.path.join(base_dir, "all.txt")
+            if os.path.exists(all_root) and os.path.isfile(all_root):
+                os.remove(all_root)
         
         print("\n" + "=" * 60)
         print("TIERED STRUCTURE GENERATED")
@@ -226,7 +239,7 @@ class ConfigCombiner:
             
             for category in self.categories:
                 cat_dir = os.path.join(base_dir, category)
-                if os.path.exists(cat_dir):
+                if os.path.exists(cat_dir) and os.path.isdir(cat_dir):
                     print(f"  📁 {category}/:")
                     for tier in self.tiers:
                         tier_file = os.path.join(cat_dir, f"{tier}.txt")
@@ -236,7 +249,7 @@ class ConfigCombiner:
                             print(f"      {tier}.txt: {len(lines)} configs")
             
             all_dir = os.path.join(base_dir, "ALL")
-            if os.path.exists(all_dir):
+            if os.path.exists(all_dir) and os.path.isdir(all_dir):
                 print(f"  📁 ALL/:")
                 for tier in self.tiers:
                     tier_file = os.path.join(all_dir, f"{tier}.txt")
@@ -254,3 +267,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
