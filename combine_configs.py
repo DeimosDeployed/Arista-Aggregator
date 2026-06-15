@@ -205,10 +205,9 @@ class ConfigCombiner:
                 title = f"{source_name.upper()} - Tier {tier} - {category.upper()}"
                 self.write_config_file(filename, title, selected, len(selected), timestamp)
             
-            if total_count > 0 and total_count <= 200:
-                all_filename = os.path.join(cat_dir, "ALL.txt")
-                title = f"{source_name.upper()} - ALL - {category.upper()}"
-                self.write_config_file(all_filename, title, unique_configs, total_count, timestamp)
+            all_filename = os.path.join(cat_dir, "ALL.txt")
+            title = f"{source_name.upper()} - ALL - {category.upper()}"
+            self.write_config_file(all_filename, title, unique_configs, total_count, timestamp)
         
         all_configs = {}
         if source_name == "combined":
@@ -249,10 +248,9 @@ class ConfigCombiner:
             unique_all = self.deduplicate(all_flat_configs)
             total_all_count = len(unique_all)
             
-            if total_all_count > 0 and total_all_count <= 200:
-                all_filename = os.path.join(all_dir, "ALL.txt")
-                title = f"{source_name.upper()} - ALL - ALL"
-                self.write_config_file(all_filename, title, unique_all, total_all_count, timestamp)
+            all_filename = os.path.join(all_dir, "ALL.txt")
+            title = f"{source_name.upper()} - ALL - ALL"
+            self.write_config_file(all_filename, title, unique_all, total_all_count, timestamp)
     
     def combine(self):
         os.makedirs('configs/combined', exist_ok=True)
