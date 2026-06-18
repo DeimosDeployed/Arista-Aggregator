@@ -24,7 +24,6 @@ class TelegramConfigExtractor:
         })
         
         self.channels = [
-            "https://t.me/s/proxyxix",
             "https://t.me/s/JynMarket",
             "https://t.me/s/ConfigX2ray",
             "https://t.me/s/JavidanNet",
@@ -656,10 +655,10 @@ class TelegramConfigExtractor:
         self.last_post_cache = {}
         self.permanent_blacklist = {}
         self.temp_suspended_cache = {}
-        self.cache_file = "configs/telegram/dead_cache.json"
-        self.permanent_blacklist_file = "configs/telegram/permanent_blacklist.json"
-        self.temp_suspend_file = "configs/telegram/temp_suspend.json"
-        self.last_seen_file = "configs/telegram/last_seen.json"
+        self.cache_file = "configs.txt/telegram/dead_cache.json"
+        self.permanent_blacklist_file = "configs.txt/telegram/permanent_blacklist.json"
+        self.temp_suspend_file = "configs.txt/telegram/temp_suspend.json"
+        self.last_seen_file = "configs.txt/telegram/last_seen.json"
         self.config_hash_cache = {}
         self.load_dead_cache()
         self.load_permanent_blacklist()
@@ -964,7 +963,7 @@ class TelegramConfigExtractor:
         
         return False
     
-    def tag_config(self, config_str, tag="T.ME: @aristapanel"):
+    def tag_config(self, config_str, tag="ARISTA"):
         config_str = self.clean_config(config_str)
         
         if config_str.startswith('vmess://'):
@@ -1123,11 +1122,11 @@ class TelegramConfigExtractor:
     
     def save_results(self, categories, total_count):
         timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        os.makedirs('configs/telegram', exist_ok=True)
+        os.makedirs('configs.txt/telegram', exist_ok=True)
         
         for category, configs in categories.items():
             if configs:
-                filename = f"configs/telegram/{category}.txt"
+                filename = f"configs.txt/telegram/{category}.txt"
                 content = f"# Telegram {category.upper()} Configurations\n"
                 content += f"# Updated: {timestamp}\n"
                 content += f"# Count: {len(configs)}\n"
@@ -1142,7 +1141,7 @@ class TelegramConfigExtractor:
             all_configs.extend(configs)
         
         if all_configs:
-            filename = "configs/telegram/all.txt"
+            filename = "configs.txt/telegram/all.txt"
             content = f"# All Telegram Configurations\n"
             content += f"# Updated: {timestamp}\n"
             content += f"# Total Count: {len(all_configs)}\n"
