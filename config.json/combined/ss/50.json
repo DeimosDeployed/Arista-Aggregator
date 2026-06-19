@@ -1,5 +1,5 @@
 // COMBINED - SS - Tier 50
-// Updated: 2026-06-19 10:28:49
+// Updated: 2026-06-19 11:22:52
 // Count: 2
 
 {
@@ -52,7 +52,7 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #12",
+      "tag": "ARISTA #16",
       "server": "82.38.31.7",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -60,11 +60,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #30",
-      "server": "38.135.24.131",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "hbGrpfvNrJsUmKmPbR3iY2"
+      "tag": "ARISTA #40",
+      "server": "3.8.48.222",
+      "server_port": 80,
+      "method": "aes-256-gcm",
+      "password": "dada1203"
     },
     {
       "type": "direct",
@@ -78,8 +78,8 @@
       "type": "urltest",
       "tag": "🚀 ARISTA AUTO BEST",
       "outbounds": [
-        "ARISTA #12",
-        "ARISTA #30"
+        "ARISTA #16",
+        "ARISTA #40"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -91,8 +91,8 @@
       "type": "urltest",
       "tag": "🎯 ARISTA MANUAL TESTED",
       "outbounds": [
-        "ARISTA #12",
-        "ARISTA #30"
+        "ARISTA #16",
+        "ARISTA #40"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",
