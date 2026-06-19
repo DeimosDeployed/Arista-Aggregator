@@ -4,10 +4,10 @@
 
 > **سیستم خودکار استخراج، اعتبارسنجی، دسته‌بندی و ترکیب کانفیگ‌های پروکسی از منابع عمومی تلگرام و گیت‌هاب**
 
-[![Telegram](https://img.shields.io/badge/کانال_تلگرام-229ED9?style=flat-square&logo=telegram&logoColor=white)](https://t.me/aristapanel)
-[![YouTube](https://img.shields.io/badge/یوتیوب-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/@aristaproject-m3o?si)
-[![Element](https://img.shields.io/badge/Element-0DBD8B?style=flat-square&logo=element&logoColor=white)](https://matrix.to/#/%23aristaproject:matrix.org)
-[![Web Panel](https://img.shields.io/badge/پنل_وب-F38020?style=flat-square&logo=cloudflare&logoColor=white)](https://arista-panel.arista-panel.workers.dev/)
+[![Telegram](https://img.shields.io/badge/Telegram-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/aristapanel)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@aristaproject-m3o?si)
+[![Element](https://img.shields.io/badge/Element-0DBD8B?style=for-the-badge&logo=element&logoColor=white)](https://matrix.to/#/%23aristaproject:matrix.org)
+[![Web Panel](https://img.shields.io/badge/Web_Panel-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://arista-panel.arista-panel.workers.dev/)
 
 ---
 
@@ -31,21 +31,6 @@
 | بلاک دائم | پس از ۷ روز تعلیق بدون فعالیت | حذف از چرخه | دائم |
 
 **📂 فایل‌های وضعیت:** `configs/telegram/`
-
----
-
-## 📂 ساختار خروجی
-
-```
-configs/
-├── telegram/
-│   ├── vmess.txt, vless.txt, trojan.txt, ss.txt, ...
-│   └── ALL/ 50.txt, 100.txt, 150.txt, ...
-├── github/
-│   └── ALL/ 50.txt, 100.txt, ...
-└── combined/
-    └── ALL/ 50.txt, 100.txt, ...
-```
 
 ---
 
@@ -216,6 +201,6 @@ configs/
 
 ---
 
-**❤️ ساخته شده توسط تیم آریستا (🇲🇲🇩) ❤️**
+❤️ ساخته شده توسط تیم آریستا (🇲‌🇲‌🇩‌) ❤️
 
 </div>
