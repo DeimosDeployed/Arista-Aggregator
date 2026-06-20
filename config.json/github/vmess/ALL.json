@@ -1,5 +1,5 @@
 // GITHUB - VMESS - Tier ALL
-// Updated: 2026-06-20 08:55:10
+// Updated: 2026-06-20 13:40:52
 // Count: 29
 
 {
@@ -181,7 +181,7 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #12",
-      "server": "renderer-stream-1-411.mirra.now",
+      "server": "93.93.89.118",
       "server_port": 443,
       "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
       "security": "auto",
@@ -205,7 +205,7 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #13",
-      "server": "93.93.88.22",
+      "server": "37.220.161.249",
       "server_port": 443,
       "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
       "security": "auto",
@@ -229,24 +229,18 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #14",
-      "server": "37.220.161.249",
-      "server_port": 443,
-      "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
+      "server": "163.223.224.68",
+      "server_port": 49515,
+      "uuid": "3e24de0d-43c1-46d6-de72-44c6806c0386",
       "security": "auto",
       "tls": {
-        "enabled": true,
-        "server_name": "37.220.161.249",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "enabled": false
       },
       "transport": {
         "type": "ws",
-        "path": "/api/v1/gpu-stream/socket",
+        "path": "/",
         "headers": {
-          "Host": "renderer-stream-1-411.mirra.now"
+          "Host": ""
         }
       }
     },
@@ -300,7 +294,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "varzesh3.com"
+          "Host": ""
         }
       }
     },

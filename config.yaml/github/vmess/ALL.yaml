@@ -1,5 +1,5 @@
 # GITHUB - VMESS - Tier ALL
-# Updated: 2026-06-20 08:53:01
+# Updated: 2026-06-20 13:38:33
 # Count: 29
 
 proxies:
@@ -163,7 +163,7 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #12'
   type: vmess
-  server: renderer-stream-1-411.mirra.now
+  server: 93.93.89.118
   port: 443
   uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
   alterId: 0
@@ -184,7 +184,7 @@ proxies:
       Host: renderer-stream-1-411.mirra.now
 - name: 'T.ME: @aristapnel #13'
   type: vmess
-  server: 93.93.88.22
+  server: 37.220.161.249
   port: 443
   uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
   alterId: 0
@@ -205,25 +205,22 @@ proxies:
       Host: renderer-stream-1-411.mirra.now
 - name: 'T.ME: @aristapnel #14'
   type: vmess
-  server: 37.220.161.249
-  port: 443
-  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+  server: 163.223.224.68
+  port: 49515
+  uuid: 3e24de0d-43c1-46d6-de72-44c6806c0386
   alterId: 0
   cipher: auto
   network: ws
-  tls: true
+  tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 37.220.161.249
+  servername: 163.223.224.68
   client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
   ws-opts:
-    path: /api/v1/gpu-stream/socket
+    path: /
     headers:
-      Host: renderer-stream-1-411.mirra.now
+      Host: 163.223.224.68
 - name: 'T.ME: @aristapnel #15'
   type: vmess
   server: 163.223.224.68
@@ -236,7 +233,7 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: varzesh3.com
+  servername: 163.223.224.68
   client-fingerprint: chrome
   ws-opts:
     path: /
@@ -272,12 +269,12 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 163.223.224.68
+  servername: varzesh3.com
   client-fingerprint: chrome
   ws-opts:
     path: /
     headers:
-      Host: varzesh3.com
+      Host: 163.223.224.68
 - name: 'T.ME: @aristapnel #18'
   type: vmess
   server: 163.223.224.68
