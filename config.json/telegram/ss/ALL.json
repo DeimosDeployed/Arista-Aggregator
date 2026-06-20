@@ -1,6 +1,6 @@
 // TELEGRAM - SS - Tier ALL
-// Updated: 2026-06-20 17:31:03
-// Count: 3
+// Updated: 2026-06-20 19:15:12
+// Count: 2
 
 {
   "log": {
@@ -53,14 +53,6 @@
     {
       "type": "shadowsocks",
       "tag": "ARISTA #3",
-      "server": "82.38.31.7",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #36",
       "server": "3.8.48.222",
       "server_port": 80,
       "method": "aes-256-gcm",
@@ -68,11 +60,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #50",
-      "server": "38.135.24.131",
-      "server_port": 443,
+      "tag": "ARISTA #16",
+      "server": "82.38.31.7",
+      "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
-      "password": "hbGrpfvNrJsUmKmPbR3iY2"
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
       "type": "direct",
@@ -87,8 +79,7 @@
       "tag": "🚀 ARISTA AUTO BEST",
       "outbounds": [
         "ARISTA #3",
-        "ARISTA #36",
-        "ARISTA #50"
+        "ARISTA #16"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -101,8 +92,7 @@
       "tag": "🎯 ARISTA MANUAL TESTED",
       "outbounds": [
         "ARISTA #3",
-        "ARISTA #36",
-        "ARISTA #50"
+        "ARISTA #16"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",
