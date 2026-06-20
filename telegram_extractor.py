@@ -7,6 +7,8 @@ import uuid
 import random
 import time
 import os
+import asyncio
+import aiohttp
 from datetime import datetime, timezone, timedelta
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
@@ -809,9 +811,8 @@ class TelegramConfigExtractor:
         except:
             return ""
     
-    def get_last_post_time(self, html):
+    def get_last_post_time(self, soup):
         try:
-            soup = BeautifulSoup(html, 'html.parser')
             time_tags = soup.find_all('time')
             if not time_tags:
                 return None
@@ -831,10 +832,8 @@ class TelegramConfigExtractor:
             print(f"Error parsing last post time: {e}")
             return None
     
-    def extract_from_html(self, html):
+    def extract_from_soup(self, soup):
         configs = []
-        soup = BeautifulSoup(html, 'html.parser')
-        
         elements = soup.find_all(['code', 'pre', 'div'])
         
         for element in elements:
@@ -1030,6 +1029,86 @@ class TelegramConfigExtractor:
         
         return categories
     
+    async def fetch_channel_async(self, session, url, semaphore):
+        async with semaphore:
+            if self.should_skip_channel(url):
+                return None, None, url
+            
+            try:
+                headers = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    'Accept-Encoding': 'gzip, deflate, br',
+                    'Connection': 'keep-alive',
+                    'Upgrade-Insecure-Requests': '1',
+                }
+                
+                async with session.get(url, headers=headers, timeout=aiohttp.ClientTimeout(total=20)) as response:
+                    if response.status != 200:
+                        self.update_dead_cache(url)
+                        return None, None, url
+                    
+                    html = await response.text()
+                    return html, url, None
+                    
+            except Exception as e:
+                self.update_dead_cache(url)
+                return None, None, url
+    
+    async def process_channel_async(self, session, url, semaphore, limit_per_channel=15):
+        html, channel_url, error = await self.fetch_channel_async(session, url, semaphore)
+        
+        if html is None or error is not None:
+            return [], 0
+        
+        soup = BeautifulSoup(html, 'html.parser')
+        
+        last_post_time = self.get_last_post_time(soup)
+        
+        if not last_post_time:
+            self.update_dead_cache(url)
+            return [], 0
+        
+        last_seen = self.last_post_cache.get(url)
+        if last_seen and last_post_time == last_seen:
+            time_since_last = datetime.now(timezone.utc) - last_post_time
+            if time_since_last >= timedelta(hours=24):
+                if url not in self.temp_suspended_cache:
+                    self.temp_suspended_cache[url] = datetime.now(timezone.utc)
+                    self.save_temp_suspend()
+                    print(f"  → Channel suspended (no new posts for {int(time_since_last.total_seconds()/3600)}h)")
+                return [], 0
+        
+        self.last_post_cache[url] = last_post_time
+        
+        if datetime.now(timezone.utc) - last_post_time > timedelta(days=2):
+            if url not in self.temp_suspended_cache:
+                self.temp_suspended_cache[url] = datetime.now(timezone.utc)
+                self.save_temp_suspend()
+                print(f"  → Channel suspended (last post >2 days)")
+            return [], 0
+        
+        if url in self.temp_suspended_cache:
+            del self.temp_suspended_cache[url]
+            self.save_temp_suspend()
+            print(f"  → Channel reactivated (new post detected)")
+        
+        raw_configs = self.extract_from_soup(soup)
+        
+        valid_configs = []
+        for config in raw_configs:
+            if self.validate_config(config):
+                tagged_config = self.tag_config(config)
+                valid_configs.append(tagged_config)
+        
+        if valid_configs:
+            self.failed_counter[url] = 0
+        
+        await asyncio.sleep(random.uniform(0.1, 0.3))
+        
+        return valid_configs, len(valid_configs)
+    
     def process_channels(self, limit_per_channel=15):
         all_configs = []
         configs_per_channel = {}
@@ -1039,74 +1118,51 @@ class TelegramConfigExtractor:
         
         print(f"Processing {len(self.channels)} Telegram channels...")
         
-        for i, url in enumerate(self.channels, 1):
-            print(f"[{i}/{len(self.channels)}] {url}")
+        self.channels = list(set(self.channels))
+        
+        semaphore = asyncio.Semaphore(50)
+        
+        async def process_all():
+            nonlocal all_configs, configs_per_channel, failed_channels, skipped_channels, dead_cached_skipped
             
-            try:
-                if self.should_skip_channel(url):
-                    dead_cached_skipped += 1
-                    continue
-                
-                html = self.fetch_page(url)
-                if not html:
-                    self.update_dead_cache(url)
-                    failed_channels.append(url)
-                    self.adaptive_delay()
-                    continue
-                
-                last_post_time = self.get_last_post_time(html)
-                
-                if not last_post_time:
-                    self.update_dead_cache(url)
-                    skipped_channels.append(url)
-                    self.adaptive_delay()
-                    continue
-                
-                last_seen = self.last_post_cache.get(url)
-                if last_seen and last_post_time == last_seen:
-                    time_since_last = datetime.now(timezone.utc) - last_post_time
-                    if time_since_last >= timedelta(hours=24):
-                        if url not in self.temp_suspended_cache:
-                            self.temp_suspended_cache[url] = datetime.now(timezone.utc)
-                            self.save_temp_suspend()
-                            print(f"  → Channel suspended (no new posts for {int(time_since_last.total_seconds()/3600)}h)")
-                        self.adaptive_delay()
+            connector = aiohttp.TCPConnector(limit=100, limit_per_host=50)
+            async with aiohttp.ClientSession(connector=connector) as session:
+                tasks = []
+                for url in self.channels:
+                    if self.should_skip_channel(url):
+                        dead_cached_skipped += 1
                         continue
+                    tasks.append(self.process_channel_async(session, url, semaphore, limit_per_channel))
                 
-                self.last_post_cache[url] = last_post_time
-                self.save_last_seen()
+                results = await asyncio.gather(*tasks, return_exceptions=True)
                 
-                if datetime.now(timezone.utc) - last_post_time > timedelta(days=2):
-                    if url not in self.temp_suspended_cache:
-                        self.temp_suspended_cache[url] = datetime.now(timezone.utc)
-                        self.save_temp_suspend()
-                        print(f"  → Channel suspended (last post >2 days)")
-                    self.adaptive_delay()
-                    continue
+                for i, result in enumerate(results):
+                    url = self.channels[i]
+                    if isinstance(result, Exception):
+                        self.update_dead_cache(url)
+                        failed_channels.append(url)
+                        continue
+                    
+                    valid_configs, config_count = result
+                    if config_count > 0:
+                        configs_per_channel[url] = valid_configs
+                    elif config_count == 0:
+                        if url not in self.dead_cache:
+                            skipped_channels.append(url)
                 
-                if url in self.temp_suspended_cache:
-                    del self.temp_suspended_cache[url]
-                    self.save_temp_suspend()
-                    print(f"  → Channel reactivated (new post detected)")
-                
-                raw_configs = self.extract_from_html(html)
-                
-                valid_configs = []
-                for config in raw_configs:
-                    if self.validate_config(config):
-                        tagged_config = self.tag_config(config)
-                        valid_configs.append(tagged_config)
-                
-                if valid_configs:
-                    configs_per_channel[url] = valid_configs
-                    self.failed_counter[url] = 0
-                
-                self.adaptive_delay()
-                
-            except Exception as e:
-                self.update_dead_cache(url)
-                failed_channels.append(url)
-                self.adaptive_delay()
+                return configs_per_channel
+        
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+        try:
+            configs_per_channel = loop.run_until_complete(process_all())
+        finally:
+            loop.close()
+        
+        self.save_last_seen()
+        self.save_dead_cache()
+        self.save_temp_suspend()
+        self.save_permanent_blacklist()
         
         latest_configs = []
         for configs in configs_per_channel.values():
