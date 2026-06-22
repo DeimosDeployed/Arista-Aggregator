@@ -1,6 +1,6 @@
 # GITHUB - HYSTERIA2 - Tier ALL
-# Updated: 2026-06-22 02:41:21
-# Count: 5
+# Updated: 2026-06-22 11:34:24
+# Count: 14
 
 proxies:
 - name: 'T.ME: @aristapnel #1'
@@ -34,6 +34,80 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #4'
   type: hysteria2
+  server: 46.254.18.107
+  port: 443
+  password: 0dd50f72-bf39-4b59-b183-61b3fa52df57
+  sni: 46.254.18.107
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #5'
+  type: hysteria2
+  server: finnode.dostupnet.ru
+  port: 10100
+  password: ebcb836a-ab7a-424f-a07c-aba25c70da69
+  sni: finnode.dostupnet.ru
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #6'
+  type: hysteria2
+  server: hkt.ccwink.cc
+  port: 56309
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  sni: hkt.ccwink.cc
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #7'
+  type: hysteria2
+  server: nlnode.dostupnet.ru
+  port: 10100
+  password: ebcb836a-ab7a-424f-a07c-aba25c70da69
+  sni: nlnode.dostupnet.ru
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #8'
+  type: hysteria2
+  server: hkt.ccwink.cc
+  port: 56309
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  sni: hkt.ccwink.cc
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #9'
+  type: hysteria2
+  server: finnode.dostupnet.ru
+  port: 10100
+  password: ebcb836a-ab7a-424f-a07c-aba25c70da69
+  sni: finnode.dostupnet.ru
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #10'
+  type: hysteria2
+  server: nlnode.dostupnet.ru
+  port: 10100
+  password: ebcb836a-ab7a-424f-a07c-aba25c70da69
+  sni: nlnode.dostupnet.ru
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #11'
+  type: hysteria2
+  server: 198.105.112.118
+  port: 443
+  password: EsimHy2Game_7xK9mPq2
+  sni: 198.105.112.118
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: EsimObfs_9mK2x7
+- name: 'T.ME: @aristapnel #12'
+  type: hysteria2
   server: 185.250.41.245
   port: 443
   password: cFihfSrWtH
@@ -43,7 +117,16 @@ proxies:
   client-fingerprint: chrome
   obfs: salamander
   obfs-password: T.me%2FV2RayyNGvpn
-- name: 'T.ME: @aristapnel #5'
+- name: 'T.ME: @aristapnel #13'
+  type: hysteria2
+  server: hy2.313186.xyz
+  port: 18066
+  password: github.com%2FAlvin9999-newpac%2Ffanqiang
+  sni: hy2.313186.xyz
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #14'
   type: hysteria2
   server: 185.250.41.245
   port: 443
@@ -68,6 +151,15 @@ proxy-groups:
   - 'T.ME: @aristapnel #3'
   - 'T.ME: @aristapnel #4'
   - 'T.ME: @aristapnel #5'
+  - 'T.ME: @aristapnel #6'
+  - 'T.ME: @aristapnel #7'
+  - 'T.ME: @aristapnel #8'
+  - 'T.ME: @aristapnel #9'
+  - 'T.ME: @aristapnel #10'
+  - 'T.ME: @aristapnel #11'
+  - 'T.ME: @aristapnel #12'
+  - 'T.ME: @aristapnel #13'
+  - 'T.ME: @aristapnel #14'
 - name: 🎬 ARISTA STREAM
   type: fallback
   url: http://www.gstatic.com/generate_204
