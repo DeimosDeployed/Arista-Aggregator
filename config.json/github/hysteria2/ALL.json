@@ -1,6 +1,6 @@
 // GITHUB - HYSTERIA2 - Tier ALL
-// Updated: 2026-06-21 19:18:47
-// Count: 6
+// Updated: 2026-06-22 02:44:57
+// Count: 5
 
 {
   "log": {
@@ -69,6 +69,34 @@
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #2",
+      "server": "46.254.18.107",
+      "server_port": 443,
+      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
+      "tls": {
+        "enabled": true,
+        "server_name": "46.254.18.107",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #3",
+      "server": "46.254.18.107",
+      "server_port": 443,
+      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
+      "tls": {
+        "enabled": true,
+        "server_name": "newlte.kihsuyhf8jkiugsxb.cfd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #4",
       "server": "185.250.41.245",
       "server_port": 443,
       "password": "cFihfSrWtH",
@@ -84,34 +112,6 @@
       "obfs": {
         "type": "salamander",
         "password": "T.me/V2RayyNGvpn"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "T.ME: @aristapnel #3",
-      "server": "192.9.165.40",
-      "server_port": 51000,
-      "password": "d1db0080-669a-4357-ab9f-ab16719ed736",
-      "tls": {
-        "enabled": true,
-        "server_name": "192.9.165.40",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "T.ME: @aristapnel #4",
-      "server": "130.49.161.70",
-      "server_port": 443,
-      "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
-      "tls": {
-        "enabled": true,
-        "server_name": "130.49.161.70",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "rG07s3COMIEvdnQipRyWzx_H_2xygNC3"
       }
     },
     {
@@ -135,22 +135,6 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "T.ME: @aristapnel #6",
-      "server": "80.66.81.78",
-      "server_port": 9443,
-      "password": "rs2mR3g9bZiMloftx6lZQ59Um1Ld",
-      "tls": {
-        "enabled": true,
-        "server_name": "80.66.81.78",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "oMgvuBy5Lj5kYM57sGsnjpjNcSEQ"
-      }
-    },
-    {
       "type": "direct",
       "tag": "direct"
     },
@@ -166,8 +150,7 @@
         "T.ME: @aristapnel #2",
         "T.ME: @aristapnel #3",
         "T.ME: @aristapnel #4",
-        "T.ME: @aristapnel #5",
-        "T.ME: @aristapnel #6"
+        "T.ME: @aristapnel #5"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -183,8 +166,7 @@
         "T.ME: @aristapnel #2",
         "T.ME: @aristapnel #3",
         "T.ME: @aristapnel #4",
-        "T.ME: @aristapnel #5",
-        "T.ME: @aristapnel #6"
+        "T.ME: @aristapnel #5"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",
