@@ -1,5 +1,5 @@
 # GITHUB - ALL - Tier 50
-# Updated: 2026-06-22 16:29:23
+# Updated: 2026-06-22 20:37:13
 # Count: 49
 
 proxies:
@@ -159,15 +159,33 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #13'
   type: hysteria2
-  server: 46.254.18.107
-  port: 443
-  password: 0dd50f72-bf39-4b59-b183-61b3fa52df57
-  sni: 46.254.18.107
+  server: hkt.ccwink.cc
+  port: 56309
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  sni: hkt.ccwink.cc
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #14'
   type: hysteria2
+  server: finnode.dostupnet.ru
+  port: 10100
+  password: ebcb836a-ab7a-424f-a07c-aba25c70da69
+  sni: finnode.dostupnet.ru
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #15'
+  type: hysteria2
+  server: finnode.dostupnet.ru
+  port: 10100
+  password: ebcb836a-ab7a-424f-a07c-aba25c70da69
+  sni: finnode.dostupnet.ru
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #16'
+  type: hysteria2
   server: 46.254.18.107
   port: 443
   password: 0dd50f72-bf39-4b59-b183-61b3fa52df57
@@ -175,64 +193,48 @@ proxies:
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #15'
-  type: hysteria2
-  server: nlnode.dostupnet.ru
-  port: 10100
-  password: ebcb836a-ab7a-424f-a07c-aba25c70da69
-  sni: nlnode.dostupnet.ru
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #16'
-  type: hysteria2
-  server: finnode.dostupnet.ru
-  port: 10100
-  password: ebcb836a-ab7a-424f-a07c-aba25c70da69
-  sni: finnode.dostupnet.ru
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #17'
   type: hysteria2
-  server: finnode.dostupnet.ru
-  port: 10100
-  password: ebcb836a-ab7a-424f-a07c-aba25c70da69
-  sni: finnode.dostupnet.ru
+  server: musicclips.videolinks.ru
+  port: 8443
+  password: 7roz68utnk7wgogj
+  sni: musicclips.videolinks.ru
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: 8zzng75tz4tf82pj
 - name: 'T.ME: @aristapnel #18'
   type: hysteria2
-  server: nlnode.dostupnet.ru
-  port: 10100
-  password: ebcb836a-ab7a-424f-a07c-aba25c70da69
-  sni: nlnode.dostupnet.ru
+  server: nrealistic.nn-foto.ru
+  port: 1935
+  password: 7roz68utnk7wgogj
+  sni: nrealistic.nn-foto.ru
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: lhfl2z9mjngb7csh
 - name: 'T.ME: @aristapnel #19'
   type: hysteria2
-  server: 185.250.41.245
+  server: social.klipp.su
   port: 443
-  password: cFihfSrWtH
-  sni: 185.250.41.245
+  password: 7roz68utnk7wgogj
+  sni: social.klipp.su
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
   obfs: salamander
-  obfs-password: T.me%2FV2RayyNGvpn
+  obfs-password: 3sv5vpdl9xr84lyb
 - name: 'T.ME: @aristapnel #20'
   type: hysteria2
-  server: 185.250.41.245
-  port: 443
-  password: rQRuZ8nFbC
-  sni: 185.250.41.245
+  server: wuhantravel.duckdns.org
+  port: 8443
+  password: MySecurePassword123
+  sni: wuhantravel.duckdns.org
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
-  obfs: salamander
-  obfs-password: T.me%2FV2RayyNGvpn
 - name: 'T.ME: @aristapnel #21'
   type: ss
   server: 82.38.31.149
@@ -381,6 +383,34 @@ proxies:
   - http/1.1
 - name: 'T.ME: @aristapnel #35'
   type: vmess
+  server: vip3.sanaiehdasti.com
+  port: 1546
+  uuid: 6c5fcae3-16e8-4a93-b28e-05588d5d9342
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: vip3.sanaiehdasti.com
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #36'
+  type: vmess
+  server: vip3.sanaiehdasti.com
+  port: 1546
+  uuid: 6c5fcae3-16e8-4a93-b28e-05588d5d9342
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: vip3.sanaiehdasti.com
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #37'
+  type: vmess
   server: atiins.com.tr
   port: 443
   uuid: 97775936-05ea-4fea-8562-e9eb98559790
@@ -396,7 +426,7 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 'T.ME: @aristapnel #36'
+- name: 'T.ME: @aristapnel #38'
   type: vmess
   server: 69.84.182.49
   port: 80
@@ -414,7 +444,7 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-- name: 'T.ME: @aristapnel #37'
+- name: 'T.ME: @aristapnel #39'
   type: vmess
   server: 160.250.247.70
   port: 49178
@@ -428,7 +458,7 @@ proxies:
   tcp-fast-open: true
   servername: 160.250.247.70
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #38'
+- name: 'T.ME: @aristapnel #40'
   type: vmess
   server: 186.244.208.78
   port: 30022
@@ -441,34 +471,6 @@ proxies:
   skip-cert-verify: false
   tcp-fast-open: true
   servername: 186.244.208.78
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #39'
-  type: vmess
-  server: 23.141.204.132
-  port: 29633
-  uuid: 0685a0bf-2413-45d2-dc00-c0281387c247
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 23.141.204.132
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #40'
-  type: vmess
-  server: 82.198.246.214
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 82.198.246.214
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #41'
   type: vless

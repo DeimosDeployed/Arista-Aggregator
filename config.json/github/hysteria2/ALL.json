@@ -1,6 +1,6 @@
 // GITHUB - HYSTERIA2 - Tier ALL
-// Updated: 2026-06-22 16:32:14
-// Count: 10
+// Updated: 2026-06-22 20:40:49
+// Count: 13
 
 {
   "log": {
@@ -85,18 +85,42 @@
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #3",
-      "server": "46.254.18.107",
-      "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
+      "server": "hkt.ccwink.cc",
+      "server_port": 56309,
+      "password": "2f4c3fc5-8fa2-4576-a583-8f98a6026887",
       "tls": {
         "enabled": true,
-        "server_name": "46.254.18.107",
+        "server_name": "hkt.ccwink.cc",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #4",
+      "server": "finnode.dostupnet.ru",
+      "server_port": 10100,
+      "password": "ebcb836a-ab7a-424f-a07c-aba25c70da69",
+      "tls": {
+        "enabled": true,
+        "server_name": "finnode.dostupnet.ru",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #5",
+      "server": "finnode.dostupnet.ru",
+      "server_port": 10100,
+      "password": "ebcb836a-ab7a-424f-a07c-aba25c70da69",
+      "tls": {
+        "enabled": true,
+        "server_name": "finnode.dostupnet.ru",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #6",
       "server": "46.254.18.107",
       "server_port": 443,
       "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
@@ -108,55 +132,83 @@
     },
     {
       "type": "hysteria2",
-      "tag": "T.ME: @aristapnel #5",
-      "server": "nlnode.dostupnet.ru",
-      "server_port": 10100,
-      "password": "ebcb836a-ab7a-424f-a07c-aba25c70da69",
-      "tls": {
-        "enabled": true,
-        "server_name": "nlnode.dostupnet.ru",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "T.ME: @aristapnel #6",
-      "server": "finnode.dostupnet.ru",
-      "server_port": 10100,
-      "password": "ebcb836a-ab7a-424f-a07c-aba25c70da69",
-      "tls": {
-        "enabled": true,
-        "server_name": "finnode.dostupnet.ru",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
       "tag": "T.ME: @aristapnel #7",
-      "server": "finnode.dostupnet.ru",
-      "server_port": 10100,
-      "password": "ebcb836a-ab7a-424f-a07c-aba25c70da69",
+      "server": "musicclips.videolinks.ru",
+      "server_port": 8443,
+      "password": "7roz68utnk7wgogj",
       "tls": {
         "enabled": true,
-        "server_name": "finnode.dostupnet.ru",
+        "server_name": "musicclips.videolinks.ru",
         "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "8zzng75tz4tf82pj"
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #8",
-      "server": "nlnode.dostupnet.ru",
-      "server_port": 10100,
-      "password": "ebcb836a-ab7a-424f-a07c-aba25c70da69",
+      "server": "nrealistic.nn-foto.ru",
+      "server_port": 1935,
+      "password": "7roz68utnk7wgogj",
       "tls": {
         "enabled": true,
-        "server_name": "nlnode.dostupnet.ru",
+        "server_name": "nrealistic.nn-foto.ru",
         "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "lhfl2z9mjngb7csh"
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #9",
+      "server": "social.klipp.su",
+      "server_port": 443,
+      "password": "7roz68utnk7wgogj",
+      "tls": {
+        "enabled": true,
+        "server_name": "social.klipp.su",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "3sv5vpdl9xr84lyb"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #10",
+      "server": "wuhantravel.duckdns.org",
+      "server_port": 8443,
+      "password": "MySecurePassword123",
+      "tls": {
+        "enabled": true,
+        "server_name": "wuhantravel.duckdns.org",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #11",
+      "server": "hy2-new.aspidnet.xyz",
+      "server_port": 443,
+      "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy2-new.aspidnet.xyz",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "c1b4086fea89914496c7e10967a419216566"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #12",
       "server": "185.250.41.245",
       "server_port": 443,
       "password": "cFihfSrWtH",
@@ -176,7 +228,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "T.ME: @aristapnel #10",
+      "tag": "T.ME: @aristapnel #13",
       "server": "185.250.41.245",
       "server_port": 443,
       "password": "rQRuZ8nFbC",
@@ -215,7 +267,10 @@
         "T.ME: @aristapnel #7",
         "T.ME: @aristapnel #8",
         "T.ME: @aristapnel #9",
-        "T.ME: @aristapnel #10"
+        "T.ME: @aristapnel #10",
+        "T.ME: @aristapnel #11",
+        "T.ME: @aristapnel #12",
+        "T.ME: @aristapnel #13"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -236,7 +291,10 @@
         "T.ME: @aristapnel #7",
         "T.ME: @aristapnel #8",
         "T.ME: @aristapnel #9",
-        "T.ME: @aristapnel #10"
+        "T.ME: @aristapnel #10",
+        "T.ME: @aristapnel #11",
+        "T.ME: @aristapnel #12",
+        "T.ME: @aristapnel #13"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",
