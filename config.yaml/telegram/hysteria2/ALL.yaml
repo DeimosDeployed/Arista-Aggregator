@@ -1,71 +1,20 @@
 # TELEGRAM - HYSTERIA2 - Tier ALL
-# Updated: 2026-06-23 09:00:02
-# Count: 8
+# Updated: 2026-06-23 14:24:28
+# Count: 2
 
 proxies:
 - name: 'ARISTA #1'
   type: hysteria2
-  server: wuhantravel.duckdns.org
-  port: 8443
-  password: MySecurePassword123
-  sni: wuhantravel.duckdns.org
+  server: 185.250.41.245
+  port: 443
+  password: V2RayyNGvpn
+  sni: 185.250.41.245
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: T.me%2FV2RayyNGvpn
 - name: 'ARISTA #2'
-  type: hysteria2
-  server: vpn-de-002.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-de-002.fastervpn.world
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-- name: 'ARISTA #3'
-  type: hysteria2
-  server: 207.154.242.160
-  port: 443
-  password: Masir_Sefid
-  sni: 207.154.242.160
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-  obfs: salamander
-  obfs-password: Masir_Sefid
-- name: 'ARISTA #4'
-  type: hysteria2
-  server: 206.189.58.246
-  port: 443
-  password: Masir_Sefid
-  sni: 206.189.58.246
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-  obfs: salamander
-  obfs-password: Masir_Sefid
-- name: 'ARISTA #5'
-  type: hysteria2
-  server: 185.250.41.245
-  port: 443
-  password: V2RayyNGvpn
-  sni: 185.250.41.245
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-  obfs: salamander
-  obfs-password: T.me%2FV2RayyNGvpn
-- name: 'ARISTA #6'
-  type: hysteria2
-  server: 185.250.41.245
-  port: 443
-  password: V2RayyNGvpn
-  sni: 185.250.41.245
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-  obfs: salamander
-  obfs-password: T.me%2FV2RayyNGvpn
-- name: 'ARISTA #7'
   type: hysteria2
   server: 185.250.41.245
   port: 443
@@ -76,17 +25,6 @@ proxies:
   client-fingerprint: chrome
   obfs: salamander
   obfs-password: T.me%2FV2RayyNGvpn
-- name: 'ARISTA #8'
-  type: hysteria2
-  server: 38.107.232.146
-  port: 54040
-  password: jkcnkc84dvggvi2n
-  sni: 38.107.232.146
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-  obfs: salamander
-  obfs-password: JynMarket
 proxy-groups:
 - name: 🚀 ARISTA LOW LATENCY
   type: url-test
@@ -98,12 +36,6 @@ proxy-groups:
   proxies: &id001
   - 'ARISTA #1'
   - 'ARISTA #2'
-  - 'ARISTA #3'
-  - 'ARISTA #4'
-  - 'ARISTA #5'
-  - 'ARISTA #6'
-  - 'ARISTA #7'
-  - 'ARISTA #8'
 - name: 🎬 ARISTA STREAM
   type: fallback
   url: http://www.gstatic.com/generate_204
