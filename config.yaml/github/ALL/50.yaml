@@ -1,5 +1,5 @@
 # GITHUB - ALL - Tier 50
-# Updated: 2026-06-23 19:54:30
+# Updated: 2026-06-24 02:08:46
 # Count: 49
 
 proxies:
@@ -159,6 +159,15 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #13'
   type: hysteria2
+  server: fta.fontanvpn.com
+  port: 443
+  password: 00dcd873-9211-4d61-ad35-87999906e5c8
+  sni: fta.fontanvpn.com
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #14'
+  type: hysteria2
   server: 46.254.18.107
   port: 443
   password: 0dd50f72-bf39-4b59-b183-61b3fa52df57
@@ -166,21 +175,12 @@ proxies:
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #14'
-  type: hysteria2
-  server: fta.fontanvpn.com
-  port: 443
-  password: 00dcd873-9211-4d61-ad35-87999906e5c8
-  sni: fta.fontanvpn.com
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #15'
   type: hysteria2
-  server: fta.fontanvpn.com
+  server: 46.254.18.107
   port: 443
-  password: 00dcd873-9211-4d61-ad35-87999906e5c8
-  sni: fta.fontanvpn.com
+  password: 0dd50f72-bf39-4b59-b183-61b3fa52df57
+  sni: 46.254.18.107
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -222,10 +222,10 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #20'
   type: hysteria2
-  server: fta.fontanvpn.com
+  server: 46.254.18.107
   port: 443
-  password: 00dcd873-9211-4d61-ad35-87999906e5c8
-  sni: fta.fontanvpn.com
+  password: 0dd50f72-bf39-4b59-b183-61b3fa52df57
+  sni: 46.254.18.107
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -395,6 +395,24 @@ proxies:
       Host: 107.173.27.219
 - name: 'T.ME: @aristapnel #36'
   type: vmess
+  server: 69.84.182.49
+  port: 80
+  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 69.84.182.49
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+- name: 'T.ME: @aristapnel #37'
+  type: vmess
   server: 160.250.247.70
   port: 49178
   uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394
@@ -407,7 +425,7 @@ proxies:
   tcp-fast-open: true
   servername: 160.250.247.70
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #37'
+- name: 'T.ME: @aristapnel #38'
   type: vmess
   server: 186.244.208.78
   port: 30022
@@ -421,23 +439,27 @@ proxies:
   tcp-fast-open: true
   servername: 186.244.208.78
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #38'
+- name: 'T.ME: @aristapnel #39'
   type: vmess
-  server: 23.141.204.132
-  port: 29633
-  uuid: 0685a0bf-2413-45d2-dc00-c0281387c247
+  server: myvpshosting.name.ng
+  port: 80
+  uuid: 96408f9a-df03-448b-b7e4-ec8e2c216682
   alterId: 0
   cipher: auto
-  network: tcp
+  network: ws
   tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 23.141.204.132
+  servername: myvpshosting.name.ng
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #39'
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: myvpshosting.name.ng
+- name: 'T.ME: @aristapnel #40'
   type: vmess
-  server: 195.209.88.113
+  server: 93.93.89.99
   port: 443
   uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
   alterId: 0
@@ -447,7 +469,7 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 195.209.88.113
+  servername: 93.93.89.99
   client-fingerprint: chrome
   alpn:
   - h2
@@ -456,27 +478,6 @@ proxies:
     path: /api/v1/gpu-stream/socket
     headers:
       Host: renderer-stream-1-411.mirra.now
-- name: 'T.ME: @aristapnel #40'
-  type: vmess
-  server: 37.220.161.247
-  port: 443
-  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: renderer-stream-1-411.mirra.now
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: 37.220.161.247
 - name: 'T.ME: @aristapnel #41'
   type: vless
   server: 83.168.71.216

@@ -1,6 +1,6 @@
 # GITHUB - VLESS - Tier 300
-# Updated: 2026-06-23 19:54:28
-# Count: 294
+# Updated: 2026-06-24 02:08:43
+# Count: 292
 
 proxies:
 - name: 'T.ME: @aristapnel #1'
@@ -4996,26 +4996,7 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #286'
   type: vless
-  server: 1.sdwan.realm-sync.com
-  port: 60776
-  uuid: da4f61d1-8ca2-4bbf-a79a-1dfff04073e6
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: swcdn.apple.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  alpn:
-  - h2
-  - http/1.1
-  reality-opts:
-    public-key: rPR7TUpmOpwShZeyLs2QFa46zzCBNkNdYkxe7-trUUc
-    short-id: 63290ae7179078
-- name: 'T.ME: @aristapnel #287'
-  type: vless
-  server: 47.128.153.17
+  server: 54.169.51.106
   port: 443
   uuid: a5548d28-c1dc-4c87-93ba-b6a1a393a2eb
   network: tcp
@@ -5031,11 +5012,11 @@ proxies:
   reality-opts:
     public-key: tg5AZG_Mj0_c4hh6oeHSRZGkp1ju8Ge7i2nkxRu4jAw
     short-id: ed41
-- name: 'T.ME: @aristapnel #288'
+- name: 'T.ME: @aristapnel #289'
   type: vless
   server: 37.49.224.32
   port: 443
-  uuid: a5f3e5f5-ffa4-43dd-84b6-20aedd1a843e
+  uuid: 937f8cd1-a7c7-48c5-9b95-d6826bac9eb2
   network: tcp
   tls: false
   udp: true
@@ -5043,61 +5024,28 @@ proxies:
   tcp-fast-open: true
   servername: 37.49.224.32
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #289'
-  type: vless
-  server: 5.42.121.174
-  port: 443
-  uuid: 33de2596-d95d-412b-a8c2-410be7060ca3
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: sellflow.org
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  alpn:
-  - h2
-  - http/1.1
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 'T.ME: @aristapnel #290'
-  type: vless
-  server: 81.17.154.131
-  port: 443
-  uuid: 33de2596-d95d-412b-a8c2-410be7060ca3
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: sellflow.org
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  alpn:
-  - h2
-  - http/1.1
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 - name: 'T.ME: @aristapnel #291'
   type: vless
-  server: 47.129.217.27
-  port: 443
-  uuid: a5548d28-c1dc-4c87-93ba-b6a1a393a2eb
-  network: tcp
+  server: 176.109.94.202
+  port: 9443
+  uuid: 71b03803-5dfe-4dac-8406-a06e94b1bd70
+  network: ws
   tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: play.google.com
+  servername: mms-2tets.hysteria.ltd
   client-fingerprint: chrome
   alpn:
   - h2
   - http/1.1
-  reality-opts:
-    public-key: tg5AZG_Mj0_c4hh6oeHSRZGkp1ju8Ge7i2nkxRu4jAw
-    short-id: ed41
-- name: 'T.ME: @aristapnel #293'
+  ws-opts:
+    path: '%2Fws'
+    headers:
+      Host: mms-2tets.hysteria.ltd
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'T.ME: @aristapnel #292'
   type: vless
   server: 194.116.236.15
   port: 56584
@@ -5115,7 +5063,7 @@ proxies:
   reality-opts:
     public-key: OTQdqm_AcrDUCFAoGE8ilnMje70ZBSwjwOytYsIZvBY
     short-id: f16e3628b752cc
-- name: 'T.ME: @aristapnel #294'
+- name: 'T.ME: @aristapnel #293'
   type: vless
   server: 141.193.154.182
   port: 10000
@@ -5127,7 +5075,7 @@ proxies:
   tcp-fast-open: true
   servername: 141.193.154.182
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #295'
+- name: 'T.ME: @aristapnel #294'
   type: vless
   server: www.ujintan.com
   port: 443
@@ -5148,19 +5096,19 @@ proxies:
       Host: pop.mmadcoffee.info
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #296'
+- name: 'T.ME: @aristapnel #295'
   type: vless
-  server: 151.115.167.205
+  server: sca36.speedmeter.shop
   port: 8880
   uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
-  network: tcp
+  network: grpc
   tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 151.115.167.205
+  servername: sca36.speedmeter.shop
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #297'
+- name: 'T.ME: @aristapnel #296'
   type: vless
   server: 37.156.44.157
   port: 2083
@@ -5179,25 +5127,7 @@ proxies:
   reality-opts:
     public-key: l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY
     short-id: 4e590fdc
-- name: 'T.ME: @aristapnel #298'
-  type: vless
-  server: 54.254.220.213
-  port: 443
-  uuid: a5548d28-c1dc-4c87-93ba-b6a1a393a2eb
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: play.google.com
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-  reality-opts:
-    public-key: tg5AZG_Mj0_c4hh6oeHSRZGkp1ju8Ge7i2nkxRu4jAw
-    short-id: ed41
-- name: 'T.ME: @aristapnel #299'
+- name: 'T.ME: @aristapnel #297'
   type: vless
   server: 72.56.245.170
   port: 40443
@@ -5216,7 +5146,7 @@ proxies:
   reality-opts:
     public-key: Y15uAAl8fpWhma1FIWyZujgRKdwxYaaF4zIyWyu9vSo
     short-id: 5cc0
-- name: 'T.ME: @aristapnel #300'
+- name: 'T.ME: @aristapnel #298'
   type: vless
   server: 5.199.170.105
   port: 443
@@ -5234,6 +5164,37 @@ proxies:
   - http/1.1
   reality-opts:
     public-key: xFUmqmEPEKyv-5ReppEM1oTkc04HQcBUfySH-EwPBlE
+    short-id: 6ba85179e30d4fc2
+- name: 'T.ME: @aristapnel #299'
+  type: vless
+  server: sw-1.coinbridge.nl
+  port: 443
+  uuid: b0f08ae1-7cf9-4612-ad61-72681e0b92da
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: sw-1.coinbridge.nl
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #300'
+  type: vless
+  server: 217.217.247.250
+  port: 443
+  uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: enterprisekitten.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: 6ba85179e30d4fc2
 proxy-groups:
 - name: 🚀 ARISTA LOW LATENCY
@@ -5525,11 +5486,9 @@ proxy-groups:
   - 'T.ME: @aristapnel #284'
   - 'T.ME: @aristapnel #285'
   - 'T.ME: @aristapnel #286'
-  - 'T.ME: @aristapnel #287'
-  - 'T.ME: @aristapnel #288'
   - 'T.ME: @aristapnel #289'
-  - 'T.ME: @aristapnel #290'
   - 'T.ME: @aristapnel #291'
+  - 'T.ME: @aristapnel #292'
   - 'T.ME: @aristapnel #293'
   - 'T.ME: @aristapnel #294'
   - 'T.ME: @aristapnel #295'

@@ -1,6 +1,6 @@
 // TELEGRAM - VMESS - Tier ALL
-// Updated: 2026-06-23 19:57:43
-// Count: 14
+// Updated: 2026-06-24 02:12:28
+// Count: 15
 
 {
   "log": {
@@ -53,6 +53,34 @@
     {
       "type": "vmess",
       "tag": "ARISTA #1",
+      "server": "fr.connfull.org",
+      "server_port": 2053,
+      "uuid": "500e29aa-c40b-43e1-905c-e6e7ac4a5b83",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "fr.connfull.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "ARISTA #2",
+      "server": "82.198.246.250",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "ARISTA #3",
       "server": "vip3.sanaiehdasti.com",
       "server_port": 1546,
       "uuid": "6c5fcae3-16e8-4a93-b28e-05588d5d9342",
@@ -63,7 +91,7 @@
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #2",
+      "tag": "ARISTA #4",
       "server": "104.17.121.43",
       "server_port": 443,
       "uuid": "e9947b42-27ed-401e-b75e-c9ebd357c0f3",
@@ -87,29 +115,42 @@
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #3",
-      "server": "154.37.223.105",
-      "server_port": 52080,
-      "uuid": "12513325-4464-4334-b811-7b047ebf40e7",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "ARISTA #4",
-      "server": "154.37.223.105",
-      "server_port": 52080,
-      "uuid": "12513325-4464-4334-b811-7b047ebf40e7",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "ARISTA #5",
+      "server": "158.51.121.63",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "seribus.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "ARISTA #6",
+      "server": "154.37.223.105",
+      "server_port": 52080,
+      "uuid": "12513325-4464-4334-b811-7b047ebf40e7",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "ARISTA #7",
       "server": "digi21.ez0535.com",
       "server_port": 443,
       "uuid": "b5406cd3-1a11-4c78-b346-7763fcc9e476",
@@ -120,14 +161,14 @@
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #6",
-      "server": "fr.connfull.org",
+      "tag": "ARISTA #8",
+      "server": "ca.connfull.org",
       "server_port": 2053,
-      "uuid": "500e29aa-c40b-43e1-905c-e6e7ac4a5b83",
+      "uuid": "4b433ddd-fb7d-41e7-b499-ce76af562512",
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "fr.connfull.org",
+        "server_name": "ca.connfull.org",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -137,18 +178,7 @@
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #7",
-      "server": "185.153.231.167",
-      "server_port": 49946,
-      "uuid": "41b73303-5622-4736-ffc1-b60abc1f2347",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "ARISTA #8",
+      "tag": "ARISTA #9",
       "server": "31.56.178.107",
       "server_port": 443,
       "uuid": "185a3bb6-a1a7-4a43-da37-659026c79aea",
@@ -159,7 +189,7 @@
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #9",
+      "tag": "ARISTA #10",
       "server": "78.141.215.62",
       "server_port": 443,
       "uuid": "afd45419-cffa-4f1b-990a-511aab6ee9ab",
@@ -170,10 +200,28 @@
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #10",
-      "server": "216.106.183.35",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "tag": "ARISTA #11",
+      "server": "47.250.149.51",
+      "server_port": 50018,
+      "uuid": "9665280c-a3d1-4aab-ef9f-a3a497337d91",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/9665280c",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "ARISTA #12",
+      "server": "82.198.246.97",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
       "security": "auto",
       "tls": {
         "enabled": false
@@ -181,7 +229,7 @@
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #11",
+      "tag": "ARISTA #13",
       "server": "panel.cpanel.10ofbest.ir",
       "server_port": 2053,
       "uuid": "357d7160-9dc4-4272-980f-51d81b44809b",
@@ -208,24 +256,7 @@
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #12",
-      "server": "ca.connfull.org",
-      "server_port": 2053,
-      "uuid": "4b433ddd-fb7d-41e7-b499-ce76af562512",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "ca.connfull.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "ARISTA #13",
+      "tag": "ARISTA #14",
       "server": "2.26.231.87",
       "server_port": 110,
       "uuid": "f35f1bc8-a39f-4ab9-a20f-613cc6e860c3",
@@ -236,7 +267,7 @@
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #14",
+      "tag": "ARISTA #15",
       "server": "www.speedtest.net",
       "server_port": 443,
       "uuid": "46d9820f-4585-4687-82b1-13ab23d9187e",
@@ -279,7 +310,8 @@
         "ARISTA #11",
         "ARISTA #12",
         "ARISTA #13",
-        "ARISTA #14"
+        "ARISTA #14",
+        "ARISTA #15"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -304,7 +336,8 @@
         "ARISTA #11",
         "ARISTA #12",
         "ARISTA #13",
-        "ARISTA #14"
+        "ARISTA #14",
+        "ARISTA #15"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",

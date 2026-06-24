@@ -1,6 +1,6 @@
 // COMBINED - HYSTERIA2 - Tier ALL
-// Updated: 2026-06-23 19:57:42
-// Count: 23
+// Updated: 2026-06-24 02:12:27
+// Count: 28
 
 {
   "log": {
@@ -53,12 +53,12 @@
     {
       "type": "hysteria2",
       "tag": "ARISTA #1",
-      "server": "185.250.41.245",
+      "server": "130.49.161.70",
       "server_port": 443,
-      "password": "V2RayyNGvpn",
+      "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
       "tls": {
         "enabled": true,
-        "server_name": "www.wordreference.com",
+        "server_name": "hy2.aspidnet.xyz",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -67,18 +67,34 @@
       },
       "obfs": {
         "type": "salamander",
-        "password": "T.me/V2RayyNGvpn"
+        "password": "rG07s3COMIEvdnQipRyWzx_H_2xygNC3"
       }
     },
     {
       "type": "hysteria2",
       "tag": "ARISTA #2",
-      "server": "185.250.41.245",
-      "server_port": 443,
-      "password": "t.me.V2RayyNGvpn",
+      "server": "80.66.81.78",
+      "server_port": 9443,
+      "password": "rs2mR3g9bZiMloftx6lZQ59Um1Ld",
       "tls": {
         "enabled": true,
-        "server_name": "www.wordreference.com",
+        "server_name": "80.66.81.78",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "oMgvuBy5Lj5kYM57sGsnjpjNcSEQ"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "ARISTA #3",
+      "server": "80.66.81.78",
+      "server_port": 9443,
+      "password": "rs2mR3g9bZiMloftx6lZQ59Um1Ld",
+      "tls": {
+        "enabled": true,
+        "server_name": "tunel1.washing.help",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -87,12 +103,12 @@
       },
       "obfs": {
         "type": "salamander",
-        "password": "T.me/V2RayyNGvpn"
+        "password": "oMgvuBy5Lj5kYM57sGsnjpjNcSEQ"
       }
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #3",
+      "tag": "ARISTA #4",
       "server": "185.250.41.245",
       "server_port": 443,
       "password": "CRzpXvIiyI",
@@ -112,7 +128,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "T.ME: @aristapnel #4",
+      "tag": "T.ME: @aristapnel #5",
       "server": "hy2.aspidnet.xyz",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
@@ -128,25 +144,13 @@
     },
     {
       "type": "hysteria2",
-      "tag": "T.ME: @aristapnel #5",
+      "tag": "T.ME: @aristapnel #6",
       "server": "fta.fontanvpn.com",
       "server_port": 443,
       "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
         "server_name": "fta.fontanvpn.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "T.ME: @aristapnel #6",
-      "server": "46.254.18.107",
-      "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
-      "tls": {
-        "enabled": true,
-        "server_name": "46.254.18.107",
         "insecure": true
       }
     },
@@ -165,25 +169,29 @@
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #8",
-      "server": "fta.fontanvpn.com",
+      "server": "46.254.18.107",
       "server_port": 443,
-      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
+      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
       "tls": {
         "enabled": true,
-        "server_name": "fta.fontanvpn.com",
+        "server_name": "46.254.18.107",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #9",
-      "server": "fta.fontanvpn.com",
+      "server": "46.254.18.107",
       "server_port": 443,
-      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
+      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
       "tls": {
         "enabled": true,
-        "server_name": "fta.fontanvpn.com",
-        "insecure": true
+        "server_name": "newlte.kihsuyhf8jkiugsxb.cfd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -237,24 +245,24 @@
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #14",
-      "server": "fta.fontanvpn.com",
+      "server": "46.254.18.107",
       "server_port": 443,
-      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
+      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
       "tls": {
         "enabled": true,
-        "server_name": "fta.fontanvpn.com",
+        "server_name": "46.254.18.107",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #15",
-      "server": "fta.fontanvpn.com",
+      "server": "46.254.18.107",
       "server_port": 443,
-      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
+      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
       "tls": {
         "enabled": true,
-        "server_name": "fta.fontanvpn.com",
+        "server_name": "46.254.18.107",
         "insecure": true
       }
     },
@@ -285,48 +293,48 @@
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #18",
-      "server": "46.254.18.107",
-      "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
-      "tls": {
-        "enabled": true,
-        "server_name": "46.254.18.107",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "T.ME: @aristapnel #19",
-      "server": "46.254.18.107",
-      "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
-      "tls": {
-        "enabled": true,
-        "server_name": "46.254.18.107",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "T.ME: @aristapnel #20",
-      "server": "46.254.18.107",
-      "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
-      "tls": {
-        "enabled": true,
-        "server_name": "46.254.18.107",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "T.ME: @aristapnel #21",
       "server": "vpn-tw-002.fastervpn.world",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
         "server_name": "vpn-tw-002.fastervpn.world",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #19",
+      "server": "fta.fontanvpn.com",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
+      "tls": {
+        "enabled": true,
+        "server_name": "fta.fontanvpn.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #20",
+      "server": "fta.fontanvpn.com",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
+      "tls": {
+        "enabled": true,
+        "server_name": "fta.fontanvpn.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #21",
+      "server": "fta.fontanvpn.com",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
+      "tls": {
+        "enabled": true,
+        "server_name": "fta.fontanvpn.com",
         "insecure": true
       }
     },
@@ -345,6 +353,70 @@
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #23",
+      "server": "fta.fontanvpn.com",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
+      "tls": {
+        "enabled": true,
+        "server_name": "fta.fontanvpn.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #24",
+      "server": "fta.fontanvpn.com",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
+      "tls": {
+        "enabled": true,
+        "server_name": "fta.fontanvpn.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #25",
+      "server": "fta.fontanvpn.com",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
+      "tls": {
+        "enabled": true,
+        "server_name": "fta.fontanvpn.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #26",
+      "server": "hkt.ccwink.cc",
+      "server_port": 56309,
+      "password": "2f4c3fc5-8fa2-4576-a583-8f98a6026887",
+      "tls": {
+        "enabled": true,
+        "server_name": "hkt.ccwink.cc",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #27",
+      "server": "hkt.ccwink.cc",
+      "server_port": 56309,
+      "password": "2f4c3fc5-8fa2-4576-a583-8f98a6026887",
+      "tls": {
+        "enabled": true,
+        "server_name": "hkt.ccwink.cc",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #28",
       "server": "vpn-tw-002.fastervpn.world",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
@@ -369,7 +441,7 @@
         "ARISTA #1",
         "ARISTA #2",
         "ARISTA #3",
-        "T.ME: @aristapnel #4",
+        "ARISTA #4",
         "T.ME: @aristapnel #5",
         "T.ME: @aristapnel #6",
         "T.ME: @aristapnel #7",
@@ -388,7 +460,12 @@
         "T.ME: @aristapnel #20",
         "T.ME: @aristapnel #21",
         "T.ME: @aristapnel #22",
-        "T.ME: @aristapnel #23"
+        "T.ME: @aristapnel #23",
+        "T.ME: @aristapnel #24",
+        "T.ME: @aristapnel #25",
+        "T.ME: @aristapnel #26",
+        "T.ME: @aristapnel #27",
+        "T.ME: @aristapnel #28"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -403,7 +480,7 @@
         "ARISTA #1",
         "ARISTA #2",
         "ARISTA #3",
-        "T.ME: @aristapnel #4",
+        "ARISTA #4",
         "T.ME: @aristapnel #5",
         "T.ME: @aristapnel #6",
         "T.ME: @aristapnel #7",
@@ -422,7 +499,12 @@
         "T.ME: @aristapnel #20",
         "T.ME: @aristapnel #21",
         "T.ME: @aristapnel #22",
-        "T.ME: @aristapnel #23"
+        "T.ME: @aristapnel #23",
+        "T.ME: @aristapnel #24",
+        "T.ME: @aristapnel #25",
+        "T.ME: @aristapnel #26",
+        "T.ME: @aristapnel #27",
+        "T.ME: @aristapnel #28"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",

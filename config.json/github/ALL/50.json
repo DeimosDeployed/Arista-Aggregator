@@ -1,5 +1,5 @@
 // GITHUB - ALL - Tier 50
-// Updated: 2026-06-23 19:57:43
+// Updated: 2026-06-24 02:12:28
 // Count: 40
 
 {
@@ -250,6 +250,18 @@
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #13",
+      "server": "fta.fontanvpn.com",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
+      "tls": {
+        "enabled": true,
+        "server_name": "fta.fontanvpn.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #14",
       "server": "46.254.18.107",
       "server_port": 443,
       "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
@@ -261,26 +273,18 @@
     },
     {
       "type": "hysteria2",
-      "tag": "T.ME: @aristapnel #14",
-      "server": "fta.fontanvpn.com",
-      "server_port": 443,
-      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
-      "tls": {
-        "enabled": true,
-        "server_name": "fta.fontanvpn.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
       "tag": "T.ME: @aristapnel #15",
-      "server": "fta.fontanvpn.com",
+      "server": "46.254.18.107",
       "server_port": 443,
-      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
+      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
       "tls": {
         "enabled": true,
-        "server_name": "fta.fontanvpn.com",
-        "insecure": true
+        "server_name": "newlte.kihsuyhf8jkiugsxb.cfd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -334,12 +338,12 @@
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #20",
-      "server": "fta.fontanvpn.com",
+      "server": "46.254.18.107",
       "server_port": 443,
-      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
+      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
       "tls": {
         "enabled": true,
-        "server_name": "fta.fontanvpn.com",
+        "server_name": "46.254.18.107",
         "insecure": true
       }
     },
@@ -431,6 +435,24 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #36",
+      "server": "69.84.182.49",
+      "server_port": 80,
+      "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #37",
       "server": "160.250.247.70",
       "server_port": 49178,
       "uuid": "d7c13e10-2ba9-4677-a877-d9e9d1738394",
@@ -441,7 +463,7 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #37",
+      "tag": "T.ME: @aristapnel #38",
       "server": "186.244.208.78",
       "server_port": 30022,
       "uuid": "b7d93549-0f3f-4af2-9f4d-4340867a23b4",
@@ -452,25 +474,32 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #38",
-      "server": "23.141.204.132",
-      "server_port": 29633,
-      "uuid": "0685a0bf-2413-45d2-dc00-c0281387c247",
+      "tag": "T.ME: @aristapnel #39",
+      "server": "myvpshosting.name.ng",
+      "server_port": 80,
+      "uuid": "96408f9a-df03-448b-b7e4-ec8e2c216682",
       "security": "auto",
       "tls": {
         "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": "myvpshosting.name.ng"
+        }
       }
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #39",
-      "server": "195.209.88.113",
+      "tag": "T.ME: @aristapnel #40",
+      "server": "93.93.89.99",
       "server_port": 443,
       "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "195.209.88.113",
+        "server_name": "93.93.89.99",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -482,30 +511,6 @@
         "path": "/api/v1/gpu-stream/socket",
         "headers": {
           "Host": "renderer-stream-1-411.mirra.now"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "T.ME: @aristapnel #40",
-      "server": "37.220.161.247",
-      "server_port": 443,
-      "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "renderer-stream-1-411.mirra.now",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/v1/gpu-stream/socket",
-        "headers": {
-          "Host": ""
         }
       }
     },
