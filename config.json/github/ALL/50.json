@@ -1,5 +1,5 @@
 // GITHUB - ALL - Tier 50
-// Updated: 2026-06-24 14:09:45
+// Updated: 2026-06-24 19:29:06
 // Count: 40
 
 {
@@ -238,12 +238,12 @@
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #12",
-      "server": "fta.fontanvpn.com",
+      "server": "185.75.135.220",
       "server_port": 443,
       "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "fta.fontanvpn.com",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
@@ -256,7 +256,11 @@
       "tls": {
         "enabled": true,
         "server_name": "fta.fontanvpn.com",
-        "insecure": true
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -268,11 +272,7 @@
       "tls": {
         "enabled": true,
         "server_name": "fta.fontanvpn.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": true
       }
     },
     {
@@ -486,25 +486,12 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #40",
-      "server": "renderer-stream-1-411.mirra.now",
-      "server_port": 443,
-      "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
+      "server": "154.37.223.105",
+      "server_port": 52080,
+      "uuid": "12513325-4464-4334-b811-7b047ebf40e7",
       "security": "auto",
       "tls": {
-        "enabled": true,
-        "server_name": "renderer-stream-1-411.mirra.now",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/v1/gpu-stream/socket",
-        "headers": {
-          "Host": "renderer-stream-1-411.mirra.now"
-        }
+        "enabled": false
       }
     },
     {

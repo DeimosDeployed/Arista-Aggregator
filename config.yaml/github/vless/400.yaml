@@ -1,5 +1,5 @@
 # GITHUB - VLESS - Tier 400
-# Updated: 2026-06-24 14:06:20
+# Updated: 2026-06-24 19:27:02
 # Count: 384
 
 proxies:
@@ -6565,7 +6565,7 @@ proxies:
   - http/1.1
 - name: 'T.ME: @aristapnel #389'
   type: vless
-  server: 45.80.110.140
+  server: 185.16.110.140
   port: 80
   uuid: f9255507-1b65-433f-bfd8-193b35e068e2
   network: ws
@@ -6576,14 +6576,70 @@ proxies:
   servername: s5.868001.xyz
   client-fingerprint: chrome
   ws-opts:
-    path: Telegram+@WangCai2
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2
     headers:
       Host: s5.868001.xyz
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
 - name: 'T.ME: @aristapnel #390'
   type: vless
-  server: 104.129.167.140
+  server: 216.158.94.44
+  port: 443
+  uuid: 5c417415-5c79-4447-a8bd-fd9f73a89fb9
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.microsoft.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: ztJq-ujdckOvXgiARRnTean6syVqoBBWw0s5tL5IkhE
+- name: 'T.ME: @aristapnel #391'
+  type: vless
+  server: uk-gthost-01.com
+  port: 8443
+  uuid: 52faee73-e0fe-4661-992d-67259257170f
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: dY9SNEllJMW63xo-JdXufhmjAxB_4uFw_QMjgufjiD8
+    short-id: ea10cd5686751ec5
+- name: 'T.ME: @aristapnel #392'
+  type: vless
+  server: lt-cherry-01.com
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+- name: 'T.ME: @aristapnel #393'
+  type: vless
+  server: 45.131.7.140
   port: 80
   uuid: f9255507-1b65-433f-bfd8-193b35e068e2
   network: ws
@@ -6594,54 +6650,26 @@ proxies:
   servername: s5.868001.xyz
   client-fingerprint: chrome
   ws-opts:
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+    path: /Telegram🇨🇳+@WangCai2
     headers:
       Host: s5.868001.xyz
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #391'
+- name: 'T.ME: @aristapnel #394'
   type: vless
-  server: 104.17.165.180
-  port: 2053
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  network: ws
-  tls: true
+  server: 104.16.6.70
+  port: 2052
+  uuid: 42e0d02c-b75c-4b9d-bc15-773aa3cbe6bd
+  network: xhttp
+  tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: round-art-52ee.eadfgv.workers.dev
+  servername: cdn2.goofymoofy.com
   client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-  ws-opts:
-    path: '%2F'
-    headers:
-      Host: round-art-52ee.eadfgv.workers.dev
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #392'
+- name: 'T.ME: @aristapnel #395'
   type: vless
-  server: ru16.aimodelhub.top
-  port: 443
-  uuid: 7b3b6e39-dd78-0002-af6e-6d00da419aa0
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: ru16.aimodelhub.top
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  alpn:
-  - h2
-  - http/1.1
-  reality-opts:
-    public-key: jwT3lcIzJQMjzBKRNsmyRGrgaa1qNfE7pQF_nAKu0GA
-    short-id: a73cf719b624
-- name: 'T.ME: @aristapnel #393'
-  type: vless
-  server: 104.238.29.241
+  server: 77.73.131.154
   port: 443
   uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
   network: tcp
@@ -6649,18 +6677,18 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: helsinki.fi
+  servername: vindobona.org
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   alpn:
   - h2
   - http/1.1
   reality-opts:
-    public-key: uHgXn92PmJ1ilszzwK2LHKvoC5dwhqYVhfKT_JW7JHM
-    short-id: 40a5eaec20abf1
-- name: 'T.ME: @aristapnel #394'
+    public-key: 5GhMSJXQv1wXHVD999YHRRj83m-7VKH8qb_vTxBGbng
+    short-id: 08
+- name: 'T.ME: @aristapnel #396'
   type: vless
-  server: 213.241.198.140
+  server: 45.131.211.140
   port: 80
   uuid: f9255507-1b65-433f-bfd8-193b35e068e2
   network: ws
@@ -6671,53 +6699,14 @@ proxies:
   servername: s5.868001.xyz
   client-fingerprint: chrome
   ws-opts:
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2
+    path: /Telegram
     headers:
       Host: s5.868001.xyz
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #395'
-  type: vless
-  server: 138.124.123.96
-  port: 443
-  uuid: c35474ed-d6a8-4213-8edb-5c333e5b5f7c
-  network: xhttp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: cloud-api.yandex.ru
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-  reality-opts:
-    public-key: SEUx3TGHAcwEfAD2DShY_YdpFHRH6UdTUBpKBrRdyEE
-    short-id: d435a0d34ef3b60e
-- name: 'T.ME: @aristapnel #396'
-  type: vless
-  server: fw8je9.cf.3666888.xyz
-  port: 2096
-  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: sp.linuxdododo.ccwu.cc
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-  ws-opts:
-    path: '%2Fproxyip%3DProxyIP.JP.cmliussss.net'
-    headers:
-      Host: sp.linuxdododo.ccwu.cc
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 'T.ME: @aristapnel #397'
   type: vless
-  server: 185.162.231.140
+  server: 160.153.1.140
   port: 80
   uuid: f9255507-1b65-433f-bfd8-193b35e068e2
   network: ws
@@ -6728,67 +6717,64 @@ proxies:
   servername: s5.868001.xyz
   client-fingerprint: chrome
   ws-opts:
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2
+    path: /Telegram+@WangCai2
     headers:
       Host: s5.868001.xyz
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
 - name: 'T.ME: @aristapnel #398'
   type: vless
-  server: 138.16.152.178
-  port: 7443
-  uuid: bb1db352-397c-400b-937e-e12b6af43e23
+  server: 45.149.12.140
+  port: 80
+  uuid: f9255507-1b65-433f-bfd8-193b35e068e2
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: s5.868001.xyz
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3'
+    headers:
+      Host: s5.868001.xyz
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'T.ME: @aristapnel #399'
+  type: vless
+  server: 37.18.15.73
+  port: 443
+  uuid: f9ab7cbe-2826-480a-9d10-3ad38ca14be4
+  network: xhttp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: media.mediavitrina.ru
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: 7VkrylPaWB3cx8b-AN1BXWhsQ3B6SuB2sQx9zzrwnlc
+    short-id: a55215a9509841
+- name: 'T.ME: @aristapnel #400'
+  type: vless
+  server: nl1.univesalsrv.com
+  port: 443
+  uuid: e4468d51-2528-4d40-a92d-5cf409d00dac
   network: grpc
   tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: maps.apple.com
+  servername: nl1.univesalsrv.com
   client-fingerprint: chrome
   alpn:
   - h2
   - http/1.1
   grpc-opts:
-    grpc-service-name: your-custom-path
-  reality-opts:
-    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
-    short-id: 2da4299da566b7
-- name: 'T.ME: @aristapnel #399'
-  type: vless
-  server: 45.85.119.140
-  port: 80
-  uuid: f9255507-1b65-433f-bfd8-193b35e068e2
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: s5.868001.xyz
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2520%2540WangCai2'
-    headers:
-      Host: s5.868001.xyz
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #400'
-  type: vless
-  server: 74.49.215.140
-  port: 80
-  uuid: f9255507-1b65-433f-bfd8-193b35e068e2
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: s5.868001.xyz
-  client-fingerprint: chrome
-  ws-opts:
-    path: Telegram+@WangCai2
-    headers:
-      Host: s5.868001.xyz
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
+    grpc-service-name: mobile.api.Event
 proxy-groups:
 - name: 🚀 ARISTA LOW LATENCY
   type: url-test
