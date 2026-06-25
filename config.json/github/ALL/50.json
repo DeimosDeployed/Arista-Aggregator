@@ -1,5 +1,5 @@
 // GITHUB - ALL - Tier 50
-// Updated: 2026-06-25 02:13:01
+// Updated: 2026-06-25 08:53:07
 // Count: 40
 
 {
@@ -413,30 +413,30 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #35",
-      "server": "2.26.231.87",
-      "server_port": 110,
-      "uuid": "ecd7aeca-2e37-4761-93e7-7cf4c2ff55bf",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "T.ME: @aristapnel #36",
-      "server": "69.84.182.49",
-      "server_port": 80,
-      "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
+      "server": "107.173.27.219",
+      "server_port": 6666,
+      "uuid": "f0a2fbe5-29bf-468c-ddc1-b524552d1a23",
       "security": "auto",
       "tls": {
         "enabled": false
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/youtube",
         "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
+          "Host": ""
         }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #36",
+      "server": "2.26.231.87",
+      "server_port": 110,
+      "uuid": "ad7a0934-4d8d-4343-8b6f-efa10ed54fc2",
+      "security": "auto",
+      "tls": {
+        "enabled": false
       }
     },
     {
@@ -464,29 +464,37 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #39",
-      "server": "104.16.52.150",
-      "server_port": 2053,
-      "uuid": "3bb59086-8706-49ef-aa24-132619856668",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "gErtOw1.lOolOolOolOo.cOM",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "T.ME: @aristapnel #40",
       "server": "154.37.223.105",
       "server_port": 52080,
       "uuid": "12513325-4464-4334-b811-7b047ebf40e7",
       "security": "auto",
       "tls": {
         "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #40",
+      "server": "172.67.207.114",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 1,
+      "tls": {
+        "enabled": true,
+        "server_name": "ophelia.mom",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "ophelia.mom"
+        }
       }
     },
     {

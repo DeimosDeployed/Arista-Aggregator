@@ -1,6 +1,6 @@
 // GITHUB - VMESS - Tier ALL
-// Updated: 2026-06-25 02:13:00
-// Count: 16
+// Updated: 2026-06-25 08:53:07
+// Count: 15
 
 {
   "log": {
@@ -120,30 +120,30 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #5",
-      "server": "2.26.231.87",
-      "server_port": 110,
-      "uuid": "ecd7aeca-2e37-4761-93e7-7cf4c2ff55bf",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "T.ME: @aristapnel #6",
-      "server": "69.84.182.49",
-      "server_port": 80,
-      "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
+      "server": "107.173.27.219",
+      "server_port": 6666,
+      "uuid": "f0a2fbe5-29bf-468c-ddc1-b524552d1a23",
       "security": "auto",
       "tls": {
         "enabled": false
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/youtube",
         "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
+          "Host": ""
         }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #6",
+      "server": "2.26.231.87",
+      "server_port": 110,
+      "uuid": "ad7a0934-4d8d-4343-8b6f-efa10ed54fc2",
+      "security": "auto",
+      "tls": {
+        "enabled": false
       }
     },
     {
@@ -171,23 +171,6 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #9",
-      "server": "104.16.52.150",
-      "server_port": 2053,
-      "uuid": "3bb59086-8706-49ef-aa24-132619856668",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "gErtOw1.lOolOolOolOo.cOM",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "T.ME: @aristapnel #10",
       "server": "154.37.223.105",
       "server_port": 52080,
       "uuid": "12513325-4464-4334-b811-7b047ebf40e7",
@@ -198,14 +181,15 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #11",
-      "server": "http2-rel1.pixelated4.ir",
+      "tag": "T.ME: @aristapnel #10",
+      "server": "172.67.207.114",
       "server_port": 443,
-      "uuid": "e39bad0c07884aa895edddb7161bfbb4",
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
+      "alter_id": 1,
       "tls": {
         "enabled": true,
-        "server_name": "http2-rel1.pixelated4.ir",
+        "server_name": "ophelia.mom",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -214,63 +198,37 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/pixelated",
+        "path": "linkvws",
         "headers": {
-          "Host": ""
+          "Host": "ophelia.mom"
         }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #11",
+      "server": "iran.iraniannimdown.ir",
+      "server_port": 52645,
+      "uuid": "80d385d3-4fe7-43d0-b61e-7437f82f5d2c",
+      "security": "auto",
+      "tls": {
+        "enabled": false
       }
     },
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #12",
-      "server": "http2-rel1.pixelated5.ir",
-      "server_port": 443,
-      "uuid": "e39bad0c07884aa895edddb7161bfbb4",
+      "server": "57.151.100.27",
+      "server_port": 10086,
+      "uuid": "550e8400-e29b-41d4-a716-446655440000",
       "security": "auto",
       "tls": {
-        "enabled": true,
-        "server_name": "http2-rel1.pixelated5.ir",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/pixelated",
-        "headers": {
-          "Host": ""
-        }
+        "enabled": false
       }
     },
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #13",
-      "server": "http2-rel1.pixelatedthree.ir",
-      "server_port": 443,
-      "uuid": "e39bad0c07884aa895edddb7161bfbb4",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "http2-rel1.pixelatedthree.ir",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/pixelated",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "T.ME: @aristapnel #14",
       "server": "69.84.182.49",
       "server_port": 80,
       "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
@@ -288,7 +246,7 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #15",
+      "tag": "T.ME: @aristapnel #14",
       "server": "154.37.223.105",
       "server_port": 52080,
       "uuid": "12513325-4464-4334-b811-7b047ebf40e7",
@@ -299,7 +257,7 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #16",
+      "tag": "T.ME: @aristapnel #15",
       "server": "185.153.231.167",
       "server_port": 49946,
       "uuid": "41b73303-5622-4736-ffc1-b60abc1f2347",
@@ -334,8 +292,7 @@
         "T.ME: @aristapnel #12",
         "T.ME: @aristapnel #13",
         "T.ME: @aristapnel #14",
-        "T.ME: @aristapnel #15",
-        "T.ME: @aristapnel #16"
+        "T.ME: @aristapnel #15"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -361,8 +318,7 @@
         "T.ME: @aristapnel #12",
         "T.ME: @aristapnel #13",
         "T.ME: @aristapnel #14",
-        "T.ME: @aristapnel #15",
-        "T.ME: @aristapnel #16"
+        "T.ME: @aristapnel #15"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",
