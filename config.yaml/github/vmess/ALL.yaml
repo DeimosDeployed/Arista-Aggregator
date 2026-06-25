@@ -1,6 +1,6 @@
 # GITHUB - VMESS - Tier ALL
-# Updated: 2026-06-24 19:27:02
-# Count: 14
+# Updated: 2026-06-25 02:10:09
+# Count: 16
 
 proxies:
 - name: 'T.ME: @aristapnel #1'
@@ -71,24 +71,6 @@ proxies:
   - http/1.1
 - name: 'T.ME: @aristapnel #5'
   type: vmess
-  server: 107.173.27.219
-  port: 6666
-  uuid: f0a2fbe5-29bf-468c-ddc1-b524552d1a23
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 107.173.27.219
-  client-fingerprint: chrome
-  ws-opts:
-    path: /youtube
-    headers:
-      Host: 107.173.27.219
-- name: 'T.ME: @aristapnel #6'
-  type: vmess
   server: 2.26.231.87
   port: 110
   uuid: ecd7aeca-2e37-4761-93e7-7cf4c2ff55bf
@@ -101,7 +83,7 @@ proxies:
   tcp-fast-open: true
   servername: 2.26.231.87
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #7'
+- name: 'T.ME: @aristapnel #6'
   type: vmess
   server: 69.84.182.49
   port: 80
@@ -119,7 +101,7 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-- name: 'T.ME: @aristapnel #8'
+- name: 'T.ME: @aristapnel #7'
   type: vmess
   server: 160.250.247.70
   port: 49178
@@ -133,7 +115,7 @@ proxies:
   tcp-fast-open: true
   servername: 160.250.247.70
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #9'
+- name: 'T.ME: @aristapnel #8'
   type: vmess
   server: 186.244.208.78
   port: 30022
@@ -147,6 +129,23 @@ proxies:
   tcp-fast-open: true
   servername: 186.244.208.78
   client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #9'
+  type: vmess
+  server: 104.16.52.150
+  port: 2053
+  uuid: 3bb59086-8706-49ef-aa24-132619856668
+  alterId: 0
+  cipher: auto
+  network: xhttp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: gErtOw1.lOolOolOolOo.cOM
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
 - name: 'T.ME: @aristapnel #10'
   type: vmess
   server: 154.37.223.105
@@ -163,22 +162,68 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #11'
   type: vmess
-  server: chatgpt.com
-  port: 8443
-  uuid: 3855697f-f34a-4522-ba13-ee25eb28ee2d
+  server: http2-rel1.pixelated4.ir
+  port: 443
+  uuid: e39bad0c07884aa895edddb7161bfbb4
   alterId: 0
   cipher: auto
-  network: httpupgrade
+  network: ws
   tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 1149db34d130a859.iranpuls.ir
+  servername: http2-rel1.pixelated4.ir
   client-fingerprint: chrome
   alpn:
   - h2
   - http/1.1
+  ws-opts:
+    path: /pixelated
+    headers:
+      Host: http2-rel1.pixelated4.ir
 - name: 'T.ME: @aristapnel #12'
+  type: vmess
+  server: http2-rel1.pixelated5.ir
+  port: 443
+  uuid: e39bad0c07884aa895edddb7161bfbb4
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: http2-rel1.pixelated5.ir
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /pixelated
+    headers:
+      Host: http2-rel1.pixelated5.ir
+- name: 'T.ME: @aristapnel #13'
+  type: vmess
+  server: http2-rel1.pixelatedthree.ir
+  port: 443
+  uuid: e39bad0c07884aa895edddb7161bfbb4
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: http2-rel1.pixelatedthree.ir
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /pixelated
+    headers:
+      Host: http2-rel1.pixelatedthree.ir
+- name: 'T.ME: @aristapnel #14'
   type: vmess
   server: 69.84.182.49
   port: 80
@@ -196,7 +241,7 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-- name: 'T.ME: @aristapnel #13'
+- name: 'T.ME: @aristapnel #15'
   type: vmess
   server: 154.37.223.105
   port: 52080
@@ -210,7 +255,7 @@ proxies:
   tcp-fast-open: true
   servername: 154.37.223.105
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #14'
+- name: 'T.ME: @aristapnel #16'
   type: vmess
   server: 185.153.231.167
   port: 49946
@@ -247,6 +292,8 @@ proxy-groups:
   - 'T.ME: @aristapnel #12'
   - 'T.ME: @aristapnel #13'
   - 'T.ME: @aristapnel #14'
+  - 'T.ME: @aristapnel #15'
+  - 'T.ME: @aristapnel #16'
 - name: 🎬 ARISTA STREAM
   type: fallback
   url: http://www.gstatic.com/generate_204

@@ -1,6 +1,6 @@
 // COMBINED - VMESS - Tier ALL
-// Updated: 2026-06-24 19:29:06
-// Count: 39
+// Updated: 2026-06-25 02:12:59
+// Count: 45
 
 {
   "log": {
@@ -53,129 +53,6 @@
     {
       "type": "vmess",
       "tag": "ARISTA #1",
-      "server": "185.16.110.212",
-      "server_port": 8880,
-      "uuid": "b209dfbf-6bb0-30b2-a77a-286e230466b5",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
-        "headers": {
-          "Host": "TG.WangCai2.s4.db-link02.top"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "ARISTA #2",
-      "server": "78.141.215.62",
-      "server_port": 443,
-      "uuid": "afd45419-cffa-4f1b-990a-511aab6ee9ab",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "ARISTA #3",
-      "server": "vip3.sanaiehdasti.com",
-      "server_port": 1546,
-      "uuid": "6c5fcae3-16e8-4a93-b28e-05588d5d9342",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "ARISTA #4",
-      "server": "104.17.121.43",
-      "server_port": 443,
-      "uuid": "e9947b42-27ed-401e-b75e-c9ebd357c0f3",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "omkuzygiv.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "omkuzygiv.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "ARISTA #5",
-      "server": "158.51.121.63",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "seribus.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "ARISTA #6",
-      "server": "158.51.121.63",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "seribus.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "seribus.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "ARISTA #7",
-      "server": "digi21.ez0535.com",
-      "server_port": 443,
-      "uuid": "b5406cd3-1a11-4c78-b346-7763fcc9e476",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "ARISTA #8",
       "server": "www.speedtest.net",
       "server_port": 443,
       "uuid": "46d9820f-4585-4687-82b1-13ab23d9187e",
@@ -195,7 +72,130 @@
     },
     {
       "type": "vmess",
+      "tag": "ARISTA #2",
+      "server": "iran.iraniannimdown.ir",
+      "server_port": 52645,
+      "uuid": "80d385d3-4fe7-43d0-b61e-7437f82f5d2c",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "ARISTA #3",
+      "server": "172.67.207.114",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 1,
+      "tls": {
+        "enabled": true,
+        "server_name": "ophelia.mom",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "ophelia.mom"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "ARISTA #4",
+      "server": "57.151.100.27",
+      "server_port": 10086,
+      "uuid": "550e8400-e29b-41d4-a716-446655440000",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "ARISTA #5",
+      "server": "185.16.110.212",
+      "server_port": 8880,
+      "uuid": "b209dfbf-6bb0-30b2-a77a-286e230466b5",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
+        "headers": {
+          "Host": "TG.WangCai2.s4.db-link02.top"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "ARISTA #6",
+      "server": "47.250.149.51",
+      "server_port": 50018,
+      "uuid": "9665280c-a3d1-4aab-ef9f-a3a497337d91",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/9665280c",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "ARISTA #7",
+      "server": "61.245.11.60",
+      "server_port": 80,
+      "uuid": "a3e3a710-79f8-4ae0-b83c-607aab40d197",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess/",
+        "headers": {
+          "Host": "61.245.11.60"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "ARISTA #8",
+      "server": "178.62.118.205",
+      "server_port": 29574,
+      "uuid": "e101dd33-236f-4fdd-ae59-07b13e836c22",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "ARISTA #9",
+      "server": "2.26.231.87",
+      "server_port": 110,
+      "uuid": "ecd7aeca-2e37-4761-93e7-7cf4c2ff55bf",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "ARISTA #10",
       "server": "154.37.223.105",
       "server_port": 52080,
       "uuid": "12513325-4464-4334-b811-7b047ebf40e7",
@@ -206,7 +206,7 @@
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #10",
+      "tag": "ARISTA #11",
       "server": "alpha.jahanlink.sbs",
       "server_port": 443,
       "uuid": "bcaf21c1-c5af-47b1-b42f-be04d5653714",
@@ -217,31 +217,71 @@
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #11",
-      "server": "104.17.121.43",
+      "tag": "ARISTA #12",
+      "server": "digi21.ez0535.com",
       "server_port": 443,
-      "uuid": "e9947b42-27ed-401e-b75e-c9ebd357c0f3",
+      "uuid": "b5406cd3-1a11-4c78-b346-7763fcc9e476",
       "security": "auto",
       "tls": {
-        "enabled": true,
-        "server_name": "omkuzygiv.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "ARISTA #13",
+      "server": "107.173.27.219",
+      "server_port": 6666,
+      "uuid": "f0a2fbe5-29bf-468c-ddc1-b524552d1a23",
+      "security": "auto",
+      "tls": {
+        "enabled": false
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/youtube",
         "headers": {
-          "Host": "omkuzygiv.com"
+          "Host": ""
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #12",
+      "tag": "ARISTA #14",
+      "server": "fr.connfull.org",
+      "server_port": 2053,
+      "uuid": "500e29aa-c40b-43e1-905c-e6e7ac4a5b83",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "fr.connfull.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "ARISTA #15",
+      "server": "107.173.27.219",
+      "server_port": 6666,
+      "uuid": "f0a2fbe5-29bf-468c-ddc1-b524552d1a23",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/youtube",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "ARISTA #16",
       "server": "cf.scpnb.top",
       "server_port": 443,
       "uuid": "d5c27b66-7d26-48ac-9fc1-2c0884406c18",
@@ -265,7 +305,7 @@
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #13",
+      "tag": "ARISTA #17",
       "server": "cf.scpnb.top",
       "server_port": 443,
       "uuid": "6a4e7e55-9f07-4c54-abdd-72b9820f4cb3",
@@ -289,7 +329,7 @@
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #14",
+      "tag": "ARISTA #18",
       "server": "cdn.31514926.xyz",
       "server_port": 443,
       "uuid": "48d5eb0f-fd55-4357-baec-a68fa39a4b1b",
@@ -313,7 +353,7 @@
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #15",
+      "tag": "ARISTA #19",
       "server": "cf.scpnb.top",
       "server_port": 443,
       "uuid": "7fd8d1db-96ec-4e46-80a8-74ad9472384e",
@@ -337,7 +377,7 @@
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #16",
+      "tag": "ARISTA #20",
       "server": "cf.scpnb.top",
       "server_port": 443,
       "uuid": "7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed",
@@ -361,7 +401,7 @@
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #17",
+      "tag": "ARISTA #21",
       "server": "yg1.ygkkk.dpdns.org",
       "server_port": 443,
       "uuid": "a2243c24-a82c-4098-bc4d-e85331a1e1d1",
@@ -385,7 +425,29 @@
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #18",
+      "tag": "ARISTA #22",
+      "server": "78.141.215.62",
+      "server_port": 443,
+      "uuid": "afd45419-cffa-4f1b-990a-511aab6ee9ab",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "ARISTA #23",
+      "server": "185.226.92.148",
+      "server_port": 8443,
+      "uuid": "fac49b52-b641-452d-839a-0b8b0e1799a1",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "ARISTA #24",
       "server": "2.26.231.87",
       "server_port": 110,
       "uuid": "f35f1bc8-a39f-4ab9-a20f-613cc6e860c3",
@@ -396,10 +458,10 @@
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #19",
-      "server": "2.26.231.87",
-      "server_port": 110,
-      "uuid": "ecd7aeca-2e37-4761-93e7-7cf4c2ff55bf",
+      "tag": "ARISTA #25",
+      "server": "vip3.sanaiehdasti.com",
+      "server_port": 1546,
+      "uuid": "6c5fcae3-16e8-4a93-b28e-05588d5d9342",
       "security": "auto",
       "tls": {
         "enabled": false
@@ -407,99 +469,47 @@
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #20",
-      "server": "107.173.27.219",
-      "server_port": 6666,
-      "uuid": "f0a2fbe5-29bf-468c-ddc1-b524552d1a23",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/youtube",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "ARISTA #21",
-      "server": "47.250.149.51",
-      "server_port": 50018,
-      "uuid": "9665280c-a3d1-4aab-ef9f-a3a497337d91",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/9665280c",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "ARISTA #22",
-      "server": "61.245.11.60",
-      "server_port": 80,
-      "uuid": "a3e3a710-79f8-4ae0-b83c-607aab40d197",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess/",
-        "headers": {
-          "Host": "61.245.11.60"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "ARISTA #23",
-      "server": "178.62.118.205",
-      "server_port": 29574,
-      "uuid": "e101dd33-236f-4fdd-ae59-07b13e836c22",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "ARISTA #24",
-      "server": "fr.connfull.org",
-      "server_port": 2053,
-      "uuid": "500e29aa-c40b-43e1-905c-e6e7ac4a5b83",
+      "tag": "ARISTA #26",
+      "server": "104.17.121.43",
+      "server_port": 443,
+      "uuid": "e9947b42-27ed-401e-b75e-c9ebd357c0f3",
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "fr.connfull.org",
+        "server_name": "omkuzygiv.com",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "omkuzygiv.com"
+        }
       }
     },
     {
       "type": "vmess",
-      "tag": "ARISTA #25",
-      "server": "107.173.27.219",
-      "server_port": 6666,
-      "uuid": "f0a2fbe5-29bf-468c-ddc1-b524552d1a23",
+      "tag": "ARISTA #27",
+      "server": "158.51.121.63",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
       "tls": {
-        "enabled": false
+        "enabled": true,
+        "server_name": "seribus.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/youtube",
+        "path": "linkvws",
         "headers": {
           "Host": ""
         }
@@ -507,7 +517,42 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #26",
+      "tag": "ARISTA #28",
+      "server": "158.51.121.63",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "seribus.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "seribus.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "ARISTA #29",
+      "server": "57.151.100.27",
+      "server_port": 10086,
+      "uuid": "550e8400-e29b-41d4-a716-446655440000",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #30",
       "server": "89.167.82.102",
       "server_port": 8880,
       "uuid": "48eabd37-500d-403f-8e8f-715d1e17bffd",
@@ -518,7 +563,7 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #27",
+      "tag": "T.ME: @aristapnel #31",
       "server": "uk5.taskflowhub.org",
       "server_port": 2053,
       "uuid": "89371dfc-2618-40d7-a558-693ff4f7f1eb",
@@ -531,74 +576,6 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "T.ME: @aristapnel #28",
-      "server": "69.84.182.49",
-      "server_port": 80,
-      "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "T.ME: @aristapnel #29",
-      "server": "atiins.com.tr",
-      "server_port": 443,
-      "uuid": "97775936-05ea-4fea-8562-e9eb98559790",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "atiins.com.tr",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ]
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "T.ME: @aristapnel #30",
-      "server": "107.173.27.219",
-      "server_port": 6666,
-      "uuid": "f0a2fbe5-29bf-468c-ddc1-b524552d1a23",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/youtube",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "T.ME: @aristapnel #31",
-      "server": "2.26.231.87",
-      "server_port": 110,
-      "uuid": "ecd7aeca-2e37-4761-93e7-7cf4c2ff55bf",
-      "security": "auto",
-      "tls": {
-        "enabled": false
       }
     },
     {
@@ -622,20 +599,30 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #33",
-      "server": "160.250.247.70",
-      "server_port": 49178,
-      "uuid": "d7c13e10-2ba9-4677-a877-d9e9d1738394",
+      "server": "atiins.com.tr",
+      "server_port": 443,
+      "uuid": "97775936-05ea-4fea-8562-e9eb98559790",
       "security": "auto",
       "tls": {
-        "enabled": false
+        "enabled": true,
+        "server_name": "atiins.com.tr",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
       }
     },
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #34",
-      "server": "186.244.208.78",
-      "server_port": 30022,
-      "uuid": "b7d93549-0f3f-4af2-9f4d-4340867a23b4",
+      "server": "2.26.231.87",
+      "server_port": 110,
+      "uuid": "ecd7aeca-2e37-4761-93e7-7cf4c2ff55bf",
       "security": "auto",
       "tls": {
         "enabled": false
@@ -644,34 +631,6 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #35",
-      "server": "154.37.223.105",
-      "server_port": 52080,
-      "uuid": "12513325-4464-4334-b811-7b047ebf40e7",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "T.ME: @aristapnel #36",
-      "server": "chatgpt.com",
-      "server_port": 8443,
-      "uuid": "3855697f-f34a-4522-ba13-ee25eb28ee2d",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "1149db34d130a859.iranpuls.ir",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "T.ME: @aristapnel #37",
       "server": "69.84.182.49",
       "server_port": 80,
       "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
@@ -689,7 +648,46 @@
     },
     {
       "type": "vmess",
+      "tag": "T.ME: @aristapnel #36",
+      "server": "160.250.247.70",
+      "server_port": 49178,
+      "uuid": "d7c13e10-2ba9-4677-a877-d9e9d1738394",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #37",
+      "server": "186.244.208.78",
+      "server_port": 30022,
+      "uuid": "b7d93549-0f3f-4af2-9f4d-4340867a23b4",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "T.ME: @aristapnel #38",
+      "server": "104.16.52.150",
+      "server_port": 2053,
+      "uuid": "3bb59086-8706-49ef-aa24-132619856668",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "gErtOw1.lOolOolOolOo.cOM",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #39",
       "server": "154.37.223.105",
       "server_port": 52080,
       "uuid": "12513325-4464-4334-b811-7b047ebf40e7",
@@ -700,7 +698,108 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #39",
+      "tag": "T.ME: @aristapnel #40",
+      "server": "http2-rel1.pixelated4.ir",
+      "server_port": 443,
+      "uuid": "e39bad0c07884aa895edddb7161bfbb4",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "http2-rel1.pixelated4.ir",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/pixelated",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #41",
+      "server": "http2-rel1.pixelated5.ir",
+      "server_port": 443,
+      "uuid": "e39bad0c07884aa895edddb7161bfbb4",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "http2-rel1.pixelated5.ir",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/pixelated",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #42",
+      "server": "http2-rel1.pixelatedthree.ir",
+      "server_port": 443,
+      "uuid": "e39bad0c07884aa895edddb7161bfbb4",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "http2-rel1.pixelatedthree.ir",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/pixelated",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #43",
+      "server": "69.84.182.49",
+      "server_port": 80,
+      "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #44",
+      "server": "154.37.223.105",
+      "server_port": 52080,
+      "uuid": "12513325-4464-4334-b811-7b047ebf40e7",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #45",
       "server": "185.153.231.167",
       "server_port": 49946,
       "uuid": "41b73303-5622-4736-ffc1-b60abc1f2347",
@@ -746,10 +845,10 @@
         "ARISTA #23",
         "ARISTA #24",
         "ARISTA #25",
-        "T.ME: @aristapnel #26",
-        "T.ME: @aristapnel #27",
-        "T.ME: @aristapnel #28",
-        "T.ME: @aristapnel #29",
+        "ARISTA #26",
+        "ARISTA #27",
+        "ARISTA #28",
+        "ARISTA #29",
         "T.ME: @aristapnel #30",
         "T.ME: @aristapnel #31",
         "T.ME: @aristapnel #32",
@@ -759,7 +858,13 @@
         "T.ME: @aristapnel #36",
         "T.ME: @aristapnel #37",
         "T.ME: @aristapnel #38",
-        "T.ME: @aristapnel #39"
+        "T.ME: @aristapnel #39",
+        "T.ME: @aristapnel #40",
+        "T.ME: @aristapnel #41",
+        "T.ME: @aristapnel #42",
+        "T.ME: @aristapnel #43",
+        "T.ME: @aristapnel #44",
+        "T.ME: @aristapnel #45"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -796,10 +901,10 @@
         "ARISTA #23",
         "ARISTA #24",
         "ARISTA #25",
-        "T.ME: @aristapnel #26",
-        "T.ME: @aristapnel #27",
-        "T.ME: @aristapnel #28",
-        "T.ME: @aristapnel #29",
+        "ARISTA #26",
+        "ARISTA #27",
+        "ARISTA #28",
+        "ARISTA #29",
         "T.ME: @aristapnel #30",
         "T.ME: @aristapnel #31",
         "T.ME: @aristapnel #32",
@@ -809,7 +914,13 @@
         "T.ME: @aristapnel #36",
         "T.ME: @aristapnel #37",
         "T.ME: @aristapnel #38",
-        "T.ME: @aristapnel #39"
+        "T.ME: @aristapnel #39",
+        "T.ME: @aristapnel #40",
+        "T.ME: @aristapnel #41",
+        "T.ME: @aristapnel #42",
+        "T.ME: @aristapnel #43",
+        "T.ME: @aristapnel #44",
+        "T.ME: @aristapnel #45"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",

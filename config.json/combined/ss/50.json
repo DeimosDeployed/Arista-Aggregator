@@ -1,6 +1,6 @@
 // COMBINED - SS - Tier 50
-// Updated: 2026-06-24 19:29:06
-// Count: 3
+// Updated: 2026-06-25 02:12:59
+// Count: 5
 
 {
   "log": {
@@ -52,15 +52,7 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #33",
-      "server": "188.121.123.189",
-      "server_port": 4050,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cjLCeA1Nk4KGpSdZEVxWjg7nETc3FJ_g"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #45",
+      "tag": "ARISTA #5",
       "server": "3.8.48.222",
       "server_port": 80,
       "method": "aes-256-gcm",
@@ -68,11 +60,35 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #49",
+      "tag": "ARISTA #9",
+      "server": "188.121.123.189",
+      "server_port": 4050,
+      "method": "chacha20-ietf-poly1305",
+      "password": "cjLCeA1Nk4KGpSdZEVxWjg7nETc3FJ_g"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #21",
+      "server": "20.234.9.106",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "i6qj1Qi9bKvFfIM0"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #47",
       "server": "$*@14.29.124.168",
       "server_port": 25267,
       "method": "aes-128-cfb",
       "password": "QazEdcTgb159"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #49",
+      "server": "85.208.108.60",
+      "server_port": 8119,
+      "method": "aes-256-gcm",
+      "password": "cdBIDV42DCwnfIN"
     },
     {
       "type": "direct",
@@ -86,8 +102,10 @@
       "type": "urltest",
       "tag": "🚀 ARISTA AUTO BEST",
       "outbounds": [
-        "ARISTA #33",
-        "ARISTA #45",
+        "ARISTA #5",
+        "ARISTA #9",
+        "ARISTA #21",
+        "ARISTA #47",
         "ARISTA #49"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -100,8 +118,10 @@
       "type": "urltest",
       "tag": "🎯 ARISTA MANUAL TESTED",
       "outbounds": [
-        "ARISTA #33",
-        "ARISTA #45",
+        "ARISTA #5",
+        "ARISTA #9",
+        "ARISTA #21",
+        "ARISTA #47",
         "ARISTA #49"
       ],
       "url": "http://www.gstatic.com/generate_204",

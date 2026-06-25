@@ -1,6 +1,6 @@
 // GITHUB - VLESS - Tier 300
-// Updated: 2026-06-24 19:29:06
-// Count: 294
+// Updated: 2026-06-25 02:13:00
+// Count: 293
 
 {
   "log": {
@@ -5615,6 +5615,26 @@
     {
       "type": "vless",
       "tag": "T.ME: @aristapnel #286",
+      "server": "fast.cd-tur4.ir",
+      "server_port": 443,
+      "uuid": "d27a232b-de94-4204-9bae-b0c243c6b93c",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #287",
+      "server": "104.16.9.20",
+      "server_port": 443,
+      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #289",
       "server": "rezerv18.yunus.guru",
       "server_port": 443,
       "uuid": "a5ea9247-79f3-4655-aece-3fb51e1e669e",
@@ -5637,7 +5657,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #287",
+      "tag": "T.ME: @aristapnel #290",
       "server": "47.128.13.90",
       "server_port": 443,
       "uuid": "a5548d28-c1dc-4c87-93ba-b6a1a393a2eb",
@@ -5658,7 +5678,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #288",
+      "tag": "T.ME: @aristapnel #291",
       "server": "54.169.27.37",
       "server_port": 443,
       "uuid": "a5548d28-c1dc-4c87-93ba-b6a1a393a2eb",
@@ -5679,7 +5699,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #289",
+      "tag": "T.ME: @aristapnel #292",
       "server": "185.170.10.248",
       "server_port": 48350,
       "uuid": "837e9ea2-cf0b-46a1-93a8-7e25c3a4066c",
@@ -5700,8 +5720,8 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #290",
-      "server": "159.112.235.52",
+      "tag": "T.ME: @aristapnel #293",
+      "server": "172.64.32.75",
       "server_port": 443,
       "uuid": "073d1d50-8478-47bf-a828-7a1b381931d5",
       "tls": {
@@ -5723,7 +5743,30 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #291",
+      "tag": "T.ME: @aristapnel #294",
+      "server": "188.114.97.6",
+      "server_port": 443,
+      "uuid": "b2f6aa3a-2550-4a1c-b2c0-1c94b1207217",
+      "tls": {
+        "enabled": true,
+        "server_name": "terazhediii.info",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hdgrbws",
+        "headers": {
+          "Host": "terazhediii.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #295",
       "server": "138.124.9.165",
       "server_port": 443,
       "uuid": "9a2573c5-936f-4f93-8409-e43164793176",
@@ -5745,38 +5788,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #292",
-      "server": "fast.cd-tur4.ir",
-      "server_port": 443,
-      "uuid": "d27a232b-de94-4204-9bae-b0c243c6b93c",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #293",
-      "server": "13.212.201.238",
-      "server_port": 443,
-      "uuid": "a5548d28-c1dc-4c87-93ba-b6a1a393a2eb",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "tg5AZG_Mj0_c4hh6oeHSRZGkp1ju8Ge7i2nkxRu4jAw",
-          "short_id": "ed41"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #294",
+      "tag": "T.ME: @aristapnel #296",
       "server": "all27.allenshop100.ir",
       "server_port": 443,
       "uuid": "9cda451e-0adf-4df1-a5b4-7fec8f363c10",
@@ -5786,7 +5798,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #295",
+      "tag": "T.ME: @aristapnel #297",
       "server": "54.179.96.222",
       "server_port": 443,
       "uuid": "a5548d28-c1dc-4c87-93ba-b6a1a393a2eb",
@@ -5807,7 +5819,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #296",
+      "tag": "T.ME: @aristapnel #298",
       "server": "31.76.32.114",
       "server_port": 108,
       "uuid": "08c063d4-17d8-4d44-8f1c-6a1e782d3a1e",
@@ -5817,7 +5829,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #297",
+      "tag": "T.ME: @aristapnel #299",
       "server": "31.76.113.30",
       "server_port": 443,
       "uuid": "dfc0cb9d-f005-41b0-848c-7703bd39d0de",
@@ -5839,7 +5851,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #298",
+      "tag": "T.ME: @aristapnel #300",
       "server": "217.217.247.246",
       "server_port": 443,
       "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
@@ -5858,37 +5870,6 @@
         }
       },
       "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #299",
-      "server": "37.156.43.207",
-      "server_port": 80,
-      "uuid": "c34565b6-14a2-4bf6-9a91-1809e257c38d",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Dtv5_LyV8qFWf5zsXaOYWpzc_5wYaFT2GXb8kMsD_A8",
-          "short_id": "594ef29ebf"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #300",
-      "server": "91.107.160.130",
-      "server_port": 33819,
-      "uuid": "73eed38e-09ea-4c07-aa95-c53684400d68",
-      "tls": {
-        "enabled": false
-      }
     },
     {
       "type": "direct",
@@ -6183,7 +6164,6 @@
         "T.ME: @aristapnel #285",
         "T.ME: @aristapnel #286",
         "T.ME: @aristapnel #287",
-        "T.ME: @aristapnel #288",
         "T.ME: @aristapnel #289",
         "T.ME: @aristapnel #290",
         "T.ME: @aristapnel #291",
@@ -6488,7 +6468,6 @@
         "T.ME: @aristapnel #285",
         "T.ME: @aristapnel #286",
         "T.ME: @aristapnel #287",
-        "T.ME: @aristapnel #288",
         "T.ME: @aristapnel #289",
         "T.ME: @aristapnel #290",
         "T.ME: @aristapnel #291",

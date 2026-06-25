@@ -1,6 +1,6 @@
 // TELEGRAM - HYSTERIA2 - Tier ALL
-// Updated: 2026-06-24 19:29:06
-// Count: 7
+// Updated: 2026-06-25 02:13:00
+// Count: 6
 
 {
   "log": {
@@ -85,42 +85,6 @@
     {
       "type": "hysteria2",
       "tag": "ARISTA #3",
-      "server": "80.66.81.78",
-      "server_port": 9443,
-      "password": "rs2mR3g9bZiMloftx6lZQ59Um1Ld",
-      "tls": {
-        "enabled": true,
-        "server_name": "80.66.81.78",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "oMgvuBy5Lj5kYM57sGsnjpjNcSEQ"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "ARISTA #4",
-      "server": "80.66.81.78",
-      "server_port": 9443,
-      "password": "rs2mR3g9bZiMloftx6lZQ59Um1Ld",
-      "tls": {
-        "enabled": true,
-        "server_name": "tunel1.washing.help",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "oMgvuBy5Lj5kYM57sGsnjpjNcSEQ"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "ARISTA #5",
       "server": "185.250.41.245",
       "server_port": 443,
       "password": "CRzpXvIiyI",
@@ -140,7 +104,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #6",
+      "tag": "ARISTA #4",
       "server": "185.250.41.245",
       "server_port": 443,
       "password": "ockdTdb3vU",
@@ -160,7 +124,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #7",
+      "tag": "ARISTA #5",
       "server": "185.250.41.245",
       "server_port": 443,
       "password": "Z7MFGgpuzh",
@@ -176,6 +140,26 @@
       "obfs": {
         "type": "salamander",
         "password": "T.me/V2RayyNGvpn"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "ARISTA #6",
+      "server": "80.66.81.78",
+      "server_port": 9443,
+      "password": "rs2mR3g9bZiMloftx6lZQ59Um1Ld",
+      "tls": {
+        "enabled": true,
+        "server_name": "tunel1.washing.help",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "oMgvuBy5Lj5kYM57sGsnjpjNcSEQ"
       }
     },
     {
@@ -195,8 +179,7 @@
         "ARISTA #3",
         "ARISTA #4",
         "ARISTA #5",
-        "ARISTA #6",
-        "ARISTA #7"
+        "ARISTA #6"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -213,8 +196,7 @@
         "ARISTA #3",
         "ARISTA #4",
         "ARISTA #5",
-        "ARISTA #6",
-        "ARISTA #7"
+        "ARISTA #6"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",
