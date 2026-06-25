@@ -49,22 +49,31 @@ jobs:
         rm -rf config.json/
         mkdir -p config.json
 
+    - name: Clean old best_ip files
+      run: |
+        rm -rf best_ip/
+        mkdir -p best_ip
+
     - name: Run Telegram Config Extractor
-      run: python telegram_extractor.py
+      run: python Arista/telegram.py
       timeout-minutes: 20
 
     - name: Run GitHub Config Extractor
-      run: python github_extractor.py
+      run: python Arista/github.py
       timeout-minutes: 15
 
     - name: Combine Configs
-      run: python combine_configs.py
+      run: python Arista/combine.py
 
     - name: Convert to YAML (Clash Meta)
-      run: python convert_to_yaml.py
+      run: python Arista/to_yaml.py
 
     - name: Convert to JSON (Sing-Box)
-      run: python convert_to_json.py
+      run: python Arista/to_json.py
+
+    - name: Process Best IPs
+      run: python Arista/best_ip.py
+      timeout-minutes: 10
 
     - name: Create summary
       run: |
