@@ -1,5 +1,5 @@
 # GITHUB - ALL - Tier 50
-# Updated: 2026-06-26 08:54:38
+# Updated: 2026-06-26 14:02:46
 # Count: 49
 
 proxies:
@@ -379,7 +379,7 @@ proxies:
   type: vmess
   server: manager.xyzxz.qzz.io
   port: 443
-  uuid: c469cbcf-fb5c-47cc-8a6b-3ab9f3f8601c
+  uuid: 86967ca7-c2cf-45d2-b11e-2f815a0d5469
   alterId: 0
   cipher: auto
   network: ws
@@ -393,46 +393,10 @@ proxies:
   - h2
   - http/1.1
   ws-opts:
-    path: /29930/mehdi
+    path: /59139/mehdi
     headers:
       Host: manager.xyzxz.qzz.io
 - name: 'T.ME: @aristapnel #36'
-  type: vmess
-  server: 107.173.27.219
-  port: 6666
-  uuid: f0a2fbe5-29bf-468c-ddc1-b524552d1a23
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 107.173.27.219
-  client-fingerprint: chrome
-  ws-opts:
-    path: /youtube
-    headers:
-      Host: 107.173.27.219
-- name: 'T.ME: @aristapnel #37'
-  type: vmess
-  server: 69.84.182.49
-  port: 80
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 69.84.182.49
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-- name: 'T.ME: @aristapnel #38'
   type: vmess
   server: 160.250.247.70
   port: 49178
@@ -446,7 +410,7 @@ proxies:
   tcp-fast-open: true
   servername: 160.250.247.70
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #39'
+- name: 'T.ME: @aristapnel #37'
   type: vmess
   server: 186.244.208.78
   port: 30022
@@ -460,11 +424,11 @@ proxies:
   tcp-fast-open: true
   servername: 186.244.208.78
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #40'
+- name: 'T.ME: @aristapnel #38'
   type: vmess
-  server: 2.26.231.87
-  port: 110
-  uuid: ecd7aeca-2e37-4761-93e7-7cf4c2ff55bf
+  server: 47.251.91.241
+  port: 42899
+  uuid: 0925b355-2bcd-4eae-9720-d2709e4f7e36
   alterId: 0
   cipher: auto
   network: tcp
@@ -472,7 +436,39 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 2.26.231.87
+  servername: 47.251.91.241
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #39'
+  type: vmess
+  server: 104.21.7.101
+  port: 80
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 104.21.7.101
+  client-fingerprint: chrome
+  ws-opts:
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+    headers:
+      Host: gbnh.0nn.ccwu.cc
+- name: 'T.ME: @aristapnel #40'
+  type: vmess
+  server: 18.184.156.126
+  port: 1002
+  uuid: 440cddf8-bfdc-4936-b842-381d572a12aa
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 18.184.156.126
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #41'
   type: vless

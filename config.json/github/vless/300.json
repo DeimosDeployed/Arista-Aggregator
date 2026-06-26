@@ -1,5 +1,5 @@
 // GITHUB - VLESS - Tier 300
-// Updated: 2026-06-26 08:57:53
+// Updated: 2026-06-26 14:05:38
 // Count: 294
 
 {
@@ -5615,27 +5615,26 @@
     {
       "type": "vless",
       "tag": "T.ME: @aristapnel #286",
-      "server": "82.202.177.144",
-      "server_port": 5269,
-      "uuid": "083471bf-bbf4-4e1d-8953-912b8d3b6255",
+      "server": "fast.cd-tur4.ir",
+      "server_port": 443,
+      "uuid": "e461afdd-7c8e-473e-815d-88b72960c6b1",
       "tls": {
-        "enabled": true,
-        "server_name": "max.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "hx1gkWBL2ixtwQSGXEvLT1Yz8GBsCFWriz_WLzLQNHQ",
-          "short_id": "4eb166dbed98e63d"
-        }
+        "enabled": false
       }
     },
     {
       "type": "vless",
       "tag": "T.ME: @aristapnel #287",
+      "server": "82.202.177.144",
+      "server_port": 5269,
+      "uuid": "083471bf-bbf4-4e1d-8953-912b8d3b6255",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #288",
       "server": "185.94.29.67",
       "server_port": 2048,
       "uuid": "5b9fbae6-4aef-4282-b14d-3ebdb19d532c",
@@ -5652,27 +5651,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #288",
-      "server": "dl.google.ssl-4.aiteamplus.ir",
-      "server_port": 2087,
-      "uuid": "481969d4-60bc-48ab-9e34-82e6922a4aaa",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vless",
       "tag": "T.ME: @aristapnel #289",
-      "server": "fast.cd-tur4.ir",
-      "server_port": 443,
-      "uuid": "e461afdd-7c8e-473e-815d-88b72960c6b1",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #290",
       "server": "65.109.182.211",
       "server_port": 8044,
       "uuid": "6e25f7b4-efce-425a-af98-3f310623bfa2",
@@ -5683,7 +5662,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #291",
+      "tag": "T.ME: @aristapnel #290",
       "server": "ip.dnswish.com",
       "server_port": 443,
       "uuid": "481969d4-60bc-48ab-9e34-82e6922a4aaa",
@@ -5693,12 +5672,35 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #292",
+      "tag": "T.ME: @aristapnel #291",
       "server": "rvg-production-1ab7.up.railway.app",
       "server_port": 443,
       "uuid": "deffbfcd-0626-365b-ff92-9b93f2fd6459",
       "tls": {
         "enabled": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #292",
+      "server": "45.130.125.114",
+      "server_port": 8443,
+      "uuid": "f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93",
+      "tls": {
+        "enabled": true,
+        "server_name": "srv75.perfectbulk.info",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "srv75.perfectbulk.info"
+        }
       }
     },
     {
