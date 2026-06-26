@@ -1,5 +1,5 @@
 // GITHUB - ALL - Tier 100
-// Updated: 2026-06-26 02:13:06
+// Updated: 2026-06-26 08:57:54
 // Count: 78
 
 {
@@ -380,12 +380,12 @@
     {
       "type": "trojan",
       "tag": "T.ME: @aristapnel #18",
-      "server": "38.60.220.65",
+      "server": "172.235.229.227",
       "server_port": 443,
-      "password": "t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak",
+      "password": "zK=0KfL3IG+sNNZL-J7d0Nonu4wFBx8MOy",
       "tls": {
         "enabled": true,
-        "server_name": "38.60.220.65",
+        "server_name": "172.235.229.227",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -396,6 +396,32 @@
     {
       "type": "trojan",
       "tag": "T.ME: @aristapnel #19",
+      "server": "92.119.35.127",
+      "server_port": 443,
+      "password": "aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR",
+      "tls": {
+        "enabled": true,
+        "server_name": "92.119.35.127",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "T.ME: @aristapnel #20",
+      "server": "38.60.220.65",
+      "server_port": 443,
+      "password": "t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "T.ME: @aristapnel #21",
       "server": "43.169.18.179",
       "server_port": 443,
       "password": "humanity",
@@ -418,23 +444,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #20",
-      "server": "13.39.209.35",
-      "server_port": 22222,
-      "password": "telegram-id-privatevpns",
-      "tls": {
-        "enabled": true,
-        "server_name": "13.39.209.35",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "T.ME: @aristapnel #21",
+      "tag": "T.ME: @aristapnel #22",
       "server": "149.104.104.58",
       "server_port": 443,
       "password": "S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix",
@@ -450,29 +460,13 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #22",
+      "tag": "T.ME: @aristapnel #23",
       "server": "45.77.227.183",
       "server_port": 443,
       "password": "kflYwtj8VD7Pd4V9ixedIxEDsac4QQXvbP",
       "tls": {
         "enabled": true,
         "server_name": "45.77.227.183",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "T.ME: @aristapnel #23",
-      "server": "92.119.35.105",
-      "server_port": 443,
-      "password": "urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh",
-      "tls": {
-        "enabled": true,
-        "server_name": "92.119.35.105",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -727,30 +721,42 @@
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #44",
-      "server": "fta.fontanvpn.com",
+      "server": "185.75.135.220",
       "server_port": 443,
       "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "fta.fontanvpn.com",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #45",
-      "server": "fta.fontanvpn.com",
+      "server": "185.75.135.220",
       "server_port": 443,
       "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "fta.fontanvpn.com",
+        "server_name": "185.75.135.220",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #46",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
+      "tls": {
+        "enabled": true,
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #68",
+      "tag": "T.ME: @aristapnel #69",
       "server": "89.167.82.102",
       "server_port": 8880,
       "uuid": "48eabd37-500d-403f-8e8f-715d1e17bffd",
@@ -761,7 +767,7 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #69",
+      "tag": "T.ME: @aristapnel #70",
       "server": "uk5.taskflowhub.org",
       "server_port": 2053,
       "uuid": "89371dfc-2618-40d7-a558-693ff4f7f1eb",
@@ -778,7 +784,7 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #70",
+      "tag": "T.ME: @aristapnel #71",
       "server": "69.84.182.49",
       "server_port": 80,
       "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
@@ -796,7 +802,7 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #71",
+      "tag": "T.ME: @aristapnel #72",
       "server": "atiins.com.tr",
       "server_port": 443,
       "uuid": "97775936-05ea-4fea-8562-e9eb98559790",
@@ -817,7 +823,36 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #72",
+      "tag": "T.ME: @aristapnel #73",
+      "server": "manager.xyzxz.qzz.io",
+      "server_port": 443,
+      "uuid": "c469cbcf-fb5c-47cc-8a6b-3ab9f3f8601c",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "manager.xyzxz.qzz.io",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h3",
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/29930/mehdi",
+        "headers": {
+          "Host": "manager.xyzxz.qzz.io"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #74",
       "server": "107.173.27.219",
       "server_port": 6666,
       "uuid": "f0a2fbe5-29bf-468c-ddc1-b524552d1a23",
@@ -835,7 +870,7 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #73",
+      "tag": "T.ME: @aristapnel #75",
       "server": "69.84.182.49",
       "server_port": 80,
       "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
@@ -853,7 +888,7 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #74",
+      "tag": "T.ME: @aristapnel #76",
       "server": "160.250.247.70",
       "server_port": 49178,
       "uuid": "d7c13e10-2ba9-4677-a877-d9e9d1738394",
@@ -864,7 +899,7 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #75",
+      "tag": "T.ME: @aristapnel #77",
       "server": "186.244.208.78",
       "server_port": 30022,
       "uuid": "b7d93549-0f3f-4af2-9f4d-4340867a23b4",
@@ -875,42 +910,13 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #76",
-      "server": "154.37.223.105",
-      "server_port": 52080,
-      "uuid": "12513325-4464-4334-b811-7b047ebf40e7",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "T.ME: @aristapnel #77",
-      "server": "57.151.100.27",
-      "server_port": 10086,
-      "uuid": "550e8400-e29b-41d4-a716-446655440000",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "T.ME: @aristapnel #78",
-      "server": "69.84.182.49",
-      "server_port": 80,
-      "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
+      "server": "2.26.231.87",
+      "server_port": 110,
+      "uuid": "ecd7aeca-2e37-4761-93e7-7cf4c2ff55bf",
       "security": "auto",
       "tls": {
         "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
-        }
       }
     },
     {
@@ -1358,7 +1364,7 @@
         "T.ME: @aristapnel #43",
         "T.ME: @aristapnel #44",
         "T.ME: @aristapnel #45",
-        "T.ME: @aristapnel #68",
+        "T.ME: @aristapnel #46",
         "T.ME: @aristapnel #69",
         "T.ME: @aristapnel #70",
         "T.ME: @aristapnel #71",
@@ -1447,7 +1453,7 @@
         "T.ME: @aristapnel #43",
         "T.ME: @aristapnel #44",
         "T.ME: @aristapnel #45",
-        "T.ME: @aristapnel #68",
+        "T.ME: @aristapnel #46",
         "T.ME: @aristapnel #69",
         "T.ME: @aristapnel #70",
         "T.ME: @aristapnel #71",

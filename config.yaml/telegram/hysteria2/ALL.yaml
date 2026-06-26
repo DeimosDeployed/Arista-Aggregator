@@ -1,6 +1,6 @@
 # TELEGRAM - HYSTERIA2 - Tier ALL
-# Updated: 2026-06-26 02:10:55
-# Count: 6
+# Updated: 2026-06-26 08:54:32
+# Count: 7
 
 proxies:
 - name: 'ARISTA #1'
@@ -69,6 +69,17 @@ proxies:
   client-fingerprint: chrome
   obfs: salamander
   obfs-password: T.me%2FV2RayyNGvpn
+- name: 'ARISTA #8'
+  type: hysteria2
+  server: 185.250.41.245
+  port: 443
+  password: T-Me-V2RayyNGvpn
+  sni: 185.250.41.245
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: T.me%2FV2RayyNGvpn
 proxy-groups:
 - name: 🚀 ARISTA LOW LATENCY
   type: url-test
@@ -84,6 +95,7 @@ proxy-groups:
   - 'ARISTA #5'
   - 'ARISTA #6'
   - 'ARISTA #7'
+  - 'ARISTA #8'
 - name: 🎬 ARISTA STREAM
   type: fallback
   url: http://www.gstatic.com/generate_204

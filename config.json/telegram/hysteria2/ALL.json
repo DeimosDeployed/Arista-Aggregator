@@ -1,6 +1,6 @@
 // TELEGRAM - HYSTERIA2 - Tier ALL
-// Updated: 2026-06-26 02:13:05
-// Count: 6
+// Updated: 2026-06-26 08:57:53
+// Count: 7
 
 {
   "log": {
@@ -171,6 +171,26 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "ARISTA #8",
+      "server": "185.250.41.245",
+      "server_port": 443,
+      "password": "T-Me-V2RayyNGvpn",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.wordreference.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "T.me/V2RayyNGvpn"
+      }
+    },
+    {
       "type": "direct",
       "tag": "direct"
     },
@@ -187,7 +207,8 @@
         "ARISTA #4",
         "ARISTA #5",
         "ARISTA #6",
-        "ARISTA #7"
+        "ARISTA #7",
+        "ARISTA #8"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -204,7 +225,8 @@
         "ARISTA #4",
         "ARISTA #5",
         "ARISTA #6",
-        "ARISTA #7"
+        "ARISTA #7",
+        "ARISTA #8"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",
