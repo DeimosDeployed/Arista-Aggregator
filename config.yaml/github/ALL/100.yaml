@@ -1,5 +1,5 @@
 # GITHUB - ALL - Tier 100
-# Updated: 2026-06-26 14:02:46
+# Updated: 2026-06-26 19:29:35
 # Count: 98
 
 proxies:
@@ -403,82 +403,82 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #36'
   type: hysteria2
-  server: 144.31.1.75
-  port: 25443
-  password: 9f57befb-85df-4c38-b921-438a6be3f9a3
-  sni: 144.31.1.75
+  server: 185.75.135.220
+  port: 443
+  password: 00dcd873-9211-4d61-ad35-87999906e5c8
+  sni: 185.75.135.220
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #37'
   type: hysteria2
-  server: 144.31.1.75
-  port: 25443
-  password: 9f57befb-85df-4c38-b921-438a6be3f9a3
-  sni: 144.31.1.75
+  server: 185.75.135.220
+  port: 443
+  password: 00dcd873-9211-4d61-ad35-87999906e5c8
+  sni: 185.75.135.220
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #38'
   type: hysteria2
-  server: 144.31.1.75
-  port: 25443
-  password: 9f57befb-85df-4c38-b921-438a6be3f9a3
-  sni: 144.31.1.75
+  server: 185.75.135.220
+  port: 443
+  password: 00dcd873-9211-4d61-ad35-87999906e5c8
+  sni: 185.75.135.220
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #39'
   type: hysteria2
-  server: 144.31.1.75
-  port: 25443
-  password: 9f57befb-85df-4c38-b921-438a6be3f9a3
-  sni: 144.31.1.75
+  server: 185.75.135.220
+  port: 443
+  password: 00dcd873-9211-4d61-ad35-87999906e5c8
+  sni: 185.75.135.220
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #40'
   type: hysteria2
-  server: 144.31.1.75
-  port: 25443
-  password: 9f57befb-85df-4c38-b921-438a6be3f9a3
-  sni: 144.31.1.75
+  server: 185.75.135.220
+  port: 443
+  password: 00dcd873-9211-4d61-ad35-87999906e5c8
+  sni: 185.75.135.220
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #41'
   type: hysteria2
-  server: 144.31.1.75
-  port: 25443
-  password: 9f57befb-85df-4c38-b921-438a6be3f9a3
-  sni: 144.31.1.75
+  server: 185.75.135.220
+  port: 443
+  password: 00dcd873-9211-4d61-ad35-87999906e5c8
+  sni: 185.75.135.220
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #42'
   type: hysteria2
-  server: 144.31.1.75
-  port: 25443
-  password: 9f57befb-85df-4c38-b921-438a6be3f9a3
-  sni: 144.31.1.75
+  server: 185.75.135.220
+  port: 443
+  password: 00dcd873-9211-4d61-ad35-87999906e5c8
+  sni: 185.75.135.220
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #43'
   type: hysteria2
-  server: 144.31.1.75
-  port: 25443
-  password: 9f57befb-85df-4c38-b921-438a6be3f9a3
-  sni: 144.31.1.75
+  server: 185.75.135.220
+  port: 443
+  password: 00dcd873-9211-4d61-ad35-87999906e5c8
+  sni: 185.75.135.220
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #44'
   type: hysteria2
-  server: 46.254.18.107
+  server: 185.75.135.220
   port: 443
-  password: 0dd50f72-bf39-4b59-b183-61b3fa52df57
-  sni: 46.254.18.107
+  password: 00dcd873-9211-4d61-ad35-87999906e5c8
+  sni: 185.75.135.220
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -767,23 +767,30 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #73'
   type: vmess
-  server: 47.251.91.241
-  port: 42899
-  uuid: 0925b355-2bcd-4eae-9720-d2709e4f7e36
+  server: aris.arisping-ir.store
+  port: 443
+  uuid: 67f79907-6163-475c-b5ba-2a3faa0c02c5
   alterId: 0
   cipher: auto
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 47.251.91.241
+  servername: cdn.arisping-ir.store
   client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /
+    headers:
+      Host: cdn.arisping-ir.store
 - name: 'T.ME: @aristapnel #74'
   type: vmess
-  server: 104.21.7.101
+  server: 104.21.89.181
   port: 80
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  uuid: 65b17c0b-0a52-4b54-9bc9-60e31397b841
   alterId: 0
   cipher: auto
   network: ws
@@ -791,82 +798,101 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 104.21.7.101
+  servername: 104.21.89.181
   client-fingerprint: chrome
   ws-opts:
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+    path: /65b17c0b-0a52-4b54-9bc9-60e31397b841-vmess
     headers:
-      Host: gbnh.0nn.ccwu.cc
+      Host: accklsj.bufu.us.ci
 - name: 'T.ME: @aristapnel #75'
   type: vmess
-  server: 18.184.156.126
-  port: 1002
-  uuid: 440cddf8-bfdc-4936-b842-381d572a12aa
+  server: 154.92.9.98
+  port: 80
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
   alterId: 0
   cipher: auto
-  network: tcp
+  network: ws
   tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 18.184.156.126
+  servername: 154.92.9.98
   client-fingerprint: chrome
+  ws-opts:
+    path: /blue
+    headers:
+      Host: 154.92.9.98
 - name: 'T.ME: @aristapnel #76'
   type: vmess
-  server: 20.74.213.64
-  port: 1002
-  uuid: 440cddf8-bfdc-4936-b842-381d572a12aa
+  server: 47.244.120.197
+  port: 36703
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   alterId: 0
   cipher: auto
-  network: tcp
+  network: ws
   tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 20.74.213.64
+  servername: 47.244.120.197
   client-fingerprint: chrome
+  ws-opts:
+    path: /arki?ed=2048
+    headers:
+      Host: 47.244.120.197
 - name: 'T.ME: @aristapnel #77'
   type: vmess
-  server: 3.71.8.174
-  port: 1002
-  uuid: 440cddf8-bfdc-4936-b842-381d572a12aa
+  server: 51.254.133.152
+  port: 80
+  uuid: ac8bcf5e-bb58-4e8b-b4e4-5fdea010a6c6
   alterId: 0
   cipher: auto
-  network: tcp
+  network: ws
   tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 3.71.8.174
+  servername: 51.254.133.152
   client-fingerprint: chrome
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: fr5.niekotin.de
 - name: 'T.ME: @aristapnel #78'
   type: vmess
-  server: 38.91.107.49
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  server: it.connfull.org
+  port: 2053
+  uuid: d7a4643c-1b72-4199-b54d-810da8d0e657
   alterId: 0
   cipher: auto
   network: tcp
-  tls: false
+  tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 38.91.107.49
+  servername: it.connfull.org
   client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
 - name: 'T.ME: @aristapnel #79'
   type: vmess
-  server: 85.133.240.19
-  port: 17296
-  uuid: d00c2a84-a1f9-4f77-81ca-f06d7d118d29
+  server: 47.250.45.234
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   alterId: 0
   cipher: auto
-  network: tcp
+  network: ws
   tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 85.133.240.19
+  servername: 47.250.45.234
   client-fingerprint: chrome
+  ws-opts:
+    path: /arki
+    headers:
+      Host: 47.250.45.234
 - name: 'T.ME: @aristapnel #80'
   type: vless
   server: 83.168.71.216

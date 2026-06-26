@@ -1,5 +1,5 @@
 // GITHUB - ALL - Tier 50
-// Updated: 2026-06-26 14:05:38
+// Updated: 2026-06-26 19:32:16
 // Count: 40
 
 {
@@ -459,41 +459,61 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #38",
-      "server": "47.251.91.241",
-      "server_port": 42899,
-      "uuid": "0925b355-2bcd-4eae-9720-d2709e4f7e36",
+      "server": "aris.arisping-ir.store",
+      "server_port": 443,
+      "uuid": "67f79907-6163-475c-b5ba-2a3faa0c02c5",
       "security": "auto",
       "tls": {
-        "enabled": false
+        "enabled": true,
+        "server_name": "cdn.arisping-ir.store",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cdn.arisping-ir.store"
+        }
       }
     },
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #39",
-      "server": "104.21.7.101",
+      "server": "104.21.89.181",
       "server_port": 80,
-      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "uuid": "65b17c0b-0a52-4b54-9bc9-60e31397b841",
       "security": "auto",
       "tls": {
         "enabled": false
       },
       "transport": {
         "type": "ws",
-        "path": "/iSRWSKUJKNuXvVzsYHmsMrnO",
+        "path": "/65b17c0b-0a52-4b54-9bc9-60e31397b841-vmess",
         "headers": {
-          "Host": "gbnh.0nn.ccwu.cc"
+          "Host": "accklsj.bufu.us.ci"
         }
       }
     },
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #40",
-      "server": "18.184.156.126",
-      "server_port": 1002,
-      "uuid": "440cddf8-bfdc-4936-b842-381d572a12aa",
+      "server": "154.92.9.98",
+      "server_port": 80,
+      "uuid": "dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3",
       "security": "auto",
       "tls": {
         "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/blue",
+        "headers": {
+          "Host": ""
+        }
       }
     },
     {

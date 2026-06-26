@@ -1,6 +1,6 @@
 // COMBINED - HYSTERIA2 - Tier 50
-// Updated: 2026-06-26 14:05:37
-// Count: 49
+// Updated: 2026-06-26 19:32:15
+// Count: 50
 
 {
   "log": {
@@ -53,26 +53,6 @@
     {
       "type": "hysteria2",
       "tag": "ARISTA #1",
-      "server": "191.101.238.183",
-      "server_port": 54040,
-      "password": "q3tf4lsdoqpgpo4x",
-      "tls": {
-        "enabled": true,
-        "server_name": "191.101.238.183",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "@JynMarket"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "ARISTA #3",
       "server": "185.250.41.245",
       "server_port": 443,
       "password": "Z7MFGgpuzh",
@@ -92,7 +72,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #4",
+      "tag": "ARISTA #2",
       "server": "185.250.41.245",
       "server_port": 443,
       "password": "S0Mq06tf1I",
@@ -112,7 +92,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #5",
+      "tag": "ARISTA #3",
       "server": "87.120.106.36",
       "server_port": 443,
       "password": "5U7LBgpLNj",
@@ -132,7 +112,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #6",
+      "tag": "ARISTA #4",
       "server": "185.250.41.245",
       "server_port": 443,
       "password": "dJtElQSz4v",
@@ -152,7 +132,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #7",
+      "tag": "ARISTA #5",
       "server": "185.250.41.245",
       "server_port": 443,
       "password": "T-Me-V2RayyNGvpn",
@@ -172,7 +152,27 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #8",
+      "tag": "ARISTA #6",
+      "server": "65.109.177.191",
+      "server_port": 443,
+      "password": "t-me-V2RayyNGvpn",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.oracle.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "t-me-V2RayyNGvpn"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "ARISTA #7",
       "server": "80.66.81.78",
       "server_port": 9443,
       "password": "rs2mR3g9bZiMloftx6lZQ59Um1Ld",
@@ -192,7 +192,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "T.ME: @aristapnel #9",
+      "tag": "T.ME: @aristapnel #8",
       "server": "hy2.aspidnet.xyz",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
@@ -204,6 +204,18 @@
       "obfs": {
         "type": "salamander",
         "password": "rG07s3COMIEvdnQipRyWzx_H_2xygNC3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #9",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
+      "tls": {
+        "enabled": true,
+        "server_name": "185.75.135.220",
+        "insecure": true
       }
     },
     {
@@ -353,348 +365,348 @@
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #22",
-      "server": "144.31.1.75",
-      "server_port": 25443,
-      "password": "9f57befb-85df-4c38-b921-438a6be3f9a3",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "144.31.1.75",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #23",
-      "server": "144.31.1.75",
-      "server_port": 25443,
-      "password": "9f57befb-85df-4c38-b921-438a6be3f9a3",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "144.31.1.75",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #24",
-      "server": "144.31.1.75",
-      "server_port": 25443,
-      "password": "9f57befb-85df-4c38-b921-438a6be3f9a3",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "144.31.1.75",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #25",
-      "server": "144.31.1.75",
-      "server_port": 25443,
-      "password": "9f57befb-85df-4c38-b921-438a6be3f9a3",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "144.31.1.75",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #26",
-      "server": "144.31.1.75",
-      "server_port": 25443,
-      "password": "9f57befb-85df-4c38-b921-438a6be3f9a3",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "144.31.1.75",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #27",
-      "server": "144.31.1.75",
-      "server_port": 25443,
-      "password": "9f57befb-85df-4c38-b921-438a6be3f9a3",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "144.31.1.75",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #28",
-      "server": "144.31.1.75",
-      "server_port": 25443,
-      "password": "9f57befb-85df-4c38-b921-438a6be3f9a3",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "144.31.1.75",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #29",
-      "server": "144.31.1.75",
-      "server_port": 25443,
-      "password": "9f57befb-85df-4c38-b921-438a6be3f9a3",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "144.31.1.75",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #30",
-      "server": "46.254.18.107",
+      "server": "185.75.135.220",
       "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "46.254.18.107",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #31",
-      "server": "46.254.18.107",
+      "server": "185.75.135.220",
       "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "46.254.18.107",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #32",
-      "server": "46.254.18.107",
+      "server": "185.75.135.220",
       "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "46.254.18.107",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #33",
-      "server": "46.254.18.107",
+      "server": "185.75.135.220",
       "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "46.254.18.107",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #34",
-      "server": "46.254.18.107",
+      "server": "185.75.135.220",
       "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "46.254.18.107",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #35",
-      "server": "46.254.18.107",
+      "server": "185.75.135.220",
       "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "46.254.18.107",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #36",
-      "server": "46.254.18.107",
+      "server": "185.75.135.220",
       "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "46.254.18.107",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #37",
-      "server": "46.254.18.107",
+      "server": "185.75.135.220",
       "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "46.254.18.107",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #38",
-      "server": "46.254.18.107",
+      "server": "185.75.135.220",
       "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "46.254.18.107",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #39",
-      "server": "46.254.18.107",
+      "server": "185.75.135.220",
       "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "46.254.18.107",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #40",
-      "server": "46.254.18.107",
+      "server": "185.75.135.220",
       "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "46.254.18.107",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #41",
-      "server": "46.254.18.107",
+      "server": "185.75.135.220",
       "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "46.254.18.107",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #42",
-      "server": "152.53.53.168",
-      "server_port": 25443,
-      "password": "9f57befb-85df-4c38-b921-438a6be3f9a3",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "152.53.53.168",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #43",
-      "server": "152.53.53.168",
-      "server_port": 25443,
-      "password": "9f57befb-85df-4c38-b921-438a6be3f9a3",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "152.53.53.168",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #44",
-      "server": "152.53.53.168",
-      "server_port": 25443,
-      "password": "9f57befb-85df-4c38-b921-438a6be3f9a3",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "152.53.53.168",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #45",
-      "server": "152.53.53.168",
-      "server_port": 25443,
-      "password": "9f57befb-85df-4c38-b921-438a6be3f9a3",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "152.53.53.168",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #46",
-      "server": "152.53.53.168",
-      "server_port": 25443,
-      "password": "9f57befb-85df-4c38-b921-438a6be3f9a3",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "152.53.53.168",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #47",
-      "server": "152.53.53.168",
-      "server_port": 25443,
-      "password": "9f57befb-85df-4c38-b921-438a6be3f9a3",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "152.53.53.168",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #48",
-      "server": "152.53.53.168",
-      "server_port": 25443,
-      "password": "9f57befb-85df-4c38-b921-438a6be3f9a3",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "152.53.53.168",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #49",
-      "server": "152.53.53.168",
-      "server_port": 25443,
-      "password": "9f57befb-85df-4c38-b921-438a6be3f9a3",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "152.53.53.168",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #50",
-      "server": "152.53.53.168",
-      "server_port": 25443,
-      "password": "9f57befb-85df-4c38-b921-438a6be3f9a3",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "152.53.53.168",
+        "server_name": "185.75.135.220",
         "insecure": true
       }
     },
@@ -711,12 +723,13 @@
       "tag": "🚀 ARISTA AUTO BEST",
       "outbounds": [
         "ARISTA #1",
+        "ARISTA #2",
         "ARISTA #3",
         "ARISTA #4",
         "ARISTA #5",
         "ARISTA #6",
         "ARISTA #7",
-        "ARISTA #8",
+        "T.ME: @aristapnel #8",
         "T.ME: @aristapnel #9",
         "T.ME: @aristapnel #10",
         "T.ME: @aristapnel #11",
@@ -771,12 +784,13 @@
       "tag": "🎯 ARISTA MANUAL TESTED",
       "outbounds": [
         "ARISTA #1",
+        "ARISTA #2",
         "ARISTA #3",
         "ARISTA #4",
         "ARISTA #5",
         "ARISTA #6",
         "ARISTA #7",
-        "ARISTA #8",
+        "T.ME: @aristapnel #8",
         "T.ME: @aristapnel #9",
         "T.ME: @aristapnel #10",
         "T.ME: @aristapnel #11",

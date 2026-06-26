@@ -1,6 +1,6 @@
-# GITHUB - TROJAN - Tier 200
+# GITHUB - TROJAN - Tier 250
 # Updated: 2026-06-26 19:29:32
-# Count: 192
+# Count: 242
 
 proxies:
 - name: 'T.ME: @aristapnel #1'
@@ -2527,6 +2527,702 @@ proxies:
     path: '%2Fde'
     headers:
       Host: ssl.fastly.com
+- name: 'T.ME: @aristapnel #201'
+  type: trojan
+  server: 151.101.110.219
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: ssl.fastly.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fde'
+    headers:
+      Host: ssl.fastly.com
+- name: 'T.ME: @aristapnel #202'
+  type: trojan
+  server: 151.101.110.219
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: ssl.fastly.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fde%3Dmitivpn'
+    headers:
+      Host: ssl.fastly.com
+- name: 'T.ME: @aristapnel #203'
+  type: trojan
+  server: 151.101.110.219
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: ssl.fastly.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fde'
+    headers:
+      Host: ssl.fastly.com
+- name: 'T.ME: @aristapnel #204'
+  type: trojan
+  server: 151.101.113.242
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.f6r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+    headers:
+      Host: www.f6r.ir
+- name: 'T.ME: @aristapnel #205'
+  type: trojan
+  server: 151.101.121.242
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.f6r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: https%3A%2F%2Ft.me%2Foneclickvpnkeys
+    headers:
+      Host: www.f6r.ir
+- name: 'T.ME: @aristapnel #206'
+  type: trojan
+  server: 151.101.121.242
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.f6r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: https%3A%2F%2Ft.me%2Foneclickvpnkeys
+    headers:
+      Host: www.f6r.ir
+- name: 'T.ME: @aristapnel #207'
+  type: trojan
+  server: 151.101.129.242
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.f6r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+    headers:
+      Host: www.f6r.ir
+- name: 'T.ME: @aristapnel #208'
+  type: trojan
+  server: 151.101.169.242
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.f6r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+    headers:
+      Host: www.f6r.ir
+- name: 'T.ME: @aristapnel #209'
+  type: trojan
+  server: 151.101.189.242
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.f6r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+    headers:
+      Host: www.f6r.ir
+- name: 'T.ME: @aristapnel #210'
+  type: trojan
+  server: 151.101.193.242
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: f6r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fusa%3Dmitivpn'
+    headers:
+      Host: f6r.ir
+- name: 'T.ME: @aristapnel #211'
+  type: trojan
+  server: 151.101.193.242
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: f6r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fusa%3Dmitivpn'
+    headers:
+      Host: f6r.ir
+- name: 'T.ME: @aristapnel #212'
+  type: trojan
+  server: 151.101.229.242
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.f6r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+    headers:
+      Host: www.f6r.ir
+- name: 'T.ME: @aristapnel #213'
+  type: trojan
+  server: 151.101.245.242
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.f6r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+    headers:
+      Host: www.f6r.ir
+- name: 'T.ME: @aristapnel #214'
+  type: trojan
+  server: 151.101.53.242
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.f6r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+    headers:
+      Host: www.f6r.ir
+- name: 'T.ME: @aristapnel #215'
+  type: trojan
+  server: 151.101.65.242
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.f6r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+    headers:
+      Host: www.f6r.ir
+- name: 'T.ME: @aristapnel #216'
+  type: trojan
+  server: 167.82.101.251
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: default.ssl.fastly.net
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fnl%3Dmitivpn'
+    headers:
+      Host: default.ssl.fastly.net
+- name: 'T.ME: @aristapnel #217'
+  type: trojan
+  server: 167.82.101.251
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: default.ssl.fastly.net
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fnl%3Dmitivpn'
+    headers:
+      Host: default.ssl.fastly.net
+- name: 'T.ME: @aristapnel #218'
+  type: trojan
+  server: 167.82.101.251
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: default.ssl.fastly.net
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fnl%3Dmitivpn'
+    headers:
+      Host: default.ssl.fastly.net
+- name: 'T.ME: @aristapnel #219'
+  type: trojan
+  server: 172.66.47.69
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: f6r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fde%3Dmitivpn'
+    headers:
+      Host: f6r.ir
+- name: 'T.ME: @aristapnel #220'
+  type: trojan
+  server: 172.67.210.215
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: linkkon-w.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fed%3Dmitivpn'
+    headers:
+      Host: linkkon-w.ir
+- name: 'T.ME: @aristapnel #221'
+  type: trojan
+  server: 188.114.96.6
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: f6r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fusa%3Dmitivpn'
+    headers:
+      Host: f6r.ir
+- name: 'T.ME: @aristapnel #222'
+  type: trojan
+  server: 188.114.97.6
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: f6r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fde%3Dmitivpn'
+    headers:
+      Host: f6r.ir
+- name: 'T.ME: @aristapnel #223'
+  type: trojan
+  server: 188.114.97.6
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: f6r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fnl%3Dmitivpn'
+    headers:
+      Host: f6r.ir
+- name: 'T.ME: @aristapnel #224'
+  type: trojan
+  server: 45.131.4.118
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: f6r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fusa%3Dmitivpn'
+    headers:
+      Host: f6r.ir
+- name: 'T.ME: @aristapnel #225'
+  type: trojan
+  server: 89.116.180.49
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: f6r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fnl%3Dmitivpn'
+    headers:
+      Host: f6r.ir
+- name: 'T.ME: @aristapnel #226'
+  type: trojan
+  server: 151.101.110.219
+  port: 443
+  password: Mitivpn
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: global.fastly.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fde%3Dmitivpn'
+    headers:
+      Host: global.fastly.com
+- name: 'T.ME: @aristapnel #227'
+  type: trojan
+  server: 151.101.56.6
+  port: 443
+  password: Mitivpn
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: ssl.fastly.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2F'
+    headers:
+      Host: ssl.fastly.com
+- name: 'T.ME: @aristapnel #228'
+  type: trojan
+  server: 151.101.56.6
+  port: 443
+  password: Mitivpn
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: ssl.fastly.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Ffastly%3Dmitivpn'
+    headers:
+      Host: ssl.fastly.com
+- name: 'T.ME: @aristapnel #229'
+  type: trojan
+  server: 37.156.44.6
+  port: 443
+  password: SoftNetConnect
+  network: xhttp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.yahoo.com
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #230'
+  type: trojan
+  server: 77.110.114.75
+  port: 2087
+  password: SoftNetConnect
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.yahoo.com
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #231'
+  type: trojan
+  server: 77.110.114.75
+  port: 8443
+  password: SoftNetConnect
+  network: xhttp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.yahoo.com
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #232'
+  type: trojan
+  server: 83.228.230.226
+  port: 2087
+  password: SoftNetConnect
+  network: grpc
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.yahoo.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: GunService
+- name: 'T.ME: @aristapnel #233'
+  type: trojan
+  server: 83.228.230.226
+  port: 42549
+  password: SoftNetConnect
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.speedtest.net
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #234'
+  type: trojan
+  server: 83.228.230.226
+  port: 8443
+  password: SoftNetConnect
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: play.google.com
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #235'
+  type: trojan
+  server: 185.126.236.190
+  port: 443
+  password: VGBzLm49%3DM_i02Az30tIeonkQw180t-edg
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 185.126.236.190
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #236'
+  type: trojan
+  server: 38.60.202.163
+  port: 443
+  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 38.60.202.163
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #237'
+  type: trojan
+  server: sv4.hosttbd.ir
+  port: 10004
+  password: c-XesvUECJoZqRpYM_YVCg
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: sv4.hosttbd.ir
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #238'
+  type: trojan
+  server: 0406.infinityconfig7.workers.dev
+  port: 443
+  password: d682c8f4-e719-577e-cbe9-2e5b00000000
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 0406.infinityconfig7.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fsync'
+    headers:
+      Host: 0406.infinityconfig7.workers.dev
+- name: 'T.ME: @aristapnel #239'
+  type: trojan
+  server: 0406.infinityconfig7.workers.dev
+  port: 80
+  password: d682c8f4-e719-577e-cbe9-2e5b00000002
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 0406.infinityconfig7.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fsync'
+    headers:
+      Host: 0406.infinityconfig7.workers.dev
+- name: 'T.ME: @aristapnel #240'
+  type: trojan
+  server: 0406.infinityconfig7.workers.dev
+  port: 8080
+  password: d682c8f4-e719-577e-cbe9-2e5b00000003
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 0406.infinityconfig7.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fsync'
+    headers:
+      Host: 0406.infinityconfig7.workers.dev
+- name: 'T.ME: @aristapnel #241'
+  type: trojan
+  server: 185.137.157.138
+  port: 443
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 185.137.157.138
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #242'
+  type: trojan
+  server: 185.137.157.138
+  port: 443
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 185.137.157.138
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #243'
+  type: trojan
+  server: 185.137.157.142
+  port: 443
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 185.137.157.142
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #244'
+  type: trojan
+  server: 185.137.157.151
+  port: 443
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 185.137.157.151
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #245'
+  type: trojan
+  server: 104.16.72.70
+  port: 443
+  password: f922fa0f-3311-4368-85ff-cf65e727c854
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: space.byu.id.yxls.eu.cc
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fbr-orcl'
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+- name: 'T.ME: @aristapnel #246'
+  type: trojan
+  server: 104.16.72.70
+  port: 443
+  password: f922fa0f-3311-4368-85ff-cf65e727c854
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: space.byu.id.yxls.eu.cc
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fbr-orcl'
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+- name: 'T.ME: @aristapnel #247'
+  type: trojan
+  server: sv4.hosttbd.ir
+  port: 10004
+  password: g68znHRAdQXOOtQdud8HFw
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: sv4.hosttbd.ir
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #248'
+  type: trojan
+  server: 104.16.174.6
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.ignitelimit.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fassignment'
+    headers:
+      Host: www.ignitelimit.com
+- name: 'T.ME: @aristapnel #249'
+  type: trojan
+  server: 104.16.174.71
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.ignitelimit.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fassignment'
+    headers:
+      Host: www.ignitelimit.com
+- name: 'T.ME: @aristapnel #250'
+  type: trojan
+  server: 104.20.6.134
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.calmloud.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fassignment'
+    headers:
+      Host: www.calmloud.com
 proxy-groups:
 - name: 🚀 ARISTA LOW LATENCY
   type: url-test
@@ -2728,6 +3424,56 @@ proxy-groups:
   - 'T.ME: @aristapnel #198'
   - 'T.ME: @aristapnel #199'
   - 'T.ME: @aristapnel #200'
+  - 'T.ME: @aristapnel #201'
+  - 'T.ME: @aristapnel #202'
+  - 'T.ME: @aristapnel #203'
+  - 'T.ME: @aristapnel #204'
+  - 'T.ME: @aristapnel #205'
+  - 'T.ME: @aristapnel #206'
+  - 'T.ME: @aristapnel #207'
+  - 'T.ME: @aristapnel #208'
+  - 'T.ME: @aristapnel #209'
+  - 'T.ME: @aristapnel #210'
+  - 'T.ME: @aristapnel #211'
+  - 'T.ME: @aristapnel #212'
+  - 'T.ME: @aristapnel #213'
+  - 'T.ME: @aristapnel #214'
+  - 'T.ME: @aristapnel #215'
+  - 'T.ME: @aristapnel #216'
+  - 'T.ME: @aristapnel #217'
+  - 'T.ME: @aristapnel #218'
+  - 'T.ME: @aristapnel #219'
+  - 'T.ME: @aristapnel #220'
+  - 'T.ME: @aristapnel #221'
+  - 'T.ME: @aristapnel #222'
+  - 'T.ME: @aristapnel #223'
+  - 'T.ME: @aristapnel #224'
+  - 'T.ME: @aristapnel #225'
+  - 'T.ME: @aristapnel #226'
+  - 'T.ME: @aristapnel #227'
+  - 'T.ME: @aristapnel #228'
+  - 'T.ME: @aristapnel #229'
+  - 'T.ME: @aristapnel #230'
+  - 'T.ME: @aristapnel #231'
+  - 'T.ME: @aristapnel #232'
+  - 'T.ME: @aristapnel #233'
+  - 'T.ME: @aristapnel #234'
+  - 'T.ME: @aristapnel #235'
+  - 'T.ME: @aristapnel #236'
+  - 'T.ME: @aristapnel #237'
+  - 'T.ME: @aristapnel #238'
+  - 'T.ME: @aristapnel #239'
+  - 'T.ME: @aristapnel #240'
+  - 'T.ME: @aristapnel #241'
+  - 'T.ME: @aristapnel #242'
+  - 'T.ME: @aristapnel #243'
+  - 'T.ME: @aristapnel #244'
+  - 'T.ME: @aristapnel #245'
+  - 'T.ME: @aristapnel #246'
+  - 'T.ME: @aristapnel #247'
+  - 'T.ME: @aristapnel #248'
+  - 'T.ME: @aristapnel #249'
+  - 'T.ME: @aristapnel #250'
 - name: 🎬 ARISTA STREAM
   type: fallback
   url: http://www.gstatic.com/generate_204
