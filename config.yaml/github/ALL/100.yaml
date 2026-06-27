@@ -1,9 +1,152 @@
 # GITHUB - ALL - Tier 100
-# Updated: 2026-06-27 02:09:08
-# Count: 98
+# Updated: 2026-06-27 08:27:22
+# Count: 100
 
 proxies:
 - name: 'T.ME: @aristapnel #1'
+  type: trojan
+  server: 46.225.158.97
+  port: 28699
+  password: Tktk9NaVWD
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.yahoo.com
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #2'
+  type: trojan
+  server: 119.246.1.143
+  port: 443
+  password: BxceQaOe
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: t.me/ripaojiedian
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #3'
+  type: trojan
+  server: 83.228.251.47
+  port: 42549
+  password: SoftNetConnect
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.speedtest.net
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #4'
+  type: trojan
+  server: 92.119.35.131
+  port: 443
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 92.119.35.131
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #5'
+  type: trojan
+  server: 51.75.86.196
+  port: 55646
+  password: 03mpolj39zyewzufal2r
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 51.75.86.196
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #6'
+  type: trojan
+  server: 92.119.35.120
+  port: 443
+  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 92.119.35.120
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #7'
+  type: trojan
+  server: 185.137.157.151
+  port: 443
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 185.137.157.151
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #8'
+  type: trojan
+  server: 185.137.157.142
+  port: 443
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 185.137.157.142
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #9'
+  type: trojan
+  server: 92.119.35.123
+  port: 443
+  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 92.119.35.123
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #10'
+  type: trojan
+  server: 92.119.35.105
+  port: 443
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 92.119.35.105
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #11'
+  type: trojan
+  server: 146.70.73.214
+  port: 53809
+  password: blhwsknjxmfuydz0vhfv
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 146.70.73.214
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #12'
+  type: trojan
+  server: 185.137.157.250
+  port: 443
+  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: fra250.clientfirewall.click
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #13'
+  type: trojan
+  server: 92.119.35.97
+  port: 443
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 92.119.35.97
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #14'
   type: trojan
   server: 104.17.131.88
   port: 443
@@ -18,7 +161,7 @@ proxies:
     path: '%2Fassignment'
     headers:
       Host: www.gossipglove.com
-- name: 'T.ME: @aristapnel #2'
+- name: 'T.ME: @aristapnel #15'
   type: trojan
   server: 172.66.44.211
   port: 443
@@ -33,7 +176,7 @@ proxies:
     path: '%2Fassignment'
     headers:
       Host: www.multiplydose.com
-- name: 'T.ME: @aristapnel #3'
+- name: 'T.ME: @aristapnel #16'
   type: trojan
   server: 144.31.55.35
   port: 28126
@@ -44,7 +187,7 @@ proxies:
   tcp-fast-open: true
   servername: www.game-bridge.click
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #4'
+- name: 'T.ME: @aristapnel #17'
   type: trojan
   server: 104.21.40.34
   port: 443
@@ -59,7 +202,7 @@ proxies:
     path: '%2Fassignment'
     headers:
       Host: www.multiplydose.com
-- name: 'T.ME: @aristapnel #5'
+- name: 'T.ME: @aristapnel #18'
   type: trojan
   server: 185.137.157.59
   port: 443
@@ -70,7 +213,7 @@ proxies:
   tcp-fast-open: true
   servername: www.lateralio.click
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #6'
+- name: 'T.ME: @aristapnel #19'
   type: trojan
   server: 172.64.147.166
   port: 443
@@ -85,7 +228,7 @@ proxies:
     path: '%2Fassignment'
     headers:
       Host: www.multiplydose.com
-- name: 'T.ME: @aristapnel #7'
+- name: 'T.ME: @aristapnel #20'
   type: trojan
   server: 104.21.40.34
   port: 443
@@ -100,7 +243,7 @@ proxies:
     path: '%2Fassignment'
     headers:
       Host: www.multiplydose.com
-- name: 'T.ME: @aristapnel #8'
+- name: 'T.ME: @aristapnel #21'
   type: trojan
   server: 185.137.157.250
   port: 443
@@ -111,7 +254,7 @@ proxies:
   tcp-fast-open: true
   servername: fra250.clientfirewall.click
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #9'
+- name: 'T.ME: @aristapnel #22'
   type: trojan
   server: 185.137.157.154
   port: 443
@@ -121,170 +264,6 @@ proxies:
   skip-cert-verify: false
   tcp-fast-open: true
   servername: fra154.clientfirewall.click
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #10'
-  type: trojan
-  server: 104.21.18.41
-  port: 443
-  password: MiTiVPN
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: linkkon-w.ir
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2Fcdn%3Dmitivpn'
-    headers:
-      Host: linkkon-w.ir
-- name: 'T.ME: @aristapnel #11'
-  type: trojan
-  server: 104.16.72.70
-  port: 443
-  password: 6c862415-30d2-4813-8e49-42e99a0bd415
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: space.byu.id.yxls.eu.cc
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2Fus-gllc'
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-- name: 'T.ME: @aristapnel #12'
-  type: trojan
-  server: 45.130.125.126
-  port: 443
-  password: 86957ec0-b213-433b-a43b-51f2175e0ec3
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: space.byu.id.yxls.eu.cc
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2Fau-do'
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-- name: 'T.ME: @aristapnel #13'
-  type: trojan
-  server: 104.17.121.43
-  port: 443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.calmlunch.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2Fassignment'
-    headers:
-      Host: www.calmlunch.com
-- name: 'T.ME: @aristapnel #14'
-  type: trojan
-  server: 151.101.110.219
-  port: 443
-  password: MITIVPN
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: global.fastly.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2Fed%3Dmitivpn'
-    headers:
-      Host: global.fastly.com
-- name: 'T.ME: @aristapnel #15'
-  type: trojan
-  server: 45.130.125.160
-  port: 443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.calmloud.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2Fassignment'
-    headers:
-      Host: www.calmloud.com
-- name: 'T.ME: @aristapnel #17'
-  type: trojan
-  server: 104.16.174.121
-  port: 443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.ignitelimit.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2Fassignment'
-    headers:
-      Host: www.ignitelimit.com
-- name: 'T.ME: @aristapnel #18'
-  type: trojan
-  server: kkvlvvq-a.catcat321.com
-  port: 20035
-  password: 63872b0d-87dd-4474-b690-92773af2922e
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: hk.catxstar.com
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #19'
-  type: trojan
-  server: 92.119.35.117
-  port: 443
-  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 92.119.35.117
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #20'
-  type: trojan
-  server: 43.169.18.179
-  port: 443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.creationlong.org
-  client-fingerprint: chrome
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.creationlong.org
-- name: 'T.ME: @aristapnel #21'
-  type: trojan
-  server: 149.104.104.58
-  port: 443
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 149.104.104.58
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #22'
-  type: trojan
-  server: 45.77.227.183
-  port: 443
-  password: kflYwtj8VD7Pd4V9ixedIxEDsac4QQXvbP
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 45.77.227.183
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #23'
   type: hysteria2
@@ -478,14 +457,13 @@ proxies:
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #44'
-  type: hysteria2
-  server: 185.75.135.220
-  port: 443
-  password: 00dcd873-9211-4d61-ad35-87999906e5c8
-  sni: 185.75.135.220
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
+  type: ss
+  server: 20.74.213.64
+  port: 1003
+  cipher: chacha20-ietf-poly1305
+  password: NlV5xsk_CeoMM2jQuZ1dGA
+  udp: true
+  tcp-fast-open: true
 - name: 'T.ME: @aristapnel #45'
   type: ss
   server: 82.38.31.149
@@ -608,26 +586,26 @@ proxies:
   tcp-fast-open: true
 - name: 'T.ME: @aristapnel #60'
   type: ss
+  server: 38.54.80.160
+  port: 16292
+  cipher: chacha20-ietf-poly1305
+  password: r_NRe-+WRq2zVqMpCnJtTESlT8WyffHyFy
+  udp: true
+  tcp-fast-open: true
+- name: 'T.ME: @aristapnel #61'
+  type: ss
   server: 15.204.254.187
   port: 12000
   cipher: aes-256-gcm
   password: 8JCsPssfgS8tiRwiMlhARg==
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #61'
+- name: 'T.ME: @aristapnel #62'
   type: ss
   server: r3mrcg001286ek2.cybervena.com
   port: 50099
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  udp: true
-  tcp-fast-open: true
-- name: 'T.ME: @aristapnel #62'
-  type: ss
-  server: ss.047.node-for-bigairport.win
-  port: 19001
-  cipher: chacha20-ietf-poly1305
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
   udp: true
   tcp-fast-open: true
 - name: 'T.ME: @aristapnel #63'
@@ -647,22 +625,6 @@ proxies:
   udp: true
   tcp-fast-open: true
 - name: 'T.ME: @aristapnel #65'
-  type: ss
-  server: 91.108.254.252
-  port: 18982
-  cipher: chacha20-ietf-poly1305
-  password: IIMxFMyq3FwyPd21UGWgmNJCAiYN9m2vOo
-  udp: true
-  tcp-fast-open: true
-- name: 'T.ME: @aristapnel #66'
-  type: ss
-  server: 38.180.221.145
-  port: 17283
-  cipher: chacha20-ietf-poly1305
-  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
-  udp: true
-  tcp-fast-open: true
-- name: 'T.ME: @aristapnel #67'
   type: vmess
   server: 89.167.82.102
   port: 8880
@@ -676,7 +638,7 @@ proxies:
   tcp-fast-open: true
   servername: 89.167.82.102
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #68'
+- name: 'T.ME: @aristapnel #66'
   type: vmess
   server: uk5.taskflowhub.org
   port: 2053
@@ -693,7 +655,7 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 'T.ME: @aristapnel #69'
+- name: 'T.ME: @aristapnel #67'
   type: vmess
   server: 69.84.182.49
   port: 80
@@ -711,7 +673,7 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-- name: 'T.ME: @aristapnel #70'
+- name: 'T.ME: @aristapnel #68'
   type: vmess
   server: atiins.com.tr
   port: 443
@@ -728,7 +690,7 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 'T.ME: @aristapnel #71'
+- name: 'T.ME: @aristapnel #69'
   type: vmess
   server: yg1.ygkkk.dpdns.org
   port: 443
@@ -749,7 +711,7 @@ proxies:
     path: /b98325b3-0bc0-4149-9b0b-bf7dc1668ae9-vm
     headers:
       Host: usc-cure-grad-exceptional.trycloudflare.com
-- name: 'T.ME: @aristapnel #72'
+- name: 'T.ME: @aristapnel #70'
   type: vmess
   server: 107.173.27.219
   port: 6666
@@ -767,7 +729,25 @@ proxies:
     path: /youtube
     headers:
       Host: 107.173.27.219
-- name: 'T.ME: @aristapnel #73'
+- name: 'T.ME: @aristapnel #71'
+  type: vmess
+  server: 69.84.182.49
+  port: 80
+  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 69.84.182.49
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+- name: 'T.ME: @aristapnel #72'
   type: vmess
   server: 160.250.247.70
   port: 49178
@@ -781,9 +761,9 @@ proxies:
   tcp-fast-open: true
   servername: 160.250.247.70
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #74'
+- name: 'T.ME: @aristapnel #73'
   type: vmess
-  server: 38.91.107.49
+  server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -793,9 +773,9 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 38.91.107.49
+  servername: 134.195.196.211
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #75'
+- name: 'T.ME: @aristapnel #74'
   type: vmess
   server: 165.140.216.141
   port: 443
@@ -809,11 +789,11 @@ proxies:
   tcp-fast-open: true
   servername: 165.140.216.141
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #76'
+- name: 'T.ME: @aristapnel #75'
   type: vmess
-  server: 82.198.246.97
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  server: 51.195.235.71
+  port: 2052
+  uuid: 59e28f78-c31b-4613-9d9f-1e6732a31f46
   alterId: 0
   cipher: auto
   network: tcp
@@ -821,13 +801,27 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 82.198.246.97
+  servername: 51.195.235.71
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #76'
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 84.17.41.2
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #77'
   type: vmess
-  server: 47.251.91.241
-  port: 42899
-  uuid: 0925b355-2bcd-4eae-9720-d2709e4f7e36
+  server: 85.90.217.42
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
   cipher: auto
   network: tcp
@@ -835,7 +829,7 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 47.251.91.241
+  servername: 85.90.217.42
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #78'
   type: vmess
@@ -875,175 +869,379 @@ proxies:
       Host: 47.250.45.234
 - name: 'T.ME: @aristapnel #80'
   type: vless
-  server: 83.168.71.216
-  port: 443
-  uuid: a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a
+  server: 45.194.10.90
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
   network: tcp
   tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: ads.x5.ru
+  servername: storage.yandex.net
   client-fingerprint: chrome
+  flow: xtls-rprx-vision
   alpn:
   - h2
   - http/1.1
   reality-opts:
-    public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
-    short-id: 2f49bccf11150ef2
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
 - name: 'T.ME: @aristapnel #81'
   type: vless
-  server: 162.120.94.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: false
+  server: 87.228.101.211
+  port: 443
+  uuid: 362364df-b767-4907-9071-e85655a1dedb
+  network: tcp
+  tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: vms.lifetime07.workers.dev
+  servername: api.yandex.ru
   client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime07.workers.dev
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: HhzAvJmqEjt_CeifAJmDfg7DgeD2t2cvzWqvyyPSVz0
+    short-id: 664b8a28e735af5f
 - name: 'T.ME: @aristapnel #82'
   type: vless
-  server: 89.169.39.55
-  port: 443
-  uuid: c61ec320-29f1-4e00-9272-8b676e6957b4
+  server: 45.194.10.72
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
   network: tcp
   tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: max.ru
+  servername: storage.yandex.net
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   alpn:
   - h2
   - http/1.1
   reality-opts:
-    public-key: Lbug_wz0y9xgKeDK44D9kuUap0fXzNKyv_nMJxnZRzU
-    short-id: 28a059440d3d5ba1
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+- name: 'T.ME: @aristapnel #83'
+  type: vless
+  server: 45.194.10.55
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
 - name: 'T.ME: @aristapnel #84'
   type: vless
-  server: 185.229.191.53
-  port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  server: 87.228.101.211
+  port: 443
+  uuid: 3ceb2e3a-dc4d-435b-8048-0252ff68341d
   network: tcp
   tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: ams1.fromblancwithlove.com
+  servername: 5post-gate.x5.ru
   client-fingerprint: chrome
+  flow: xtls-rprx-vision
   alpn:
   - h2
   - http/1.1
+  reality-opts:
+    public-key: kDGigLxn2RUJ8HqhPVUb8pRAcjn5zMhR0-QrORmbIDk
+    short-id: be6abde66d48cd13
 - name: 'T.ME: @aristapnel #85'
   type: vless
-  server: 77.74.123.163
-  port: 8443
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  server: 87.228.101.211
+  port: 443
+  uuid: c3237f28-4aa7-4e67-b7df-90e15ec62b4f
   network: tcp
   tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: cdn3-87.vk-cdnvideo.com
+  servername: m.vk.com
   client-fingerprint: chrome
+  flow: xtls-rprx-vision
   alpn:
   - h2
   - http/1.1
+  reality-opts:
+    public-key: HhzAvJmqEjt_CeifAJmDfg7DgeD2t2cvzWqvyyPSVz0
+    short-id: 664b8a28e735af5f
 - name: 'T.ME: @aristapnel #86'
   type: vless
-  server: 185.229.191.49
+  server: 45.194.10.117
   port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
   network: tcp
   tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: ams1.fromblancwithlove.com
+  servername: storage.yandex.net
   client-fingerprint: chrome
+  flow: xtls-rprx-vision
   alpn:
   - h2
   - http/1.1
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
 - name: 'T.ME: @aristapnel #87'
   type: vless
-  server: 185.229.191.184
+  server: 45.194.10.229
   port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
   network: tcp
   tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: ams1.fromblancwithlove.com
+  servername: storage.yandex.net
   client-fingerprint: chrome
+  flow: xtls-rprx-vision
   alpn:
   - h2
   - http/1.1
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
 - name: 'T.ME: @aristapnel #88'
   type: vless
-  server: 185.229.191.69
+  server: 45.194.10.161
   port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
   network: tcp
   tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: ams1.fromblancwithlove.com
+  servername: storage.yandex.net
   client-fingerprint: chrome
+  flow: xtls-rprx-vision
   alpn:
   - h2
   - http/1.1
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
 - name: 'T.ME: @aristapnel #89'
   type: vless
-  server: 83.168.71.216
+  server: 87.228.101.211
   port: 443
-  uuid: a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a
+  uuid: cfd270dc-70f5-4df7-86cd-0cc9968a7a25
   network: tcp
   tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: ads.x5.ru
+  servername: api.yandex.ru
   client-fingerprint: chrome
+  flow: xtls-rprx-vision
   alpn:
   - h2
   - http/1.1
   reality-opts:
-    public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
-    short-id: 2f49bccf11150ef2
+    public-key: HhzAvJmqEjt_CeifAJmDfg7DgeD2t2cvzWqvyyPSVz0
+    short-id: 664b8a28e735af5f
 - name: 'T.ME: @aristapnel #90'
   type: vless
-  server: tg.riotvpn.eu
-  port: 443
-  uuid: a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a
+  server: 45.194.10.52
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
   network: tcp
   tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: ads.x5.ru
+  servername: storage.yandex.net
   client-fingerprint: chrome
+  flow: xtls-rprx-vision
   alpn:
   - h2
   - http/1.1
   reality-opts:
-    public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
-    short-id: 2f49bccf11150ef2
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
 - name: 'T.ME: @aristapnel #91'
   type: vless
-  server: 89.169.39.55
+  server: 45.194.10.187
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+- name: 'T.ME: @aristapnel #92'
+  type: vless
+  server: 45.194.10.218
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+- name: 'T.ME: @aristapnel #93'
+  type: vless
+  server: 45.194.10.59
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+- name: 'T.ME: @aristapnel #94'
+  type: vless
+  server: 45.194.10.155
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+- name: 'T.ME: @aristapnel #95'
+  type: vless
+  server: 87.228.101.211
+  port: 8443
+  uuid: 644030f8-4e23-46e3-b539-76cce24d65d1
+  network: http
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: m.vk.com
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  http-opts:
+    method: GET
+    path:
+    - '%2F'
+    headers:
+      Host:
+      - m.vk.com
+  reality-opts:
+    public-key: 4rOkMPLt9aMOXiDmXkPX6RQP6jd6qBLBvGJx45JFWFk
+    short-id: ee82aca370f4428b
+- name: 'T.ME: @aristapnel #96'
+  type: vless
+  server: 87.228.101.211
   port: 443
-  uuid: c61ec320-29f1-4e00-9272-8b676e6957b4
+  uuid: 87e958f6-45ab-43f6-8f28-4f022e6288b9
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: api.yandex.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: HhzAvJmqEjt_CeifAJmDfg7DgeD2t2cvzWqvyyPSVz0
+    short-id: 664b8a28e735af5f
+- name: 'T.ME: @aristapnel #97'
+  type: vless
+  server: 45.194.10.14
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+- name: 'T.ME: @aristapnel #98'
+  type: vless
+  server: 181.214.99.162
+  port: 443
+  uuid: 1ca2c927-f8ba-4475-94cb-f85e0fb03ff5
+  network: http
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: static.lotussec.com
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  http-opts:
+    method: GET
+    path:
+    - '%2FJoin-JavidnamanIran-on-Telegram'
+    headers:
+      Host:
+      - static.lotussec.com
+- name: 'T.ME: @aristapnel #99'
+  type: vless
+  server: 87.228.101.211
+  port: 443
+  uuid: f955ecd4-00c2-4ec4-b363-b4905f84fe9e
   network: tcp
   tls: true
   udp: true
@@ -1056,140 +1254,27 @@ proxies:
   - h2
   - http/1.1
   reality-opts:
-    public-key: Lbug_wz0y9xgKeDK44D9kuUap0fXzNKyv_nMJxnZRzU
-    short-id: '825867'
-- name: 'T.ME: @aristapnel #92'
-  type: vless
-  server: 185.229.191.46
-  port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: ams1.fromblancwithlove.com
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-- name: 'T.ME: @aristapnel #93'
-  type: vless
-  server: 45.159.12.3
-  port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: ams1.fromblancwithlove.com
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-- name: 'T.ME: @aristapnel #94'
-  type: vless
-  server: 79.127.227.57
-  port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: ams1.fromblancwithlove.com
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-- name: 'T.ME: @aristapnel #95'
-  type: vless
-  server: 185.229.191.67
-  port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: ams1.fromblancwithlove.com
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-- name: 'T.ME: @aristapnel #96'
-  type: vless
-  server: 185.229.191.69
-  port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: ams1.fromblancwithlove.com
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-- name: 'T.ME: @aristapnel #97'
-  type: vless
-  server: 162.249.126.78
-  port: 8443
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: cdn7-09.vk-cdnvideo.com
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-- name: 'T.ME: @aristapnel #98'
-  type: vless
-  server: 185.229.191.145
-  port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: ams1.fromblancwithlove.com
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-- name: 'T.ME: @aristapnel #99'
-  type: vless
-  server: 45.159.12.3
-  port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: ams1.fromblancwithlove.com
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
+    public-key: kDGigLxn2RUJ8HqhPVUb8pRAcjn5zMhR0-QrORmbIDk
+    short-id: be6abde66d48cd13
 - name: 'T.ME: @aristapnel #100'
   type: vless
-  server: 217.28.48.29
-  port: 25752
-  uuid: 27f2ae85-3e15-4a9a-9c71-49ee032e7b26
+  server: 87.228.101.211
+  port: 443
+  uuid: 153842b5-5e75-4b31-ad12-ea546ea62f6f
   network: tcp
-  tls: false
+  tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 217.28.48.29
+  servername: 5post-gate.x5.ru
   client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: kDGigLxn2RUJ8HqhPVUb8pRAcjn5zMhR0-QrORmbIDk
+    short-id: be6abde66d48cd13
 proxy-groups:
 - name: 🚀 ARISTA LOW LATENCY
   type: url-test
@@ -1214,6 +1299,7 @@ proxy-groups:
   - 'T.ME: @aristapnel #13'
   - 'T.ME: @aristapnel #14'
   - 'T.ME: @aristapnel #15'
+  - 'T.ME: @aristapnel #16'
   - 'T.ME: @aristapnel #17'
   - 'T.ME: @aristapnel #18'
   - 'T.ME: @aristapnel #19'
@@ -1280,6 +1366,7 @@ proxy-groups:
   - 'T.ME: @aristapnel #80'
   - 'T.ME: @aristapnel #81'
   - 'T.ME: @aristapnel #82'
+  - 'T.ME: @aristapnel #83'
   - 'T.ME: @aristapnel #84'
   - 'T.ME: @aristapnel #85'
   - 'T.ME: @aristapnel #86'
