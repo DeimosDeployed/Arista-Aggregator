@@ -1,6 +1,6 @@
 # GITHUB - HYSTERIA2 - Tier ALL
-# Updated: 2026-06-27 19:04:03
-# Count: 346
+# Updated: 2026-06-27 19:51:24
+# Count: 351
 
 proxies:
 - name: 'T.ME: @aristapnel #1'
@@ -3114,15 +3114,62 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #346'
   type: hysteria2
-  server: 65.109.177.191
-  port: 443
-  password: t-me-v2rayyngvpn
-  sni: 65.109.177.191
+  server: musicclips.videolinks.ru
+  port: 8443
+  password: 653m8mmiy7048p0f
+  sni: musicclips.videolinks.ru
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
   obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
+  obfs-password: 8zzng75tz4tf82pj
+- name: 'T.ME: @aristapnel #347'
+  type: hysteria2
+  server: social.klipp.su
+  port: 443
+  password: 653m8mmiy7048p0f
+  sni: social.klipp.su
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: 3sv5vpdl9xr84lyb
+- name: 'T.ME: @aristapnel #348'
+  type: hysteria2
+  server: 13.231.108.76
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 13.231.108.76
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #349'
+  type: hysteria2
+  server: 18.143.117.69
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: 18.143.117.69
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #350'
+  type: hysteria2
+  server: 18.143.165.76
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: 18.143.165.76
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #351'
+  type: hysteria2
+  server: 47.131.248.82
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: 47.131.248.82
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
 proxy-groups:
 - name: 🚀 ARISTA LOW LATENCY
   type: url-test
@@ -3478,6 +3525,11 @@ proxy-groups:
   - 'T.ME: @aristapnel #344'
   - 'T.ME: @aristapnel #345'
   - 'T.ME: @aristapnel #346'
+  - 'T.ME: @aristapnel #347'
+  - 'T.ME: @aristapnel #348'
+  - 'T.ME: @aristapnel #349'
+  - 'T.ME: @aristapnel #350'
+  - 'T.ME: @aristapnel #351'
 - name: 🎬 ARISTA STREAM
   type: fallback
   url: http://www.gstatic.com/generate_204

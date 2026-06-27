@@ -1,6 +1,6 @@
 # COMBINED - HYSTERIA2 - Tier ALL
-# Updated: 2026-06-27 19:03:51
-# Count: 348
+# Updated: 2026-06-27 19:51:12
+# Count: 354
 
 proxies:
 - name: 'ARISTA #1'
@@ -25,7 +25,18 @@ proxies:
   client-fingerprint: chrome
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-- name: 'T.ME: @aristapnel #3'
+- name: 'ARISTA #3'
+  type: hysteria2
+  server: 191.101.238.183
+  port: 54040
+  password: q3tf4lsdoqpgpo4x
+  sni: 191.101.238.183
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: '%40JynMarket'
+- name: 'T.ME: @aristapnel #5'
   type: hysteria2
   server: hy2.aspidnet.xyz
   port: 443
@@ -36,24 +47,6 @@ proxies:
   client-fingerprint: chrome
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 'T.ME: @aristapnel #4'
-  type: hysteria2
-  server: 185.75.135.220
-  port: 443
-  password: 00dcd873-9211-4d61-ad35-87999906e5c8
-  sni: 185.75.135.220
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #5'
-  type: hysteria2
-  server: 185.75.135.220
-  port: 443
-  password: 00dcd873-9211-4d61-ad35-87999906e5c8
-  sni: 185.75.135.220
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #6'
   type: hysteria2
   server: 185.75.135.220
@@ -443,19 +436,19 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #49'
   type: hysteria2
-  server: fta.fontanvpn.com
+  server: 185.75.135.220
   port: 443
   password: 00dcd873-9211-4d61-ad35-87999906e5c8
-  sni: fta.fontanvpn.com
+  sni: 185.75.135.220
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #50'
   type: hysteria2
-  server: fta.fontanvpn.com
+  server: 185.75.135.220
   port: 443
   password: 00dcd873-9211-4d61-ad35-87999906e5c8
-  sni: fta.fontanvpn.com
+  sni: 185.75.135.220
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -740,19 +733,19 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #82'
   type: hysteria2
-  server: wlte.nimarko.org
-  port: 8445
-  password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  sni: wlte.nimarko.org
+  server: fta.fontanvpn.com
+  port: 443
+  password: 00dcd873-9211-4d61-ad35-87999906e5c8
+  sni: fta.fontanvpn.com
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #83'
   type: hysteria2
-  server: wlte.nimarko.org
-  port: 8445
-  password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  sni: wlte.nimarko.org
+  server: fta.fontanvpn.com
+  port: 443
+  password: 00dcd873-9211-4d61-ad35-87999906e5c8
+  sni: fta.fontanvpn.com
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -813,7 +806,7 @@ proxies:
 - name: 'T.ME: @aristapnel #90'
   type: hysteria2
   server: wlte.nimarko.org
-  port: 8465
+  port: 8445
   password: c059a786-3a03-4300-9ace-4f9cda0f360c
   sni: wlte.nimarko.org
   skip-cert-verify: false
@@ -822,7 +815,7 @@ proxies:
 - name: 'T.ME: @aristapnel #91'
   type: hysteria2
   server: wlte.nimarko.org
-  port: 8465
+  port: 8445
   password: c059a786-3a03-4300-9ace-4f9cda0f360c
   sni: wlte.nimarko.org
   skip-cert-verify: false
@@ -920,19 +913,19 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #102'
   type: hysteria2
-  server: wlte8.nimarko.org
-  port: 8450
+  server: wlte.nimarko.org
+  port: 8465
   password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  sni: wlte8.nimarko.org
+  sni: wlte.nimarko.org
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #103'
   type: hysteria2
-  server: wlte8.nimarko.org
-  port: 8450
+  server: wlte.nimarko.org
+  port: 8465
   password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  sni: wlte8.nimarko.org
+  sni: wlte.nimarko.org
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -974,19 +967,19 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #108'
   type: hysteria2
-  server: wlte9.nimarko.org
-  port: 8451
+  server: wlte8.nimarko.org
+  port: 8450
   password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  sni: wlte9.nimarko.org
+  sni: wlte8.nimarko.org
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #109'
   type: hysteria2
-  server: wlte9.nimarko.org
-  port: 8451
+  server: wlte8.nimarko.org
+  port: 8450
   password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  sni: wlte9.nimarko.org
+  sni: wlte8.nimarko.org
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -1046,19 +1039,19 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #116'
   type: hysteria2
-  server: wlte3.nimarko.org
-  port: 8444
+  server: wlte9.nimarko.org
+  port: 8451
   password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  sni: wlte3.nimarko.org
+  sni: wlte9.nimarko.org
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #117'
   type: hysteria2
-  server: wlte3.nimarko.org
-  port: 8444
+  server: wlte9.nimarko.org
+  port: 8451
   password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  sni: wlte3.nimarko.org
+  sni: wlte9.nimarko.org
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -1145,19 +1138,19 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #127'
   type: hysteria2
-  server: fta.fontanvpn.com
-  port: 443
-  password: 00dcd873-9211-4d61-ad35-87999906e5c8
-  sni: fta.fontanvpn.com
+  server: wlte3.nimarko.org
+  port: 8444
+  password: c059a786-3a03-4300-9ace-4f9cda0f360c
+  sni: wlte3.nimarko.org
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #128'
   type: hysteria2
-  server: fta.fontanvpn.com
-  port: 443
-  password: 00dcd873-9211-4d61-ad35-87999906e5c8
-  sni: fta.fontanvpn.com
+  server: wlte3.nimarko.org
+  port: 8444
+  password: c059a786-3a03-4300-9ace-4f9cda0f360c
+  sni: wlte3.nimarko.org
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -1181,28 +1174,28 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #131'
   type: hysteria2
-  server: wlte.nimarko.org
-  port: 8445
-  password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  sni: wlte.nimarko.org
+  server: fta.fontanvpn.com
+  port: 443
+  password: 00dcd873-9211-4d61-ad35-87999906e5c8
+  sni: fta.fontanvpn.com
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #132'
   type: hysteria2
-  server: 193.222.99.51
+  server: fta.fontanvpn.com
   port: 443
-  password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
-  sni: 193.222.99.51
+  password: 00dcd873-9211-4d61-ad35-87999906e5c8
+  sni: fta.fontanvpn.com
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #133'
   type: hysteria2
-  server: 193.222.99.51
-  port: 443
-  password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
-  sni: 193.222.99.51
+  server: wlte.nimarko.org
+  port: 8445
+  password: c059a786-3a03-4300-9ace-4f9cda0f360c
+  sni: wlte.nimarko.org
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -1352,19 +1345,19 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #150'
   type: hysteria2
-  server: 103.115.109.49
+  server: 193.222.99.51
   port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 103.115.109.49
+  password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
+  sni: 193.222.99.51
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #151'
   type: hysteria2
-  server: 103.115.109.49
+  server: 193.222.99.51
   port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 103.115.109.49
+  password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
+  sni: 193.222.99.51
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -1424,19 +1417,19 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #158'
   type: hysteria2
-  server: 31.76.28.28
+  server: 103.115.109.49
   port: 443
-  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-  sni: 31.76.28.28
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 103.115.109.49
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #159'
   type: hysteria2
-  server: 31.76.28.28
+  server: 103.115.109.49
   port: 443
-  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-  sni: 31.76.28.28
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 103.115.109.49
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -1451,19 +1444,19 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #161'
   type: hysteria2
-  server: fta.fontanvpn.com
+  server: 31.76.28.28
   port: 443
-  password: 00dcd873-9211-4d61-ad35-87999906e5c8
-  sni: fta.fontanvpn.com
+  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  sni: 31.76.28.28
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #162'
   type: hysteria2
-  server: fta.fontanvpn.com
+  server: 31.76.28.28
   port: 443
-  password: 00dcd873-9211-4d61-ad35-87999906e5c8
-  sni: fta.fontanvpn.com
+  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  sni: 31.76.28.28
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -1712,19 +1705,19 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #190'
   type: hysteria2
-  server: wlte.nimarko.org
-  port: 8445
-  password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  sni: wlte.nimarko.org
+  server: fta.fontanvpn.com
+  port: 443
+  password: 00dcd873-9211-4d61-ad35-87999906e5c8
+  sni: fta.fontanvpn.com
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #191'
   type: hysteria2
-  server: wlte.nimarko.org
-  port: 8445
-  password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  sni: wlte.nimarko.org
+  server: fta.fontanvpn.com
+  port: 443
+  password: 00dcd873-9211-4d61-ad35-87999906e5c8
+  sni: fta.fontanvpn.com
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -1757,19 +1750,19 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #195'
   type: hysteria2
-  server: 193.222.99.51
-  port: 443
-  password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
-  sni: 193.222.99.51
+  server: wlte.nimarko.org
+  port: 8445
+  password: c059a786-3a03-4300-9ace-4f9cda0f360c
+  sni: wlte.nimarko.org
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #196'
   type: hysteria2
-  server: 193.222.99.51
-  port: 443
-  password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
-  sni: 193.222.99.51
+  server: wlte.nimarko.org
+  port: 8445
+  password: c059a786-3a03-4300-9ace-4f9cda0f360c
+  sni: wlte.nimarko.org
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -1802,19 +1795,19 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #200'
   type: hysteria2
-  server: 202.146.222.174
+  server: 193.222.99.51
   port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.174
+  password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
+  sni: 193.222.99.51
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #201'
   type: hysteria2
-  server: 202.146.222.174
+  server: 193.222.99.51
   port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.174
+  password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
+  sni: 193.222.99.51
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -2126,19 +2119,19 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #236'
   type: hysteria2
-  server: 103.115.109.49
+  server: 202.146.222.174
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 103.115.109.49
+  sni: 202.146.222.174
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #237'
   type: hysteria2
-  server: 103.115.109.49
+  server: 202.146.222.174
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 103.115.109.49
+  sni: 202.146.222.174
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -2405,19 +2398,19 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #267'
   type: hysteria2
-  server: vpn-tw-002.fastervpn.world
+  server: 103.115.109.49
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-tw-002.fastervpn.world
+  sni: 103.115.109.49
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #268'
   type: hysteria2
-  server: vpn-tw-002.fastervpn.world
+  server: 103.115.109.49
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-tw-002.fastervpn.world
+  sni: 103.115.109.49
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -2846,28 +2839,28 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #316'
   type: hysteria2
-  server: wlte8.nimarko.org
-  port: 8450
-  password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  sni: wlte8.nimarko.org
+  server: vpn-tw-002.fastervpn.world
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-tw-002.fastervpn.world
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #317'
   type: hysteria2
-  server: 31.76.28.28
+  server: vpn-tw-002.fastervpn.world
   port: 443
-  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-  sni: 31.76.28.28
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-tw-002.fastervpn.world
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #318'
   type: hysteria2
-  server: 31.76.28.28
-  port: 443
-  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-  sni: 31.76.28.28
+  server: wlte8.nimarko.org
+  port: 8450
+  password: c059a786-3a03-4300-9ace-4f9cda0f360c
+  sni: wlte8.nimarko.org
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -3098,14 +3091,23 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #344'
   type: hysteria2
-  server: wlte3.nimarko.org
-  port: 8444
-  password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  sni: wlte3.nimarko.org
+  server: 31.76.28.28
+  port: 443
+  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  sni: 31.76.28.28
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #345'
+  type: hysteria2
+  server: 31.76.28.28
+  port: 443
+  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  sni: 31.76.28.28
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #346'
   type: hysteria2
   server: wlte3.nimarko.org
   port: 8444
@@ -3114,7 +3116,16 @@ proxies:
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #346'
+- name: 'T.ME: @aristapnel #347'
+  type: hysteria2
+  server: wlte3.nimarko.org
+  port: 8444
+  password: c059a786-3a03-4300-9ace-4f9cda0f360c
+  sni: wlte3.nimarko.org
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #348'
   type: hysteria2
   server: 130.49.161.70
   port: 443
@@ -3125,7 +3136,7 @@ proxies:
   client-fingerprint: chrome
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 'T.ME: @aristapnel #347'
+- name: 'T.ME: @aristapnel #349'
   type: hysteria2
   server: 193.222.99.51
   port: 443
@@ -3134,17 +3145,64 @@ proxies:
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #348'
+- name: 'T.ME: @aristapnel #350'
   type: hysteria2
-  server: 65.109.177.191
-  port: 443
-  password: t-me-v2rayyngvpn
-  sni: 65.109.177.191
+  server: musicclips.videolinks.ru
+  port: 8443
+  password: 653m8mmiy7048p0f
+  sni: musicclips.videolinks.ru
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
   obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
+  obfs-password: 8zzng75tz4tf82pj
+- name: 'T.ME: @aristapnel #351'
+  type: hysteria2
+  server: social.klipp.su
+  port: 443
+  password: 653m8mmiy7048p0f
+  sni: social.klipp.su
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: 3sv5vpdl9xr84lyb
+- name: 'T.ME: @aristapnel #352'
+  type: hysteria2
+  server: 13.231.108.76
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 13.231.108.76
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #353'
+  type: hysteria2
+  server: 18.143.117.69
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: 18.143.117.69
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #354'
+  type: hysteria2
+  server: 18.143.165.76
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: 18.143.165.76
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #355'
+  type: hysteria2
+  server: 47.131.248.82
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: 47.131.248.82
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
 proxy-groups:
 - name: 🚀 ARISTA LOW LATENCY
   type: url-test
@@ -3156,8 +3214,7 @@ proxy-groups:
   proxies: &id001
   - 'ARISTA #1'
   - 'ARISTA #2'
-  - 'T.ME: @aristapnel #3'
-  - 'T.ME: @aristapnel #4'
+  - 'ARISTA #3'
   - 'T.ME: @aristapnel #5'
   - 'T.ME: @aristapnel #6'
   - 'T.ME: @aristapnel #7'
@@ -3502,6 +3559,13 @@ proxy-groups:
   - 'T.ME: @aristapnel #346'
   - 'T.ME: @aristapnel #347'
   - 'T.ME: @aristapnel #348'
+  - 'T.ME: @aristapnel #349'
+  - 'T.ME: @aristapnel #350'
+  - 'T.ME: @aristapnel #351'
+  - 'T.ME: @aristapnel #352'
+  - 'T.ME: @aristapnel #353'
+  - 'T.ME: @aristapnel #354'
+  - 'T.ME: @aristapnel #355'
 - name: 🎬 ARISTA STREAM
   type: fallback
   url: http://www.gstatic.com/generate_204
