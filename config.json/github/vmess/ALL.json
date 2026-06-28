@@ -1,6 +1,6 @@
 // GITHUB - VMESS - Tier ALL
-// Updated: 2026-06-28 20:08:30
-// Count: 8
+// Updated: 2026-06-28 21:52:22
+// Count: 9
 
 {
   "log": {
@@ -120,6 +120,17 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #5",
+      "server": "18.184.156.126",
+      "server_port": 1002,
+      "uuid": "440cddf8-bfdc-4936-b842-381d572a12aa",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #6",
       "server": "yg1.ygkkk.dpdns.org",
       "server_port": 443,
       "uuid": "6a25f9ba-70a0-4d53-a2a9-19d8f1fcad76",
@@ -143,17 +154,6 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #6",
-      "server": "65.109.218.60",
-      "server_port": 8088,
-      "uuid": "65488bcf-8573-44ee-9b4f-9abf4390acca",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "T.ME: @aristapnel #7",
       "server": "107.173.27.219",
       "server_port": 6666,
@@ -173,19 +173,36 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #8",
-      "server": "69.84.182.49",
-      "server_port": 80,
-      "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
+      "server": "yg1.ygkkk.dpdns.org",
+      "server_port": 443,
+      "uuid": "6a25f9ba-70a0-4d53-a2a9-19d8f1fcad76",
       "security": "auto",
       "tls": {
-        "enabled": false
+        "enabled": true,
+        "server_name": "attitude-interracial-country-gen.trycloudflare.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/6a25f9ba-70a0-4d53-a2a9-19d8f1fcad76-vm",
         "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
+          "Host": "attitude-interracial-country-gen.trycloudflare.com"
         }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #9",
+      "server": "65.109.186.44",
+      "server_port": 433,
+      "uuid": "0cdfc4e0-67aa-40a9-8749-387bf9e11fd9",
+      "security": "auto",
+      "tls": {
+        "enabled": false
       }
     },
     {
@@ -207,7 +224,8 @@
         "T.ME: @aristapnel #5",
         "T.ME: @aristapnel #6",
         "T.ME: @aristapnel #7",
-        "T.ME: @aristapnel #8"
+        "T.ME: @aristapnel #8",
+        "T.ME: @aristapnel #9"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -226,7 +244,8 @@
         "T.ME: @aristapnel #5",
         "T.ME: @aristapnel #6",
         "T.ME: @aristapnel #7",
-        "T.ME: @aristapnel #8"
+        "T.ME: @aristapnel #8",
+        "T.ME: @aristapnel #9"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",

@@ -1,5 +1,5 @@
 // GITHUB - ALL - Tier 50
-// Updated: 2026-06-28 20:08:30
+// Updated: 2026-06-28 21:52:23
 // Count: 40
 
 {
@@ -350,20 +350,8 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "T.ME: @aristapnel #22",
-      "server": "185.75.135.220",
-      "server_port": 443,
-      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
-      "tls": {
-        "enabled": true,
-        "server_name": "185.75.135.220",
-        "insecure": true
-      }
-    },
-    {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #33",
+      "tag": "T.ME: @aristapnel #32",
       "server": "89.167.82.102",
       "server_port": 8880,
       "uuid": "48eabd37-500d-403f-8e8f-715d1e17bffd",
@@ -374,7 +362,7 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #34",
+      "tag": "T.ME: @aristapnel #33",
       "server": "uk5.taskflowhub.org",
       "server_port": 2053,
       "uuid": "89371dfc-2618-40d7-a558-693ff4f7f1eb",
@@ -391,7 +379,7 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #35",
+      "tag": "T.ME: @aristapnel #34",
       "server": "69.84.182.49",
       "server_port": 80,
       "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
@@ -409,7 +397,7 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #36",
+      "tag": "T.ME: @aristapnel #35",
       "server": "atiins.com.tr",
       "server_port": 443,
       "uuid": "97775936-05ea-4fea-8562-e9eb98559790",
@@ -426,6 +414,17 @@
           "h2",
           "http/1.1"
         ]
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #36",
+      "server": "18.184.156.126",
+      "server_port": 1002,
+      "uuid": "440cddf8-bfdc-4936-b842-381d572a12aa",
+      "security": "auto",
+      "tls": {
+        "enabled": false
       }
     },
     {
@@ -455,17 +454,6 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #38",
-      "server": "65.109.218.60",
-      "server_port": 8088,
-      "uuid": "65488bcf-8573-44ee-9b4f-9abf4390acca",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "T.ME: @aristapnel #39",
       "server": "107.173.27.219",
       "server_port": 6666,
       "uuid": "f0a2fbe5-29bf-468c-ddc1-b524552d1a23",
@@ -483,20 +471,37 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #40",
-      "server": "69.84.182.49",
-      "server_port": 80,
-      "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
+      "tag": "T.ME: @aristapnel #39",
+      "server": "yg1.ygkkk.dpdns.org",
+      "server_port": 443,
+      "uuid": "6a25f9ba-70a0-4d53-a2a9-19d8f1fcad76",
       "security": "auto",
       "tls": {
-        "enabled": false
+        "enabled": true,
+        "server_name": "attitude-interracial-country-gen.trycloudflare.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/6a25f9ba-70a0-4d53-a2a9-19d8f1fcad76-vm",
         "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
+          "Host": "attitude-interracial-country-gen.trycloudflare.com"
         }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #40",
+      "server": "65.109.186.44",
+      "server_port": 433,
+      "uuid": "0cdfc4e0-67aa-40a9-8749-387bf9e11fd9",
+      "security": "auto",
+      "tls": {
+        "enabled": false
       }
     },
     {
@@ -751,7 +756,7 @@
         "T.ME: @aristapnel #19",
         "T.ME: @aristapnel #20",
         "T.ME: @aristapnel #21",
-        "T.ME: @aristapnel #22",
+        "T.ME: @aristapnel #32",
         "T.ME: @aristapnel #33",
         "T.ME: @aristapnel #34",
         "T.ME: @aristapnel #35",
@@ -802,7 +807,7 @@
         "T.ME: @aristapnel #19",
         "T.ME: @aristapnel #20",
         "T.ME: @aristapnel #21",
-        "T.ME: @aristapnel #22",
+        "T.ME: @aristapnel #32",
         "T.ME: @aristapnel #33",
         "T.ME: @aristapnel #34",
         "T.ME: @aristapnel #35",

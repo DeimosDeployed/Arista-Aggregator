@@ -1,20 +1,9 @@
 # COMBINED - HYSTERIA2 - Tier 50
-# Updated: 2026-06-28 20:04:58
+# Updated: 2026-06-28 21:48:28
 # Count: 49
 
 proxies:
 - name: 'ARISTA #1'
-  type: hysteria2
-  server: 191.101.238.183
-  port: 54040
-  password: q3tf4lsdoqpgpo4x
-  sni: 191.101.238.183
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-  obfs: salamander
-  obfs-password: '%40JynMarket'
-- name: 'ARISTA #3'
   type: hysteria2
   server: 65.109.177.191
   port: 443
@@ -25,7 +14,7 @@ proxies:
   client-fingerprint: chrome
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-- name: 'ARISTA #4'
+- name: 'ARISTA #2'
   type: hysteria2
   server: 65.109.177.191
   port: 443
@@ -36,17 +25,28 @@ proxies:
   client-fingerprint: chrome
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-- name: 'ARISTA #5'
+- name: 'ARISTA #3'
   type: hysteria2
-  server: 65.109.177.191
+  server: 57.128.108.123
   port: 443
-  password: V2RayyNgvpn
-  sni: 65.109.177.191
+  password: v2rayyngvpn
+  sni: 57.128.108.123
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
+- name: 'ARISTA #4'
+  type: hysteria2
+  server: 191.101.238.183
+  port: 54040
+  password: q3tf4lsdoqpgpo4x
+  sni: 191.101.238.183
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: '%40JynMarket'
 - name: 'T.ME: @aristapnel #6'
   type: hysteria2
   server: hy2.aspidnet.xyz
@@ -420,37 +420,37 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #47'
   type: hysteria2
-  server: fta.fontanvpn.com
+  server: 185.75.135.220
   port: 443
   password: 00dcd873-9211-4d61-ad35-87999906e5c8
-  sni: fta.fontanvpn.com
+  sni: 185.75.135.220
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #48'
   type: hysteria2
-  server: fta.fontanvpn.com
+  server: 185.75.135.220
   port: 443
   password: 00dcd873-9211-4d61-ad35-87999906e5c8
-  sni: fta.fontanvpn.com
+  sni: 185.75.135.220
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #49'
   type: hysteria2
-  server: fta.fontanvpn.com
+  server: 185.75.135.220
   port: 443
   password: 00dcd873-9211-4d61-ad35-87999906e5c8
-  sni: fta.fontanvpn.com
+  sni: 185.75.135.220
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #50'
   type: hysteria2
-  server: fta.fontanvpn.com
+  server: 185.75.135.220
   port: 443
   password: 00dcd873-9211-4d61-ad35-87999906e5c8
-  sni: fta.fontanvpn.com
+  sni: 185.75.135.220
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -464,9 +464,9 @@ proxy-groups:
   timeout: 3000
   proxies: &id001
   - 'ARISTA #1'
+  - 'ARISTA #2'
   - 'ARISTA #3'
   - 'ARISTA #4'
-  - 'ARISTA #5'
   - 'T.ME: @aristapnel #6'
   - 'T.ME: @aristapnel #7'
   - 'T.ME: @aristapnel #8'

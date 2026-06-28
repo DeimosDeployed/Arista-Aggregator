@@ -1,5 +1,5 @@
 // GITHUB - ALL - Tier 100
-// Updated: 2026-06-28 20:08:30
+// Updated: 2026-06-28 21:52:23
 // Count: 77
 
 {
@@ -428,6 +428,32 @@
     {
       "type": "trojan",
       "tag": "T.ME: @aristapnel #21",
+      "server": "3.123.202.198",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "3.123.202.198",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "T.ME: @aristapnel #22",
+      "server": "37.156.44.215",
+      "server_port": 42549,
+      "password": "SoftNetConnect",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "T.ME: @aristapnel #23",
       "server": "38.60.252.118",
       "server_port": 443,
       "password": "NAdtbpuyJXPH=CfKmdBqD2YVbzdvwAtuxw",
@@ -439,26 +465,6 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "T.ME: @aristapnel #22",
-      "server": "d1.catcat321.com",
-      "server_port": 50888,
-      "password": "7e70223b-f331-41d5-9313-02b8d2df2885",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "T.ME: @aristapnel #23",
-      "server": "54.46.109.132",
-      "server_port": 22657,
-      "password": "BxceQaOe",
-      "tls": {
-        "enabled": false
       }
     },
     {
@@ -811,6 +817,17 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #74",
+      "server": "18.184.156.126",
+      "server_port": 1002,
+      "uuid": "440cddf8-bfdc-4936-b842-381d572a12aa",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #75",
       "server": "yg1.ygkkk.dpdns.org",
       "server_port": 443,
       "uuid": "6a25f9ba-70a0-4d53-a2a9-19d8f1fcad76",
@@ -834,17 +851,6 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #75",
-      "server": "65.109.218.60",
-      "server_port": 8088,
-      "uuid": "65488bcf-8573-44ee-9b4f-9abf4390acca",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "T.ME: @aristapnel #76",
       "server": "107.173.27.219",
       "server_port": 6666,
@@ -864,24 +870,41 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #77",
-      "server": "69.84.182.49",
-      "server_port": 80,
-      "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
+      "server": "yg1.ygkkk.dpdns.org",
+      "server_port": 443,
+      "uuid": "6a25f9ba-70a0-4d53-a2a9-19d8f1fcad76",
       "security": "auto",
       "tls": {
-        "enabled": false
+        "enabled": true,
+        "server_name": "attitude-interracial-country-gen.trycloudflare.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/6a25f9ba-70a0-4d53-a2a9-19d8f1fcad76-vm",
         "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
+          "Host": "attitude-interracial-country-gen.trycloudflare.com"
         }
       }
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "T.ME: @aristapnel #78",
+      "server": "65.109.186.44",
+      "server_port": 433,
+      "uuid": "0cdfc4e0-67aa-40a9-8749-387bf9e11fd9",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #79",
       "server": "45.194.10.79",
       "server_port": 8443,
       "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
@@ -903,7 +926,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #79",
+      "tag": "T.ME: @aristapnel #80",
       "server": "45.194.10.165",
       "server_port": 8443,
       "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
@@ -925,7 +948,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #80",
+      "tag": "T.ME: @aristapnel #81",
       "server": "45.194.10.161",
       "server_port": 8443,
       "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
@@ -947,7 +970,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #81",
+      "tag": "T.ME: @aristapnel #82",
       "server": "178.105.103.153",
       "server_port": 443,
       "uuid": "1b9e301d-cecd-4eb1-8b36-eef811c2696d",
@@ -968,7 +991,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #82",
+      "tag": "T.ME: @aristapnel #83",
       "server": "45.194.10.122",
       "server_port": 8443,
       "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
@@ -990,7 +1013,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #83",
+      "tag": "T.ME: @aristapnel #84",
       "server": "45.194.10.134",
       "server_port": 8443,
       "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
@@ -1012,7 +1035,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #84",
+      "tag": "T.ME: @aristapnel #85",
       "server": "45.194.10.219",
       "server_port": 8443,
       "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
@@ -1034,7 +1057,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #85",
+      "tag": "T.ME: @aristapnel #86",
       "server": "87.228.101.211",
       "server_port": 443,
       "uuid": "39b957a4-26f8-463f-97a0-a4a1a0b5a20c",
@@ -1056,30 +1079,8 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #86",
-      "server": "45.194.10.42",
-      "server_port": 8443,
-      "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
-      "tls": {
-        "enabled": true,
-        "server_name": "storage.yandex.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA",
-          "short_id": "2cfb5a0ae8ab0cb0"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
       "tag": "T.ME: @aristapnel #87",
-      "server": "45.194.10.32",
+      "server": "45.194.10.42",
       "server_port": 8443,
       "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
       "tls": {
@@ -1110,7 +1111,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -1123,6 +1124,28 @@
     {
       "type": "vless",
       "tag": "T.ME: @aristapnel #89",
+      "server": "45.194.10.32",
+      "server_port": 8443,
+      "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandex.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA",
+          "short_id": "2cfb5a0ae8ab0cb0"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #90",
       "server": "45.194.10.115",
       "server_port": 8443,
       "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
@@ -1144,7 +1167,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #90",
+      "tag": "T.ME: @aristapnel #91",
       "server": "45.194.10.38",
       "server_port": 8443,
       "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
@@ -1166,7 +1189,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #91",
+      "tag": "T.ME: @aristapnel #92",
       "server": "45.194.10.200",
       "server_port": 8443,
       "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
@@ -1188,7 +1211,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #92",
+      "tag": "T.ME: @aristapnel #93",
       "server": "45.194.10.53",
       "server_port": 8443,
       "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
@@ -1210,7 +1233,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #93",
+      "tag": "T.ME: @aristapnel #94",
       "server": "45.194.10.83",
       "server_port": 8443,
       "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
@@ -1232,7 +1255,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #94",
+      "tag": "T.ME: @aristapnel #95",
       "server": "45.194.10.25",
       "server_port": 8443,
       "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
@@ -1254,7 +1277,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #95",
+      "tag": "T.ME: @aristapnel #96",
       "server": "45.194.10.156",
       "server_port": 8443,
       "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
@@ -1276,7 +1299,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #96",
+      "tag": "T.ME: @aristapnel #97",
       "server": "45.196.31.88",
       "server_port": 8443,
       "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
@@ -1298,7 +1321,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #97",
+      "tag": "T.ME: @aristapnel #98",
       "server": "45.194.10.67",
       "server_port": 8443,
       "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
@@ -1320,7 +1343,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #98",
+      "tag": "T.ME: @aristapnel #99",
       "server": "87.228.101.57",
       "server_port": 443,
       "uuid": "8f62981b-0969-4a69-898f-2ed57a1b3e23",
@@ -1342,7 +1365,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #99",
+      "tag": "T.ME: @aristapnel #100",
       "server": "45.194.10.65",
       "server_port": 8443,
       "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
@@ -1357,28 +1380,6 @@
         "alpn": [
           "networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-"
         ],
-        "reality": {
-          "enabled": true,
-          "public_key": "L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA",
-          "short_id": "2cfb5a0ae8ab0cb0"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #100",
-      "server": "45.194.10.210",
-      "server_port": 8443,
-      "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
-      "tls": {
-        "enabled": true,
-        "server_name": "storage.yandex.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
         "reality": {
           "enabled": true,
           "public_key": "L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA",
