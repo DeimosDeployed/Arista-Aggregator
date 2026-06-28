@@ -1,5 +1,5 @@
 // COMBINED - HYSTERIA2 - Tier 50
-// Updated: 2026-06-28 13:13:51
+// Updated: 2026-06-28 14:04:30
 // Count: 49
 
 {
@@ -55,46 +55,6 @@
       "tag": "ARISTA #1",
       "server": "65.109.177.191",
       "server_port": 443,
-      "password": "V2RayyNgvpn",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.oracle.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "t-me-V2RayyNGvpn"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "ARISTA #2",
-      "server": "191.101.238.183",
-      "server_port": 54040,
-      "password": "q3tf4lsdoqpgpo4x",
-      "tls": {
-        "enabled": true,
-        "server_name": "191.101.238.183",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "@JynMarket"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "ARISTA #4",
-      "server": "65.109.177.191",
-      "server_port": 443,
       "password": "s0e9dylundefinedundefinedn",
       "tls": {
         "enabled": true,
@@ -112,7 +72,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #5",
+      "tag": "ARISTA #2",
       "server": "65.109.177.191",
       "server_port": 443,
       "password": "t-me-V2RayyNGvpn",
@@ -132,23 +92,47 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #6",
-      "server": "social.klipp.su",
+      "tag": "ARISTA #3",
+      "server": "65.109.177.191",
       "server_port": 443,
-      "password": "653m8mmiy7048p0f",
+      "password": "V2RayyNgvpn",
       "tls": {
         "enabled": true,
-        "server_name": "social.klipp.su",
-        "insecure": true
+        "server_name": "www.oracle.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "obfs": {
         "type": "salamander",
-        "password": "3sv5vpdl9xr84lyb"
+        "password": "t-me-V2RayyNGvpn"
       }
     },
     {
       "type": "hysteria2",
-      "tag": "T.ME: @aristapnel #7",
+      "tag": "ARISTA #4",
+      "server": "191.101.238.183",
+      "server_port": 54040,
+      "password": "q3tf4lsdoqpgpo4x",
+      "tls": {
+        "enabled": true,
+        "server_name": "191.101.238.183",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "@JynMarket"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #6",
       "server": "hy2.aspidnet.xyz",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
@@ -160,6 +144,18 @@
       "obfs": {
         "type": "salamander",
         "password": "rG07s3COMIEvdnQipRyWzx_H_2xygNC3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #7",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
+      "tls": {
+        "enabled": true,
+        "server_name": "185.75.135.220",
+        "insecure": true
       }
     },
     {
@@ -633,12 +629,12 @@
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #47",
-      "server": "185.75.135.220",
+      "server": "46.254.18.107",
       "server_port": 443,
-      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
+      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
       "tls": {
         "enabled": true,
-        "server_name": "185.75.135.220",
+        "server_name": "46.254.18.107",
         "insecure": true
       }
     },
@@ -692,9 +688,9 @@
       "outbounds": [
         "ARISTA #1",
         "ARISTA #2",
+        "ARISTA #3",
         "ARISTA #4",
-        "ARISTA #5",
-        "ARISTA #6",
+        "T.ME: @aristapnel #6",
         "T.ME: @aristapnel #7",
         "T.ME: @aristapnel #8",
         "T.ME: @aristapnel #9",
@@ -752,9 +748,9 @@
       "outbounds": [
         "ARISTA #1",
         "ARISTA #2",
+        "ARISTA #3",
         "ARISTA #4",
-        "ARISTA #5",
-        "ARISTA #6",
+        "T.ME: @aristapnel #6",
         "T.ME: @aristapnel #7",
         "T.ME: @aristapnel #8",
         "T.ME: @aristapnel #9",
