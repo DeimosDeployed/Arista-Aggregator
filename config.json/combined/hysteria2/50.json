@@ -1,5 +1,5 @@
 // COMBINED - HYSTERIA2 - Tier 50
-// Updated: 2026-06-28 14:04:30
+// Updated: 2026-06-28 20:08:29
 // Count: 49
 
 {
@@ -53,6 +53,26 @@
     {
       "type": "hysteria2",
       "tag": "ARISTA #1",
+      "server": "191.101.238.183",
+      "server_port": 54040,
+      "password": "q3tf4lsdoqpgpo4x",
+      "tls": {
+        "enabled": true,
+        "server_name": "191.101.238.183",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "@JynMarket"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "ARISTA #3",
       "server": "65.109.177.191",
       "server_port": 443,
       "password": "s0e9dylundefinedundefinedn",
@@ -72,7 +92,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #2",
+      "tag": "ARISTA #4",
       "server": "65.109.177.191",
       "server_port": 443,
       "password": "t-me-V2RayyNGvpn",
@@ -92,7 +112,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #3",
+      "tag": "ARISTA #5",
       "server": "65.109.177.191",
       "server_port": 443,
       "password": "V2RayyNgvpn",
@@ -108,26 +128,6 @@
       "obfs": {
         "type": "salamander",
         "password": "t-me-V2RayyNGvpn"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "ARISTA #4",
-      "server": "191.101.238.183",
-      "server_port": 54040,
-      "password": "q3tf4lsdoqpgpo4x",
-      "tls": {
-        "enabled": true,
-        "server_name": "191.101.238.183",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "@JynMarket"
       }
     },
     {
@@ -629,48 +629,48 @@
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #47",
-      "server": "46.254.18.107",
+      "server": "fta.fontanvpn.com",
       "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "46.254.18.107",
+        "server_name": "fta.fontanvpn.com",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #48",
-      "server": "46.254.18.107",
+      "server": "fta.fontanvpn.com",
       "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "46.254.18.107",
+        "server_name": "fta.fontanvpn.com",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #49",
-      "server": "46.254.18.107",
+      "server": "fta.fontanvpn.com",
       "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "46.254.18.107",
+        "server_name": "fta.fontanvpn.com",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #50",
-      "server": "46.254.18.107",
+      "server": "fta.fontanvpn.com",
       "server_port": 443,
-      "password": "0dd50f72-bf39-4b59-b183-61b3fa52df57",
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
       "tls": {
         "enabled": true,
-        "server_name": "46.254.18.107",
+        "server_name": "fta.fontanvpn.com",
         "insecure": true
       }
     },
@@ -687,9 +687,9 @@
       "tag": "🚀 ARISTA AUTO BEST",
       "outbounds": [
         "ARISTA #1",
-        "ARISTA #2",
         "ARISTA #3",
         "ARISTA #4",
+        "ARISTA #5",
         "T.ME: @aristapnel #6",
         "T.ME: @aristapnel #7",
         "T.ME: @aristapnel #8",
@@ -747,9 +747,9 @@
       "tag": "🎯 ARISTA MANUAL TESTED",
       "outbounds": [
         "ARISTA #1",
-        "ARISTA #2",
         "ARISTA #3",
         "ARISTA #4",
+        "ARISTA #5",
         "T.ME: @aristapnel #6",
         "T.ME: @aristapnel #7",
         "T.ME: @aristapnel #8",
