@@ -1,6 +1,6 @@
 // TELEGRAM - SS - Tier ALL
-// Updated: 2026-06-27 19:55:05
-// Count: 1
+// Updated: 2026-06-28 02:21:42
+// Count: 3
 
 {
   "log": {
@@ -52,11 +52,27 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #27",
+      "tag": "ARISTA #42",
       "server": "20.234.9.106",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "i6qj1Qi9bKvFfIM0"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #47",
+      "server": "admin.c1.havij.co",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "1kVr0KATIJI7mwOF"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #48",
+      "server": "series-a1.samanehha.co",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "W74XFALLLuw6m5IA"
     },
     {
       "type": "direct",
@@ -70,7 +86,9 @@
       "type": "urltest",
       "tag": "🚀 ARISTA AUTO BEST",
       "outbounds": [
-        "ARISTA #27"
+        "ARISTA #42",
+        "ARISTA #47",
+        "ARISTA #48"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -82,7 +100,9 @@
       "type": "urltest",
       "tag": "🎯 ARISTA MANUAL TESTED",
       "outbounds": [
-        "ARISTA #27"
+        "ARISTA #42",
+        "ARISTA #47",
+        "ARISTA #48"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",

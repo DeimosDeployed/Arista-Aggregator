@@ -1,6 +1,6 @@
 // TELEGRAM - HYSTERIA2 - Tier ALL
-// Updated: 2026-06-27 19:55:05
-// Count: 3
+// Updated: 2026-06-28 02:21:42
+// Count: 4
 
 {
   "log": {
@@ -53,6 +53,18 @@
     {
       "type": "hysteria2",
       "tag": "ARISTA #1",
+      "server": "18.143.165.76",
+      "server_port": 443,
+      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
+      "tls": {
+        "enabled": true,
+        "server_name": "18.143.165.76",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "ARISTA #2",
       "server": "65.109.177.191",
       "server_port": 443,
       "password": "V2RayyNgvpn",
@@ -72,7 +84,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #2",
+      "tag": "ARISTA #3",
       "server": "65.109.177.191",
       "server_port": 443,
       "password": "t-me-v2rayyngvpn",
@@ -92,7 +104,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #3",
+      "tag": "ARISTA #4",
       "server": "191.101.238.183",
       "server_port": 54040,
       "password": "q3tf4lsdoqpgpo4x",
@@ -124,7 +136,8 @@
       "outbounds": [
         "ARISTA #1",
         "ARISTA #2",
-        "ARISTA #3"
+        "ARISTA #3",
+        "ARISTA #4"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -138,7 +151,8 @@
       "outbounds": [
         "ARISTA #1",
         "ARISTA #2",
-        "ARISTA #3"
+        "ARISTA #3",
+        "ARISTA #4"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",

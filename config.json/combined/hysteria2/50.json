@@ -1,5 +1,5 @@
 // COMBINED - HYSTERIA2 - Tier 50
-// Updated: 2026-06-27 19:55:04
+// Updated: 2026-06-28 02:21:41
 // Count: 49
 
 {
@@ -53,6 +53,18 @@
     {
       "type": "hysteria2",
       "tag": "ARISTA #1",
+      "server": "18.143.165.76",
+      "server_port": 443,
+      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
+      "tls": {
+        "enabled": true,
+        "server_name": "18.143.165.76",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "ARISTA #2",
       "server": "65.109.177.191",
       "server_port": 443,
       "password": "V2RayyNgvpn",
@@ -72,7 +84,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #2",
+      "tag": "ARISTA #3",
       "server": "65.109.177.191",
       "server_port": 443,
       "password": "t-me-v2rayyngvpn",
@@ -92,7 +104,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #3",
+      "tag": "ARISTA #4",
       "server": "191.101.238.183",
       "server_port": 54040,
       "password": "q3tf4lsdoqpgpo4x",
@@ -112,7 +124,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "T.ME: @aristapnel #5",
+      "tag": "T.ME: @aristapnel #6",
       "server": "hy2.aspidnet.xyz",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
@@ -124,18 +136,6 @@
       "obfs": {
         "type": "salamander",
         "password": "rG07s3COMIEvdnQipRyWzx_H_2xygNC3"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "T.ME: @aristapnel #6",
-      "server": "185.75.135.220",
-      "server_port": 443,
-      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
-      "tls": {
-        "enabled": true,
-        "server_name": "185.75.135.220",
-        "insecure": true
       }
     },
     {
@@ -681,7 +681,7 @@
         "ARISTA #1",
         "ARISTA #2",
         "ARISTA #3",
-        "T.ME: @aristapnel #5",
+        "ARISTA #4",
         "T.ME: @aristapnel #6",
         "T.ME: @aristapnel #7",
         "T.ME: @aristapnel #8",
@@ -741,7 +741,7 @@
         "ARISTA #1",
         "ARISTA #2",
         "ARISTA #3",
-        "T.ME: @aristapnel #5",
+        "ARISTA #4",
         "T.ME: @aristapnel #6",
         "T.ME: @aristapnel #7",
         "T.ME: @aristapnel #8",
