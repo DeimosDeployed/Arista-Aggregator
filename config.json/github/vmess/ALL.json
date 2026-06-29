@@ -1,6 +1,6 @@
 // GITHUB - VMESS - Tier ALL
-// Updated: 2026-06-29 14:48:07
-// Count: 10
+// Updated: 2026-06-29 22:28:09
+// Count: 13
 
 {
   "log": {
@@ -120,16 +120,33 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #5",
-      "server": "107.173.27.219",
-      "server_port": 6666,
-      "uuid": "f0a2fbe5-29bf-468c-ddc1-b524552d1a23",
+      "server": "82.198.246.250",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
       "security": "auto",
       "tls": {
         "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #6",
+      "server": "134.195.198.147",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "134.195.198.147",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/youtube",
+        "path": "/linkvws",
         "headers": {
           "Host": ""
         }
@@ -137,21 +154,10 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #6",
-      "server": "65.109.186.44",
-      "server_port": 433,
-      "uuid": "0cdfc4e0-67aa-40a9-8749-387bf9e11fd9",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "T.ME: @aristapnel #7",
-      "server": "French.r.gamingservice.ir",
-      "server_port": 8443,
-      "uuid": "6d85750e-4ea7-abf2-4626-539e12b433e1",
+      "server": "149.88.23.202",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "security": "auto",
       "tls": {
         "enabled": false
@@ -160,9 +166,9 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #8",
-      "server": "104.252.111.199",
-      "server_port": 29094,
-      "uuid": "1176b07e-35ea-491e-aeec-d7a7912c6162",
+      "server": "153.121.73.175",
+      "server_port": 49803,
+      "uuid": "cd3dacbc-2b7b-4718-83ad-ab870f87e12e",
       "security": "auto",
       "tls": {
         "enabled": false
@@ -171,26 +177,54 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #9",
-      "server": "172.64.155.209",
-      "server_port": 2053,
-      "uuid": "722555ab-161f-4ed2-ad18-086429b73ff0",
-      "security": "auto",
+      "server": "169.197.142.22",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": null,
       "tls": {
-        "enabled": true,
-        "server_name": "gErtOw1.lOolOolOolOo.cOM",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "enabled": false
       }
     },
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #10",
-      "server": "65.109.186.44",
-      "server_port": 433,
-      "uuid": "dee2bb32-00b9-4e54-8287-5b33d22fedb2",
+      "server": "172.104.80.66",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "alter_id": 1,
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #11",
+      "server": "23.162.200.198",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": null,
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #12",
+      "server": "82.198.246.9",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #13",
+      "server": "85.90.217.42",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
       "security": "auto",
       "tls": {
         "enabled": false
@@ -217,7 +251,10 @@
         "T.ME: @aristapnel #7",
         "T.ME: @aristapnel #8",
         "T.ME: @aristapnel #9",
-        "T.ME: @aristapnel #10"
+        "T.ME: @aristapnel #10",
+        "T.ME: @aristapnel #11",
+        "T.ME: @aristapnel #12",
+        "T.ME: @aristapnel #13"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -238,7 +275,10 @@
         "T.ME: @aristapnel #7",
         "T.ME: @aristapnel #8",
         "T.ME: @aristapnel #9",
-        "T.ME: @aristapnel #10"
+        "T.ME: @aristapnel #10",
+        "T.ME: @aristapnel #11",
+        "T.ME: @aristapnel #12",
+        "T.ME: @aristapnel #13"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",
