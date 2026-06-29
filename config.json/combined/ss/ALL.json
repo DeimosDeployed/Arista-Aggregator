@@ -1,6 +1,6 @@
 // COMBINED - SS - Tier ALL
-// Updated: 2026-06-28 21:52:21
-// Count: 3
+// Updated: 2026-06-29 14:48:06
+// Count: 4
 
 {
   "log": {
@@ -52,15 +52,7 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #34",
-      "server": "20.234.9.106",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "i6qj1Qi9bKvFfIM0"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #35",
+      "tag": "ARISTA #29",
       "server": "admin.c1.havij.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -68,11 +60,27 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #36",
+      "tag": "ARISTA #30",
       "server": "series-a1.samanehha.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "W74XFALLLuw6m5IA"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #37",
+      "server": "109.107.182.229",
+      "server_port": 51544,
+      "method": "chacha20-ietf-poly1305",
+      "password": "4d1nVpqJVp5oq2W4D0Ljy4"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #38",
+      "server": "20.234.9.106",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "i6qj1Qi9bKvFfIM0"
     },
     {
       "type": "direct",
@@ -86,9 +94,10 @@
       "type": "urltest",
       "tag": "🚀 ARISTA AUTO BEST",
       "outbounds": [
-        "ARISTA #34",
-        "ARISTA #35",
-        "ARISTA #36"
+        "ARISTA #29",
+        "ARISTA #30",
+        "ARISTA #37",
+        "ARISTA #38"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -100,9 +109,10 @@
       "type": "urltest",
       "tag": "🎯 ARISTA MANUAL TESTED",
       "outbounds": [
-        "ARISTA #34",
-        "ARISTA #35",
-        "ARISTA #36"
+        "ARISTA #29",
+        "ARISTA #30",
+        "ARISTA #37",
+        "ARISTA #38"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",
