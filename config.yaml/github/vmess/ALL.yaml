@@ -1,5 +1,5 @@
 # GITHUB - VMESS - Tier ALL
-# Updated: 2026-07-01 18:36:32
+# Updated: 2026-07-02 10:26:46
 # Count: 11
 
 proxies:
@@ -59,23 +59,9 @@ proxies:
       Host: 216.36.115.182
 - name: 'T.ME: @aristapnel #4'
   type: vmess
-  server: spt.reata.ir
-  port: 1050
-  uuid: b5b183b6-a4f0-41ad-a015-ba9f000ad7ed
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: spt.reata.ir
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #5'
-  type: vmess
-  server: 69.84.182.49
-  port: 80
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
+  server: 138.252.100.85
+  port: 18746
+  uuid: 5cae7714-9c61-4c5c-876e-c45a1cb13be4
   alterId: 0
   cipher: auto
   network: ws
@@ -83,12 +69,30 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 69.84.182.49
+  servername: 138.252.100.85
   client-fingerprint: chrome
   ws-opts:
     path: /
     headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+      Host: 138.252.100.85
+- name: 'T.ME: @aristapnel #5'
+  type: vmess
+  server: 216.36.115.182
+  port: 48885
+  uuid: 929f4b3b-60ed-4c7d-e94e-243ee9bbc743
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 216.36.115.182
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: 216.36.115.182
 - name: 'T.ME: @aristapnel #6'
   type: vmess
   server: 216.36.115.182
@@ -127,63 +131,6 @@ proxies:
       Host: 216.36.115.182
 - name: 'T.ME: @aristapnel #8'
   type: vmess
-  server: 216.36.115.182
-  port: 48885
-  uuid: 929f4b3b-60ed-4c7d-e94e-243ee9bbc743
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 216.36.115.182
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: 216.36.115.182
-- name: 'T.ME: @aristapnel #9'
-  type: vmess
-  server: yg2.ygkkk.dpdns.org
-  port: 80
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: yg2.ygkkk.dpdns.org
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-- name: 'T.ME: @aristapnel #10'
-  type: vmess
-  server: mute-math-d64e.0e503992ad7026.WOrKERs.deV
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: mute-math-d64e.0e503992ad7026.woRKERS.DeV
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-  ws-opts:
-    path: /aveiror.com:443/linkvws
-    headers:
-      Host: mute-math-d64e.0e503992ad7026.woRKERS.DeV
-- name: 'T.ME: @aristapnel #11'
-  type: vmess
   server: 65.109.218.60
   port: 44908
   uuid: 2bcaee9a-6de8-4e8b-8e35-e815cbce866e
@@ -195,6 +142,52 @@ proxies:
   skip-cert-verify: false
   tcp-fast-open: true
   servername: 65.109.218.60
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #9'
+  type: vmess
+  server: 138.252.100.85
+  port: 18746
+  uuid: e314349a-7e56-4a3e-9318-eda62b5d6bd3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 138.252.100.85
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: 138.252.100.85
+- name: 'T.ME: @aristapnel #10'
+  type: vmess
+  server: 82.198.246.9
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 82.198.246.9
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #11'
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 84.17.41.2
   client-fingerprint: chrome
 proxy-groups:
 - name: 🚀 ARISTA LOW LATENCY

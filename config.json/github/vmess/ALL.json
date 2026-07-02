@@ -1,5 +1,5 @@
 // GITHUB - VMESS - Tier ALL
-// Updated: 2026-07-01 18:39:57
+// Updated: 2026-07-02 10:30:42
 // Count: 11
 
 {
@@ -107,20 +107,9 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #4",
-      "server": "spt.reata.ir",
-      "server_port": 1050,
-      "uuid": "b5b183b6-a4f0-41ad-a015-ba9f000ad7ed",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "T.ME: @aristapnel #5",
-      "server": "69.84.182.49",
-      "server_port": 80,
-      "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
+      "server": "138.252.100.85",
+      "server_port": 18746,
+      "uuid": "5cae7714-9c61-4c5c-876e-c45a1cb13be4",
       "security": "auto",
       "tls": {
         "enabled": false
@@ -129,13 +118,13 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
+          "Host": "138.252.100.85"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #6",
+      "tag": "T.ME: @aristapnel #5",
       "server": "216.36.115.182",
       "server_port": 48885,
       "uuid": "929f4b3b-60ed-4c7d-e94e-243ee9bbc743",
@@ -153,7 +142,7 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #7",
+      "tag": "T.ME: @aristapnel #6",
       "server": "216.36.115.182",
       "server_port": 48885,
       "uuid": "929f4b3b-60ed-4c7d-e94e-243ee9bbc743",
@@ -171,7 +160,7 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #8",
+      "tag": "T.ME: @aristapnel #7",
       "server": "216.36.115.182",
       "server_port": 48885,
       "uuid": "929f4b3b-60ed-4c7d-e94e-243ee9bbc743",
@@ -189,10 +178,21 @@
     },
     {
       "type": "vmess",
+      "tag": "T.ME: @aristapnel #8",
+      "server": "65.109.218.60",
+      "server_port": 44908,
+      "uuid": "2bcaee9a-6de8-4e8b-8e35-e815cbce866e",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "T.ME: @aristapnel #9",
-      "server": "yg2.ygkkk.dpdns.org",
-      "server_port": 80,
-      "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
+      "server": "138.252.100.85",
+      "server_port": 18746,
+      "uuid": "e314349a-7e56-4a3e-9318-eda62b5d6bd3",
       "security": "auto",
       "tls": {
         "enabled": false
@@ -201,46 +201,28 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
+          "Host": ""
         }
       }
     },
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #10",
-      "server": "mute-math-d64e.0e503992ad7026.WOrKERs.deV",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "server": "82.198.246.9",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
       "security": "auto",
       "tls": {
-        "enabled": true,
-        "server_name": "mute-math-d64e.0e503992ad7026.woRKERS.DeV",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "alpn": [
-          "h3",
-          "h2",
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/aveiror.com:443/linkvws",
-        "headers": {
-          "Host": "mute-math-d64e.0e503992ad7026.woRKERS.DeV"
-        }
+        "enabled": false
       }
     },
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #11",
-      "server": "65.109.218.60",
-      "server_port": 44908,
-      "uuid": "2bcaee9a-6de8-4e8b-8e35-e815cbce866e",
-      "security": "auto",
+      "server": "84.17.41.2",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": null,
       "tls": {
         "enabled": false
       }

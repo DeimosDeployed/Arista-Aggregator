@@ -1,30 +1,39 @@
 # TELEGRAM - HYSTERIA2 - Tier ALL
-# Updated: 2026-07-01 18:36:29
-# Count: 5
+# Updated: 2026-07-02 10:26:42
+# Count: 6
 
 proxies:
 - name: 'ARISTA #1'
   type: hysteria2
-  server: 143.14.59.229
-  port: 443
-  password: t-me-V2RayyNGvpn
-  sni: 143.14.59.229
+  server: 80.66.81.78
+  port: 9443
+  password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
+  sni: 80.66.81.78
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
   obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
+  obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
 - name: 'ARISTA #2'
   type: hysteria2
-  server: 191.101.238.183
-  port: 54040
-  password: q3tf4lsdoqpgpo4x
-  sni: 191.101.238.183
+  server: nrealistic.nn-foto.ru
+  port: 1935
+  password: 653m8mmiy7048p0f
+  sni: nrealistic.nn-foto.ru
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
   obfs: salamander
-  obfs-password: '%40JynMarket'
+  obfs-password: lhfl2z9mjngb7csh
+- name: 'ARISTA #3'
+  type: hysteria2
+  server: 130.61.50.75
+  port: 6443
+  password: zhangyang
+  sni: 130.61.50.75
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
 - name: 'ARISTA #4'
   type: hysteria2
   server: 130.49.161.70
@@ -38,26 +47,26 @@ proxies:
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 'ARISTA #5'
   type: hysteria2
-  server: 80.66.81.78
-  port: 9443
-  password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
-  sni: 80.66.81.78
+  server: 130.49.161.70
+  port: 443
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  sni: 130.49.161.70
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
   obfs: salamander
-  obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 'ARISTA #6'
   type: hysteria2
-  server: nrealistic.nn-foto.ru
-  port: 1935
-  password: 653m8mmiy7048p0f
-  sni: nrealistic.nn-foto.ru
+  server: 191.101.238.183
+  port: 54040
+  password: q3tf4lsdoqpgpo4x
+  sni: 191.101.238.183
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
   obfs: salamander
-  obfs-password: lhfl2z9mjngb7csh
+  obfs-password: '%40JynMarket'
 proxy-groups:
 - name: 🚀 ARISTA LOW LATENCY
   type: url-test
@@ -69,6 +78,7 @@ proxy-groups:
   proxies: &id001
   - 'ARISTA #1'
   - 'ARISTA #2'
+  - 'ARISTA #3'
   - 'ARISTA #4'
   - 'ARISTA #5'
   - 'ARISTA #6'

@@ -1,6 +1,6 @@
 // TELEGRAM - HYSTERIA2 - Tier ALL
-// Updated: 2026-07-01 18:39:57
-// Count: 5
+// Updated: 2026-07-02 10:30:42
+// Count: 6
 
 {
   "log": {
@@ -53,66 +53,6 @@
     {
       "type": "hysteria2",
       "tag": "ARISTA #1",
-      "server": "143.14.59.229",
-      "server_port": 443,
-      "password": "t-me-V2RayyNGvpn",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.oracle.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "t-me-V2RayyNGvpn"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "ARISTA #2",
-      "server": "191.101.238.183",
-      "server_port": 54040,
-      "password": "q3tf4lsdoqpgpo4x",
-      "tls": {
-        "enabled": true,
-        "server_name": "191.101.238.183",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "@JynMarket"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "ARISTA #4",
-      "server": "130.49.161.70",
-      "server_port": 443,
-      "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
-      "tls": {
-        "enabled": true,
-        "server_name": "hy2.aspidnet.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "rG07s3COMIEvdnQipRyWzx_H_2xygNC3"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "ARISTA #5",
       "server": "80.66.81.78",
       "server_port": 9443,
       "password": "rs2mR3g9bZiMloftx6lZQ59Um1Ld",
@@ -132,7 +72,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #6",
+      "tag": "ARISTA #2",
       "server": "nrealistic.nn-foto.ru",
       "server_port": 1935,
       "password": "653m8mmiy7048p0f",
@@ -144,6 +84,74 @@
       "obfs": {
         "type": "salamander",
         "password": "lhfl2z9mjngb7csh"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "ARISTA #3",
+      "server": "130.61.50.75",
+      "server_port": 6443,
+      "password": "zhangyang",
+      "tls": {
+        "enabled": true,
+        "server_name": "130.61.50.75",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "ARISTA #4",
+      "server": "130.49.161.70",
+      "server_port": 443,
+      "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
+      "tls": {
+        "enabled": true,
+        "server_name": "130.49.161.70",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "rG07s3COMIEvdnQipRyWzx_H_2xygNC3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "ARISTA #5",
+      "server": "130.49.161.70",
+      "server_port": 443,
+      "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy2.aspidnet.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "rG07s3COMIEvdnQipRyWzx_H_2xygNC3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "ARISTA #6",
+      "server": "191.101.238.183",
+      "server_port": 54040,
+      "password": "q3tf4lsdoqpgpo4x",
+      "tls": {
+        "enabled": true,
+        "server_name": "191.101.238.183",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "@JynMarket"
       }
     },
     {
@@ -160,6 +168,7 @@
       "outbounds": [
         "ARISTA #1",
         "ARISTA #2",
+        "ARISTA #3",
         "ARISTA #4",
         "ARISTA #5",
         "ARISTA #6"
@@ -176,6 +185,7 @@
       "outbounds": [
         "ARISTA #1",
         "ARISTA #2",
+        "ARISTA #3",
         "ARISTA #4",
         "ARISTA #5",
         "ARISTA #6"
